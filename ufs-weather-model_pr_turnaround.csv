@@ -1,0 +1,301 @@
+number,title,user,created_at,closed_at,merged,labels,turnaround_hours
+2870,Use container with spack stack 1.9.2,weihuang-jedi,2025-08-21 15:32:59+00:00,2025-09-02 16:09:25+00:00,True,"['No Baseline Change', 'Ready for Commit Queue', 'Priority: High']",288.61
+2862,Update CMEPS and CDEPS,DeniseWorthen,2025-08-13 16:14:44+00:00,2025-08-25 12:20:48+00:00,False,"['No Baseline Change', 'Ready for Commit Queue']",284.1
+2859,Fixing repo sync check with proper if...else block and re-instatiatin…,kbooker79,2025-08-11 19:37:23+00:00,2025-08-15 17:43:35+00:00,False,[],94.1
+2858,Update the detection of Hera/Ursa,DavidHuber-NOAA,2025-08-08 14:20:30+00:00,2025-08-13 16:03:19+00:00,False,[],121.71
+2856,Testing CICD capabilties on Ursa.,kbooker79,2025-08-07 20:14:26+00:00,2025-08-11 14:40:54+00:00,False,[],90.44
+2854,Bring new RTs for Duck case,uturuncoglu,2025-08-07 18:15:21+00:00,2025-08-07 18:15:32+00:00,False,[],0.0
+2852,Update CICE through 2025-07 and switch to ice history variables with expected ranges. Sync of WW3 develop to dev/ufs-weather-model,NickSzapiro-NOAA,2025-08-07 07:04:53+00:00,2025-08-19 17:31:07+00:00,True,"['Baseline Updates', 'Priority: High']",298.44
+2851,Fix Restart IAU and Ultra-Low Reproducibility Issues by Adding Control Parameter to Restart File,mingchen-NOAA,2025-08-07 02:13:45+00:00,2025-08-22 13:52:56+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",371.65
+2850,Gaea-c6 use ecflow/5.11.4 from spack-stack-1.9.2 environment,natalie-perlin,2025-08-05 23:14:27+00:00,2025-08-11 16:15:45+00:00,False,[],137.02
+2849,update MOM6 to its main repo. 20250801 commit,jiandewang,2025-08-03 04:53:17+00:00,2025-08-06 17:42:49+00:00,False,[],84.83
+2841,Sync WW3 develop -> dev/ufs-weather-model ,JessicaMeixner-NOAA,2025-07-31 15:00:40+00:00,2025-08-19 17:32:34+00:00,False,"['No Baseline Change', 'Ready for Commit Queue', 'input data change']",458.53
+2836,FV3: Fix Prate_avg and UPP call freq + Fixing repo sync check with proper if...else block and re-instatiatin… #2859,dpsarmie,2025-07-30 11:24:28+00:00,2025-08-15 17:43:07+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', 'Priority: High']",390.31
+2833,Fixing bug with platform log being removed for CI/CD failure cases.,kbooker79,2025-07-29 16:59:23+00:00,2025-08-06 17:55:41+00:00,False,[],192.94
+2819,Update GOCART to v2.4.3,bbakernoaa,2025-07-21 17:43:18+00:00,2025-08-01 19:44:14+00:00,True,"['Baseline Updates', 'input data change', 'Priority: High']",266.02
+2818,Add FV3 grid mask for regional domains to speed up nearest n. interpolation; Update CMEPS and CDEPS (#2862),DusanJovic-NOAA,2025-07-21 15:04:16+00:00,2025-08-25 19:54:41+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",844.84
+2816,Updating to test GaeaC6.,kbooker79,2025-07-21 13:45:29+00:00,2025-07-30 21:07:05+00:00,False,[],223.36
+2814,Update FV3 hash to include UPP ss192/Ursa updates,dpsarmie,2025-07-18 12:42:15+00:00,2025-07-24 18:15:46+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",149.56
+2813,"Combination of 2684,2707,2771 (MERRA2 3-hr, photochem diag, prog closure SFS)",grantfirl,2025-07-17 17:03:49+00:00,2025-07-21 18:34:00+00:00,True,"['Baseline Updates', ""New Input Data Req'd"", 'New Baselines']",97.5
+2812,Jenkins ORTs transition to /scratch3,FernandoAndrade-NOAA,2025-07-16 21:22:05+00:00,2025-08-06 17:56:01+00:00,False,['No Baseline Change'],500.57
+2808,Jenkins CICD testing,kbooker79,2025-07-11 17:46:35+00:00,2025-07-21 13:38:35+00:00,False,[],235.87
+2803,Creating a small change to trigger CICD,kbooker79,2025-07-10 15:23:40+00:00,2025-07-11 17:39:40+00:00,False,[],26.27
+2802,Feature/2743 rt.conf cleanup,gspetro-NOAA,2025-07-10 14:19:25+00:00,2025-08-25 19:59:12+00:00,False,[],1109.66
+2799,[Test PR] CICD Verification,FernandoAndrade-NOAA,2025-07-08 19:25:55+00:00,2025-08-11 14:25:39+00:00,False,[],811.0
+2796,Reinstate med restarts for 4 tests after update to ESMF 8.8,DeniseWorthen,2025-07-08 12:33:24+00:00,2025-07-29 19:47:50+00:00,False,"['No Baseline Change', 'Ready for Commit Queue']",511.24
+2795,"Combination #2777 (maintask writes CMEPS restart log), #2779 (FV3 CI/CD), and fix RT if statement blocks",dpsarmie,2025-07-08 11:09:51+00:00,2025-07-09 15:26:23+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",28.28
+2790,Combination of several CCPP-physics PRs,grantfirl,2025-06-27 19:12:49+00:00,2025-07-11 15:02:42+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",331.83
+2788,Fix default cdmbgwd settings,dpsarmie,2025-06-24 19:34:26+00:00,2025-09-04 14:45:03+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",1723.18
+2784,Fix GFSv17 Restart IAU Reproducibility by Adjusting WW3 Internal Timestep,mingchen-NOAA,2025-06-23 16:18:59+00:00,2025-08-18 16:56:14+00:00,False,"['Baseline Updates', ""New Input Data Req'd""]",1344.62
+2780,MPAS dycore + Atmosphere Generalization & Update RAP tests to FHMAX=12,dustinswales,2025-06-18 22:03:43+00:00,2025-08-29 22:59:42+00:00,True,"['Ready for Commit Queue', ""New Input Data Req'd"", 'New Baselines']",1728.93
+2779,Add FV3 changes to CI/CD workflow,dpsarmie,2025-06-17 18:15:36+00:00,2025-07-09 15:26:25+00:00,False,['No Baseline Change'],525.18
+2777,maintask writes CMEPS restart log,NickSzapiro-NOAA,2025-06-16 23:04:35+00:00,2025-07-09 15:26:24+00:00,False,['No Baseline Change'],544.36
+2776,"Add/Modify modulefiles, and detect machine with container including intel compiler and stack-stack 1.6.0",weihuang-jedi,2025-06-13 14:28:52+00:00,2025-09-04 19:40:38+00:00,False,[],1997.2
+2773,Adding GaeaC6 CI/CD support (deprecating GaeaC5),kbooker79,2025-06-11 15:28:02+00:00,2025-07-21 13:22:00+00:00,False,[],957.9
+2771,Enable use of prognostic closure in convection at coarse resolutions for SFSv1,lisa-bengtsson,2025-06-09 19:35:06+00:00,2025-07-21 18:58:21+00:00,False,[],1007.39
+2765,Urgent Documentation Update for HSD Capability Announcement ,jdkublnick,2025-06-02 19:29:13+00:00,2025-06-05 03:52:23+00:00,True,"['documentation', 'No Baseline Change', 'Ready for Commit Queue', 'Priority: High']",56.39
+2763,Add option in GFS TKE EDMF PBL scheme to use liquid/ice potential temperature in local mixing,WeiguoWang-NOAA,2025-06-02 15:49:09+00:00,2025-06-30 15:40:56+00:00,False,[],671.86
+2761,Mom6 025 warmstart option,NeilBarton-NOAA,2025-05-30 13:50:30+00:00,2025-06-30 15:39:39+00:00,False,['No Baseline Change'],745.82
+2757,Update MOM6 to its main repo. 20250527 commit,jiandewang,2025-05-28 18:04:55+00:00,2025-06-30 15:40:12+00:00,False,['No Baseline Change'],789.59
+2754,[Draft] Sample Test PR,FernandoAndrade-NOAA,2025-05-27 20:45:58+00:00,2025-06-11 14:55:28+00:00,False,[],354.16
+2753,Fix conus13km tests restart and decomposition reproducibility + Update the detection of Hera/Ursa #2858,DusanJovic-NOAA,2025-05-23 14:21:00+00:00,2025-08-13 16:02:38+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', 'Priority: High']",1969.69
+2752,Slight modification in orographic gravity wave drag (OGWD) scheme,rhaesung,2025-05-22 19:11:56+00:00,2025-06-26 11:40:53+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",832.48
+2750,Allow photochemistry schemes to have parameters at different times.,DWesl,2025-05-22 15:24:41+00:00,2025-05-28 15:51:41+00:00,False,[],144.45
+2747,gcycle update,RuiyuSun,2025-05-22 03:10:03+00:00,2025-06-20 19:39:23+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",712.49
+2746,Documentation for running Idealized TC case and tutorial for adding cases to the HSD framework,jdkublnick,2025-05-21 19:59:22+00:00,2025-05-23 19:33:12+00:00,False,['documentation'],47.56
+2740,bug fix to maxMF check: only access when do_mynnedmf=.true.,SamuelTrahanNOAA,2025-05-15 21:22:04+00:00,2025-07-11 15:09:21+00:00,False,[],1361.79
+2739,Bug fix for surface roughness calculation over lakes and sea ice points when wave model is turned on,ChristianBoyer-NOAA,2025-05-15 18:35:44+00:00,2025-06-02 15:55:39+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",429.33
+2737,Fix bug to improve wave initialization by saving location/weights for point output,JessicaMeixner-NOAA,2025-05-12 12:43:05+00:00,2025-05-27 15:04:23+00:00,True,"['No Baseline Change', 'Ready for Commit Queue', 'Priority: High']",362.36
+2736,Fix to data pathway in UFS WM UG (USS-276),selbigmtnwx23,2025-05-09 19:09:43+00:00,2025-05-23 14:29:55+00:00,False,[],331.34
+2734,Bring in scale-aware 3DTKE related changes for GFS TKE EDMF PBL scheme #2734; Add option in GFS PBL to use liquid/ice potential temperature in local mixing #2763; Update MOM6 to its main repo. 20250527 commit #2757; Mom6 025 warmstart option #2761,BinLiu-NOAA,2025-05-09 17:18:01+00:00,2025-06-30 15:38:54+00:00,True,"['enhancement', 'No Baseline Change', 'Ready for Commit Queue']",1246.35
+2733,Update DATM meshes and switch to bilinear mapping; Reinstate med restarts for 4 tests after update to ESMF 8.8 (was #2796),DeniseWorthen,2025-05-09 16:28:14+00:00,2025-07-29 17:36:23+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd"", 'In Testing']",1945.14
+2731,Testing: Please ignore,DeniseWorthen,2025-05-08 15:51:26+00:00,2025-05-08 20:59:21+00:00,False,[],5.13
+2730,Add a new parameter in dycore to control cutoff level for implicit RF ,XiaqiongZhou-NOAA,2025-05-08 15:34:29+00:00,2025-06-12 19:57:15+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",844.38
+2729,revert MOM6 ISO code,jiandewang,2025-05-08 02:42:31+00:00,2025-05-15 20:36:19+00:00,False,[],185.9
+2727,Add tags to stoch physics int variables,dpsarmie,2025-05-06 13:56:23+00:00,2025-05-23 14:30:18+00:00,False,['No Baseline Change'],408.57
+2725,[release/public v3.0.0]: Documentation hotfix,gspetro-NOAA,2025-05-02 21:33:51+00:00,2025-05-06 16:02:18+00:00,True,[],90.47
+2723,"In Noah-MP, set zero for canopy liquid and canopy ice over glacier ",wzzheng90,2025-05-02 17:44:42+00:00,2025-06-06 14:44:37+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",837.0
+2721,Add switch to disable InfoBroadcast in fv3 cap run phase2,DusanJovic-NOAA,2025-05-01 16:36:01+00:00,2025-05-02 19:18:15+00:00,False,['No Baseline Change'],26.7
+2719,"Create a user-friendly ""process model"" testing capability + update MOM6 to its main repo. 20250801 commit #2849",MicroTed,2025-04-26 17:56:36+00:00,2025-08-06 17:37:18+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd""]",2447.68
+2718,Stochastic Physics CI/CD & Unit Test,FernandoAndrade-NOAA,2025-04-25 18:23:20+00:00,2025-05-01 17:36:45+00:00,False,['No Baseline Change'],143.22
+2715,improve coupled model startup cost for waves; Add switch to disable InfoBroadcast in fv3 cap run phase2 (was #2721),DeniseWorthen,2025-04-23 12:37:37+00:00,2025-05-02 19:17:43+00:00,True,"['No Baseline Change', 'Ready for Commit Queue', 'Priority: High']",222.67
+2714,Add ECMWF non-stationary gravity wave scheme option,BoYang-NOAA,2025-04-22 14:39:02+00:00,2025-07-11 15:08:25+00:00,False,[],1920.49
+2708,Fix for JEDI cubed sphere grid,DusanJovic-NOAA,2025-04-18 19:24:56+00:00,2025-04-23 15:26:20+00:00,False,[],116.02
+2707,Merge FV3 changes for water vapor photochemistry diagnostics,DWesl,2025-04-18 17:08:37+00:00,2025-07-21 18:57:57+00:00,False,[],2257.82
+2701,fix ww3 and fv3atm for gnu+debug issues (hera),DeniseWorthen,2025-04-15 21:25:59+00:00,2025-05-05 18:35:15+00:00,False,['No Baseline Change'],477.15
+2700,Add WW3 indicator log file at restart write,mingchen-NOAA,2025-04-15 14:07:46+00:00,2025-08-07 18:22:30+00:00,False,[],2740.25
+2698,Add CMEPS log file at restart write; IAU Tags for Global Workflow (was #2674),DeniseWorthen,2025-04-14 13:49:12+00:00,2025-04-21 19:01:28+00:00,True,"['No Baseline Change', 'Ready for Commit Queue', 'Priority: High']",173.2
+2697,Update mom6 to its main repository 20250411 commit,jiandewang,2025-04-12 20:07:18+00:00,2025-04-18 14:25:28+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",138.3
+2695,Add PIO configuration variables for CMEPS + Update CCPP framework and physics CMakeLists.txt; forward ccpp-framework to HEAD of main #2659,DeniseWorthen,2025-04-11 20:52:00+00:00,2025-04-16 16:31:50+00:00,True,"['No Baseline Change', 'Ready for Commit Queue', 'Priority: High']",115.66
+2694,"Enable Hera, Hercules Gnu tests: cpld_debug_p8_gnu and cpld_control_p8_gnu + revert MOM6 ISO code #2729",natalie-perlin,2025-04-11 15:31:31+00:00,2025-05-15 20:35:44+00:00,True,"['Ready for Commit Queue', 'New Baselines']",821.07
+2693,"Add idealized, regional tropical cyclone test to tests-dev + Documentation for running Idealized TC case and tutorial for adding cases to the HSD framework #2746",ulmononian,2025-04-10 20:43:15+00:00,2025-05-23 19:32:23+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",1030.82
+2691,Add GFSv17 IAU restart tests without waves + Add tags to stoch physics int variables + Fix filepath in user's guide,NickSzapiro-NOAA,2025-04-10 14:19:12+00:00,2025-05-23 14:29:16+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', 'New Baselines']",1032.17
+2690,Switch to vector remapping and bilinear interpolation for global coupled configurations,DeniseWorthen,2025-04-09 16:53:17+00:00,2025-05-05 14:28:16+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', 'Priority: High']",621.58
+2684,Add MERRA2 aerosol three hourly forcing to drive UFS ,AnningCheng-NOAA,2025-04-07 18:12:29+00:00,2025-07-21 18:57:33+00:00,False,[],2520.75
+2682,Update upp submodule to the latest UPP,WenMeng-NOAA,2025-04-06 00:13:56+00:00,2025-04-10 14:02:40+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",109.81
+2680,Scientific documentation for SRW v3.0.0 release,grantfirl,2025-04-04 17:42:45+00:00,2025-04-07 13:24:41+00:00,True,[],67.7
+2679,CCPP Scientific documentation for SRW v3.0.0 release,grantfirl,2025-04-03 18:05:20+00:00,2025-04-03 18:35:02+00:00,False,[],0.49
+2674,IAU Tags for Global Workflow,dpsarmie,2025-03-31 15:34:42+00:00,2025-04-21 19:01:58+00:00,False,['No Baseline Change'],507.45
+2672,Add GFSv17 IAU restart tests without waves,NickSzapiro-NOAA,2025-03-31 15:15:45+00:00,2025-04-03 18:28:58+00:00,False,[],75.22
+2669,Update WW3  by merging develop  as of 2025-03-20,JessicaMeixner-NOAA,2025-03-26 19:00:06+00:00,2025-03-28 21:14:21+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', 'Priority: High']",50.24
+2664,Sync CDEPS and CMEPS to ESCOMP,DeniseWorthen,2025-03-21 19:03:07+00:00,2025-03-27 18:38:50+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",143.6
+2663,"Add ""ultra low"" coupled configurations to RTs (Reopen #2564); update inputdata; clean up misc items in multiple test configurations",DeniseWorthen,2025-03-21 16:48:48+00:00,2025-05-09 15:00:23+00:00,True,"['Baseline Updates', ""New Input Data Req'd"", 'New Baselines']",1174.19
+2661,NSSL MP scheme updates + Stochastic Physics CI/CD & Unit Test,grantfirl,2025-03-21 14:54:05+00:00,2025-05-01 17:26:53+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",986.55
+2659,Update CCPP framework and physics CMakeLists.txt; forward ccpp-framework to HEAD of main,climbfuji,2025-03-21 11:42:36+00:00,2025-04-16 16:32:40+00:00,False,[],628.83
+2655,Memcheck fixes,DusanJovic-NOAA,2025-03-19 12:47:14+00:00,2025-04-11 20:49:50+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",560.04
+2651,"CCPP updates in fv3atm/ccpp-physics: split physics in two groups, reset GFS_interstitial DDT in CCPP_driver.F90",climbfuji,2025-03-14 16:49:03+00:00,2025-04-02 19:28:07+00:00,False,['No Baseline Change'],458.65
+2650,Upgrade UFS-WM to spack-stack/1.9.2,RatkoVasic-NOAA,2025-03-14 01:08:51+00:00,2025-07-03 16:46:09+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",2679.62
+2649,[Trial] Jenkins build,BruceKropp-Raytheon,2025-03-13 22:22:19+00:00,2025-03-14 15:47:37+00:00,False,[],17.42
+2645,Update WM docs for SRW v3.0.0 release,gspetro-NOAA,2025-03-12 13:41:58+00:00,2025-03-18 12:41:39+00:00,True,[],142.99
+2635,Update the upp submodule for GFS v17 and GEFS v13,WenMeng-NOAA,2025-03-06 14:05:26+00:00,2025-03-11 18:08:05+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",124.04
+2634,Update FHMAX to 12 for RAP tests,gspetro-NOAA,2025-03-05 13:51:25+00:00,2025-08-29 23:00:24+00:00,False,[],4257.15
+2633,Resolve miscellaneous WM issues and update documentation,gspetro-NOAA,2025-03-04 19:17:27+00:00,2025-05-06 20:39:47+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",1513.37
+2632,Add output of ocean scalar variables for quick diagnostics ,sanAkel,2025-03-04 02:55:07+00:00,2025-03-10 17:05:01+00:00,False,[],158.16
+2630,Exporting Canopy Variables from AQM to Facilitate Sub-Canopy Effects in FV3 and CCPP,drnimbusrain,2025-02-28 19:23:02+00:00,2025-07-17 15:35:16+00:00,True,"['Ready for Commit Queue', ""New Input Data Req'd"", 'New Baselines']",3332.2
+2629,Upgrade AQM to v8 (CMAQ 5.4),BrianCurtis-NOAA,2025-02-28 18:32:54+00:00,2025-03-13 20:41:50+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd""]",314.15
+2628,Fix CICD Jenkinsfile change default RT suite to full ,BruceKropp-Raytheon,2025-02-27 21:32:59+00:00,2025-03-10 17:04:15+00:00,False,[],259.52
+2625,fixed restart non-reproducing issue 2588 when using MERRA2 climatology + Add output of ocean scalar variables for quick diagnostics #2632 + Fix CICD Jenkinsfile change default RT suite to full #2628,AnningCheng-NOAA,2025-02-27 14:38:46+00:00,2025-03-10 17:02:51+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",266.4
+2624,Reduce WW3 memory use,DeniseWorthen,2025-02-26 15:23:59+00:00,2025-07-01 13:07:18+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",2997.72
+2622,Create CICD README.txt,BruceKropp-Raytheon,2025-02-26 01:24:24+00:00,2025-03-13 22:10:13+00:00,False,[],380.76
+2621,Update WW3 to sync develop through 20241220 commits ,JessicaMeixner-NOAA,2025-02-25 21:01:50+00:00,2025-03-20 13:46:00+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd""]",544.74
+2620,Update AQM to use latest CMAQ v5.2.1,JianpingHuang-NOAA,2025-02-25 18:01:41+00:00,2025-02-25 18:12:01+00:00,True,[],0.17
+2618,"Revert ""Update AQM""",BrianCurtis-NOAA,2025-02-25 17:15:02+00:00,2025-02-25 17:15:35+00:00,True,[],0.01
+2617,Update AQM,JianpingHuang-NOAA,2025-02-25 17:09:49+00:00,2025-02-25 17:11:22+00:00,True,[],0.03
+2613,[production/GFS.v16.3] - update WW3 .gitmodules branch name for future referece,JessicaMeixner-NOAA,2025-02-21 17:54:29+00:00,2025-02-21 17:58:10+00:00,True,[],0.06
+2610,"Convert GFS DDTs from blocked data structures to contiguous arrays: Part Deux  + CCPP updates in fv3atm/ccpp-physics: split physics in two groups, reset GFS_interstitial DDT in CCPP_driver.F90 #2651 + Hera move spack-stack to /contrib #2579",dustinswales,2025-02-21 15:52:23+00:00,2025-04-02 19:27:20+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",963.58
+2604,CMake Atmosphere Dycore Generalization + Fix for JEDI cubed sphere grid #2708,scrasmussen,2025-02-14 23:22:30+00:00,2025-04-23 15:25:39+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",1624.05
+2603,Update GFSv16.4 ,JessicaMeixner-NOAA,2025-02-14 16:42:13+00:00,2025-02-14 17:01:19+00:00,True,[],0.32
+2601,Merge NCAR:main to ufs-community:ufs/dev (ccpp/physics) + update GF/C3 for SRW3.0 release,grantfirl,2025-02-11 15:32:49+00:00,2025-02-14 17:38:34+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",74.1
+2599,Update upp in FV3,JesseMeng-NOAA,2025-02-10 19:18:47+00:00,2025-02-27 21:35:38+00:00,False,[],410.28
+2597,Tenth reconciliation PR from production/RRFS.v1,grantfirl,2025-02-10 17:03:00+00:00,2025-02-19 18:40:07+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",217.62
+2595,Use ESMF Redist instead of Remap for FV3 history bundles with 'cubed_sphere_grid' output grid,DusanJovic-NOAA,2025-02-10 14:00:54+00:00,2025-04-07 16:52:10+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",1346.85
+2594,Production/GFS.v16:  update WW3 component to write indicator log file for gridded output,MatthewMasarik-NOAA,2025-02-06 19:07:45+00:00,2025-02-11 18:15:58+00:00,True,[],119.14
+2592,Feature/cicd bugfix to save metrics result files,BruceKropp-Raytheon,2025-02-06 16:41:30+00:00,2025-02-10 14:58:37+00:00,False,[],94.29
+2591,"Add support for FV3 native grid (cubed sphere) to history and restart write netcdf routines + Add new cmake variable UFS_COMPILER_SUITE to support mixed Intel compilers (icx, icpx, ifort) #2504",DusanJovic-NOAA,2025-02-05 15:14:24+00:00,2025-03-26 17:10:35+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",1177.94
+2590,Tempo implementation,AndersJensen-NOAA,2025-02-04 16:31:32+00:00,2025-07-02 19:20:41+00:00,False,[],3554.82
+2587,Add Land IAU parameters to default_vars / control_c48_lnd_iau modifications // #2585 Update for WW3 initialization,dpsarmie,2025-02-01 02:21:25+00:00,2025-02-05 18:02:29+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",111.68
+2585,Update for WW3 initialization ,JessicaMeixner-NOAA,2025-01-31 14:55:10+00:00,2025-02-05 18:02:31+00:00,False,[],123.12
+2584,Add two-way ocean-wave coupling feature to the HAFS applications,binli2337,2025-01-30 19:13:55+00:00,2025-08-11 15:56:20+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', 'input data change']",4628.71
+2581,Allow model_configure to provide a path for FV3ATM output,aerorahul,2025-01-30 13:43:45+00:00,2025-02-03 19:28:36+00:00,False,[],101.75
+2579,Hera move spack-stack to /contrib,RatkoVasic-NOAA,2025-01-29 00:13:02+00:00,2025-04-02 19:28:36+00:00,False,[],1531.26
+2576,update GF/C3 for SRW3.0 release,haiqinli,2025-01-28 16:41:21+00:00,2025-02-14 17:39:01+00:00,False,[],408.96
+2575,[production/GFS.v16] GFSv16 prod update of WW3 for optimized point output,AliS-Noaa,2025-01-28 15:57:16+00:00,2025-01-29 13:57:10+00:00,True,[],22.0
+2573,Loosen restriction on optional arguments in CCPP Framework,dustinswales,2025-01-27 21:59:12+00:00,2025-04-25 16:47:43+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",2106.81
+2572,FV3 CCPP: wet() bug fix and workaround for bad tsfco,SamuelTrahanNOAA,2025-01-27 20:57:35+00:00,2025-02-12 19:08:52+00:00,False,[],382.19
+2570,Remove Expanse/Odin/Stampede & Update Orion/Hercules lmod init script location,gspetro-NOAA,2025-01-24 16:57:31+00:00,2025-02-10 14:59:09+00:00,False,[],406.03
+2569,Update CICE (2025-01) +  Feature/cicd bugfix to save metrics result files #2592 +  Remove Expanse/Odin/Stampede & Update Orion/Hercules lmod init script location #2570 ,NickSzapiro-NOAA,2025-01-24 08:50:43+00:00,2025-02-10 14:58:00+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",414.12
+2568,Update CICD to move label deletion to Jenkinsfile,BruceKropp-Raytheon,2025-01-24 00:27:39+00:00,2025-02-03 19:30:56+00:00,False,[],259.05
+2567,Introduce prognostic updraft velocity to saSAS and C3 convection schemes,lisa-bengtsson,2025-01-23 21:20:13+00:00,2025-03-24 18:12:29+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",1436.87
+2566,fix ci post_test_results,BruceKropp-Raytheon,2025-01-23 16:42:53+00:00,2025-01-23 23:56:43+00:00,False,[],7.23
+2564,"Add ""ultra low"" coupled configurations to RTs",DeniseWorthen,2025-01-21 17:54:21+00:00,2025-03-21 15:57:42+00:00,False,"['Baseline Updates', ""New Input Data Req'd"", 'New Baselines']",1414.06
+2559,"Enable customizable idealized, doubly-periodic tests",LarissaReames,2025-01-15 15:35:08+00:00,2025-08-06 17:46:01+00:00,False,[],4874.18
+2556,update MOM6 to its main repo. 20250113 commit (original 20241127-PR),jiandewang,2025-01-14 03:32:02+00:00,2025-01-21 19:13:05+00:00,False,[],183.68
+2552,Fix computation of average radiation quantities,LarissaReames,2025-01-13 15:27:12+00:00,2025-01-13 15:29:29+00:00,False,[],0.04
+2550,Update WW3 with 20240116 commit ,JessicaMeixner-NOAA,2025-01-06 20:48:36+00:00,2025-02-24 13:37:48+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd""]",1168.82
+2549,Merge develop of WW3 up to 2024-01-11 to dev/ufs-weather-model #1342,JessicaMeixner-NOAA,2025-01-06 17:52:36+00:00,2025-01-17 18:23:54+00:00,False,"[""New Input Data Req'd""]",264.52
+2548,"Updates to radiation, cloud, and land processes for improved surface temperature and radiative flux biases + Allow model_configure to provide a path for FV3ATM output #2581 + Update CICD to move label deletion to Jenkinsfile #2568",rhaesung,2025-01-06 17:43:27+00:00,2025-02-03 19:28:35+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",673.75
+2546,Update with WW3 develop branch 20241220 ,JessicaMeixner-NOAA,2024-12-20 22:06:55+00:00,2025-03-26 19:01:32+00:00,False,[],2300.91
+2544,Update fv3atm/ccpp-physics submodules: Add CCPP host variable to track initialization of GFS_phys_time_vary,climbfuji,2024-12-19 22:35:42+00:00,2025-01-17 18:24:25+00:00,False,[],691.81
+2543,Fix ugwpv1 timing / remove some extended WLCLK cases & PR#2491 Updates from the jedi model convention,dpsarmie,2024-12-19 17:39:29+00:00,2025-01-13 21:32:10+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",603.88
+2538,Sync with ESCOMP/CDEPS (2024-12-16) + Add support for traditional threading (#2533),NickSzapiro-NOAA,2024-12-17 16:23:16+00:00,2024-12-23 21:27:07+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",149.06
+2536,Feature epic metrics,BruceKropp-Raytheon,2024-12-12 17:10:13+00:00,2025-01-22 16:41:26+00:00,True,[],983.52
+2533,Add support for traditional threading,DusanJovic-NOAA,2024-12-10 16:31:08+00:00,2024-12-23 21:27:46+00:00,False,[],316.94
+2532,Ninth reconciliation PR from production/RRFS.v1 + Add CCPP host variable to track initialization of GFS_phys_time_vary (#2544) + develop of WW3 up to 2024-01-11 to dev/ufs-weather-model #1342 (#2549),grantfirl,2024-12-05 22:07:27+00:00,2025-01-17 17:14:45+00:00,True,"['No Baseline Change', ""New Input Data Req'd""]",1027.12
+2531,Eighth reconciliation PR from production/RRFS.v1,grantfirl,2024-12-05 21:47:12+00:00,2025-01-07 19:52:03+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",790.08
+2530,Seventh reconciliation PR from production/RRFS.v1,grantfirl,2024-12-05 21:10:05+00:00,2025-01-03 16:43:05+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",691.55
+2529,Sixth reconciliation PR from production/RRFS.v1 + FV3 CCPP: wet() bug fix and workaround for bad tsfco #2572,grantfirl,2024-12-05 16:17:45+00:00,2025-02-12 19:08:18+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",1658.84
+2528,Update global_control.nml.IN based on GW specs,dpsarmie,2024-12-04 21:51:55+00:00,2024-12-16 20:48:12+00:00,False,['No Baseline Change'],286.94
+2512,Add PIO switch to WW3 to avoid build errors,JessicaMeixner-NOAA,2024-11-22 17:46:12+00:00,2024-12-06 16:50:57+00:00,False,[],335.08
+2510,Avoid conflicting instantaneous CICE history output,NickSzapiro-NOAA,2024-11-21 18:45:07+00:00,2024-11-26 17:05:40+00:00,False,['No Baseline Change'],118.34
+2505,Update CICE (2024-11) including pio_finalize bug fix,NickSzapiro-NOAA,2024-11-19 06:39:40+00:00,2024-12-03 19:58:27+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",349.31
+2504,"Add new cmake variable UFS_COMPILER_SUITE to support mixed Intel compilers (icx, icpx, ifort)",climbfuji,2024-11-19 03:33:34+00:00,2025-03-26 17:11:31+00:00,False,[],3061.63
+2503,GFDLMP-v3 and TEMPO MP microphysics,dustinswales,2024-11-18 23:39:10+00:00,2025-07-14 23:32:58+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd""]",5711.9
+2498,[develop]: Add documentation for HSD cases in `tests-dev`,gspetro-NOAA,2024-11-14 20:27:09+00:00,2024-11-21 18:32:36+00:00,False,[],166.09
+2495,Feature/ci metrics,BruceKropp-Raytheon,2024-11-12 22:46:34+00:00,2024-11-13 19:25:26+00:00,False,[],20.65
+2491,Updates from the jedi model convention,fabiolrdiniz,2024-11-06 16:45:11+00:00,2025-01-13 21:32:12+00:00,False,[],1636.78
+2489,Update inline post + Add documentation for HSD cases in tests-dev #2498,WenMeng-NOAA,2024-11-04 00:34:11+00:00,2024-11-21 18:27:13+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",425.88
+2488,[production/RRFS.v1] saSAS sigmab initialization changes and and inline post bug fix for RUC LSM,JiliDong-NOAA,2024-11-02 01:32:21+00:00,2025-01-28 13:45:03+00:00,True,[],2100.21
+2487,Minor modification and bug fix in GFS cumulus convection schemes,rhaesung,2024-10-31 16:59:49+00:00,2025-03-06 19:48:35+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",3026.81
+2485,Fifth reconciliation PR from production/RRFS.v1,grantfirl,2024-10-29 21:10:23+00:00,2024-12-30 18:27:24+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",1485.28
+2483,Fourth reconciliation PR from production/RRFS.v1 + Add PIO switch to WW3 to avoid build errors #2512,grantfirl,2024-10-29 20:11:16+00:00,2024-12-06 16:49:40+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",908.64
+2482,Third reconciliation PR from production/RRFS.v1,grantfirl,2024-10-29 17:19:42+00:00,2024-11-25 16:12:27+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",646.88
+2481,Second reconciliation PR from production/RRFS.v1,grantfirl,2024-10-25 20:24:20+00:00,2024-11-08 19:48:39+00:00,False,[],335.41
+2478,Add long forecast SFS Regression Test,LarissaReames,2024-10-22 14:52:07+00:00,2024-12-05 15:56:09+00:00,False,[],1057.07
+2475,Fix/cpld sfs rt + Pull in units updates from FV3 #2467,dpsarmie,2024-10-18 17:49:52+00:00,2024-11-05 21:28:18+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",435.64
+2471,Port UFS-WM to Ursa,ulmononian,2024-10-15 19:11:57+00:00,2025-07-07 19:07:27+00:00,True,[],6359.93
+2469,Sync with ESCOMP/CDEPS (2024-12) + Update global_control.nml.IN based on GW specs (#2528) + Sync with ESCOMP/CMEPS,NickSzapiro-NOAA,2024-10-14 14:34:21+00:00,2024-12-16 20:47:06+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",1518.21
+2467,Pull in units updates from FV3,DWesl,2024-10-11 14:31:17+00:00,2024-11-05 21:28:51+00:00,False,['Baseline Updates'],606.96
+2465,Update chunksizes for cubed sphere grid,DusanJovic-NOAA,2024-10-11 13:33:00+00:00,2024-10-23 16:02:19+00:00,False,['No Baseline Change'],290.49
+2464,"Submodule pointer update (fv3atm, ccpp-framework) for ccpp-framework PR 600 (bug fix for unit conversion error in ccpp_prebuild.py )",climbfuji,2024-10-11 02:39:09+00:00,2024-10-23 16:02:46+00:00,False,[],301.39
+2463,"[develop]: Documentation updates + Submodule pointer update (fv3atm, ccpp-framework) for ccpp-framework PR 600 (bug fix for unit conversion error in ccpp_prebuild.py ) #2464 + Update chunksizes for cubed sphere grid #2465",gspetro-NOAA,2024-10-10 20:40:47+00:00,2024-10-23 16:01:55+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",307.35
+2461,Add developmental test cases: idealized baroclinic wave and 2020 July CAPE cases + https://github.com/ufs-community/ufs-weather-model/pull/2459,ulmononian,2024-10-10 20:25:30+00:00,2024-11-12 21:08:15+00:00,True,"['Ready for Commit Queue', 'New Baselines']",792.71
+2459,Update calculation of time-averaged radiation variables,LarissaReames,2024-10-09 13:59:37+00:00,2024-12-13 18:01:10+00:00,False,['Baseline Updates'],1564.03
+2458,Enable some of the intel llvm tests in rt conf + Second reconciliation PR from production/RRFS.v1 #2481,DusanJovic-NOAA,2024-10-09 13:42:32+00:00,2024-11-08 19:47:58+00:00,True,"['Ready for Commit Queue', 'New Baselines']",726.09
+2456,support ufs-weather-model using Rocky 8 on CSPs,weihuang-jedi,2024-10-08 15:26:10+00:00,2024-11-12 21:09:16+00:00,False,[],845.72
+2453,Upgrade to spack-stack 1.8.0,RatkoVasic-NOAA,2024-10-07 22:05:38+00:00,2025-02-25 17:46:54+00:00,False,[],3379.69
+2451,Feature/mpas dycore,dustinswales,2024-10-07 14:41:08+00:00,2025-06-18 22:04:28+00:00,False,[],6103.39
+2449,First reconciliation PR from production/RRFS.v1,grantfirl,2024-10-04 15:10:43+00:00,2024-10-18 16:58:17+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",337.79
+2448,Gaea C6 support for UFSWM,BrianCurtis-NOAA,2024-10-02 17:48:48+00:00,2024-12-18 17:33:20+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",1847.74
+2446,Bring CMAQ 5.4 into AQM,BrianCurtis-NOAA,2024-09-25 14:51:35+00:00,2024-11-19 19:45:43+00:00,False,[],1324.9
+2445,Update WW3 for PIO/netCDF restarts,DeniseWorthen,2024-09-24 17:26:21+00:00,2024-11-14 21:17:34+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",1227.85
+2442,Add GEFS regression test suite from EP5r2 configuration/case + Update UPP with new variables,NickSzapiro-NOAA,2024-09-19 16:24:41+00:00,2025-02-27 21:34:32+00:00,True,"['Ready for Commit Queue', ""New Input Data Req'd"", 'EPIC Support Requested', 'New Baselines']",3869.16
+2437,Add forecast day output for CICE via timestep stream,NickSzapiro-NOAA,2024-09-11 15:00:17+00:00,2024-10-05 17:45:14+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",578.75
+2436,Updates for NOAA Cloud Rocky 8 platforms,natalie-perlin,2024-09-11 13:47:34+00:00,2024-09-25 15:55:46+00:00,False,[],338.14
+2434,Support Rocky8 on CSPs,weihuang-jedi,2024-09-10 20:56:36+00:00,2024-09-25 15:59:40+00:00,False,[],355.05
+2431, Bump libraries on WCOSS2 to ip/4.0.0 w3emc/2.12.0 and all platforms to fms/2024.01,BrianCurtis-NOAA,2024-09-09 16:56:10+00:00,2024-09-25 12:38:09+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",379.7
+2430,Update CICE and use EMC/CICE:develop branch from CICE-Consortium:main,NickSzapiro-NOAA,2024-09-07 03:33:11+00:00,2024-09-19 20:51:41+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",305.31
+2428,[production/RRFS.v1] fix RRFS_sas_nogwd suite name inconsistency,JiliDong-NOAA,2024-09-05 19:54:03+00:00,2024-09-11 11:48:22+00:00,True,[],135.91
+2425,GW-RT global_control.nml modifications,dpsarmie,2024-09-03 14:54:40+00:00,2024-10-31 21:53:22+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",1398.98
+2419,"Flexible restart write times (restart_fh) for med, ocn, ice, wav",NickSzapiro-NOAA,2024-08-28 17:36:59+00:00,2024-12-11 18:19:28+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",2520.71
+2417,Remove the IFI tests,SamuelTrahanNOAA,2024-08-27 22:15:02+00:00,2024-09-03 14:35:59+00:00,False,[],160.35
+2415,Add soil temperature and moisture IAU,tsga,2024-08-27 14:15:18+00:00,2024-11-19 14:03:53+00:00,True,"['Ready for Commit Queue', 'New Baselines']",2015.81
+2412,update mom6 to its main repo. 20240824 commit (FMA),jiandewang,2024-08-26 03:26:45+00:00,2024-09-09 13:10:21+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",345.73
+2408,Combination for CCPP-physics #213 and #218 (H2O scheme refactor and C3/SAS/MYNN fix),grantfirl,2024-08-23 19:24:02+00:00,2024-08-29 19:49:45+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",144.43
+2405,[production/RRFS.v1] a new parameter to fix REFS member crash and new ccpp suites for RRFS fire weather,JiliDong-NOAA,2024-08-22 18:51:56+00:00,2024-09-04 20:49:26+00:00,True,[],313.96
+2404,[DRAFT] GFSv17 iau restart test,junwang-noaa,2024-08-21 17:33:15+00:00,2025-07-03 14:05:40+00:00,False,[],7580.54
+2396,Modifications for ufs-coastal app; update MOM6 to its main repo. 20250113 commit (original 20241127-PR) (was #2556),DeniseWorthen,2024-08-12 13:13:42+00:00,2025-01-21 19:12:28+00:00,True,"['No Baseline Change', 'Ready for Commit Queue', 'jenkins-ort']",3893.98
+2395,Update CMEPS; fix aux history functionality for float variable type; Switch to using Aux history files in atm_ds2s_docn_dice test; Remove IFI tests (was #2417),DeniseWorthen,2024-08-12 13:04:58+00:00,2024-09-03 14:30:56+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",529.43
+2391,Refactor NRL h2o photochemical scheme,grantfirl,2024-08-09 15:22:23+00:00,2024-08-23 19:33:18+00:00,False,[],340.18
+2389,"Unify CDEPS gfs, cfsr, and gefs datm datamodes + Improve error checking in rt.sh (2388) + Add ability to read increment files on native cubed sphere grid (2304)",NickSzapiro-NOAA,2024-08-07 05:54:20+00:00,2024-08-27 15:29:46+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",489.59
+2388,Improve error checking in rt.sh,DusanJovic-NOAA,2024-08-05 13:54:06+00:00,2024-08-27 16:00:17+00:00,False,['No Baseline Change'],530.1
+2387,Updates for component NoahMP land model,uturuncoglu,2024-08-02 17:41:34+00:00,2025-01-28 19:03:31+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",4297.37
+2381,update to MOM6 main 20240729 commit (gfdl-to-main-2024-05-31),jiandewang,2024-07-31 14:15:55+00:00,2024-08-17 18:18:14+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",412.04
+2375,Allow use of downscaled warmstart files for cpld_control_sfs test,DeniseWorthen,2024-07-19 23:07:18+00:00,2024-08-21 12:23:16+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd""]",781.27
+2374,SKEB fix with d_con = zero,NeilBarton-NOAA,2024-07-19 21:36:44+00:00,2024-08-12 23:31:58+00:00,False,[],577.92
+2373,Add omega calculation and change LSM diag option to RTs,dpsarmie,2024-07-19 15:13:49+00:00,2024-08-01 14:15:05+00:00,True,"['enhancement', 'Baseline Updates', 'Ready for Commit Queue']",311.02
+2370,initialize scalar field when created for non-CSG (cube-sphere grid) components,DeniseWorthen,2024-07-17 13:06:38+00:00,2024-08-06 14:40:14+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",481.56
+2367,Fix WW3 NUOPC cap to allow using radiation stress components,uturuncoglu,2024-07-16 16:27:06+00:00,2024-08-13 21:56:22+00:00,False,[],677.49
+2363,Update damping and time step parameters,dpsarmie,2024-07-11 18:39:43+00:00,2024-09-13 14:08:21+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",1531.48
+2362,Hotfix to update with cubed sphere bug fix ,jkbk2004,2024-07-11 13:17:19+00:00,2024-07-16 13:25:31+00:00,True,"['bug', 'No Baseline Change', 'Ready for Commit Queue']",120.14
+2357,Bump certifi from 2024.2.2 to 2024.7.4 in /doc/UsersGuide,dependabot[bot],2024-07-06 01:36:51+00:00,2024-07-18 15:06:31+00:00,False,['dependencies'],301.49
+2355,Fix dumpfields=true option by using ESMF_FieldBundleWrite,DusanJovic-NOAA,2024-07-03 13:45:54+00:00,2024-07-30 11:17:16+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",645.52
+2354,Land surface upgrades for HR4,HelinWei-NOAA,2024-07-02 23:54:56+00:00,2024-07-24 12:04:22+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",516.16
+2352,update CMEPS ,DeniseWorthen,2024-07-01 22:56:34+00:00,2024-07-26 15:45:51+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",592.82
+2344,Bug fix for physics suites using C3 or SAS convection with MYNN PBL scheme,lisa-bengtsson,2024-06-26 17:59:13+00:00,2024-08-29 19:51:26+00:00,False,[],1537.87
+2343,"[production/RRFS.v1] ""to use fms/2024.1 & RUC LSM deep soil temperature updates""",haiqinli,2024-06-26 17:00:33+00:00,2024-07-03 17:58:09+00:00,True,[],168.96
+2340,HR4 and SFS baseline update: Improve convection/radiation interaction in the GFS physics suite ,lisa-bengtsson,2024-06-25 18:29:28+00:00,2024-07-20 01:27:12+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",582.96
+2337,[production/AQM.v7] AQMv7.1 upgrades,BrianCurtis-NOAA,2024-06-24 15:53:00+00:00,2024-06-25 15:41:03+00:00,True,[],23.8
+2336,Orion changes for switch to new OS - Rocky-9,RatkoVasic-NOAA,2024-06-21 23:19:10+00:00,2024-06-25 21:09:59+00:00,False,[],93.85
+2335,Restore error checking in regression test system. (Combined PR#2357 and PR#2265),SamuelTrahanNOAA,2024-06-21 19:46:33+00:00,2024-07-18 15:04:43+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",643.3
+2333,Adds support for TEMPO microphysics,AndersJensen-NOAA,2024-06-21 14:32:00+00:00,2025-02-04 16:32:16+00:00,False,[],5474.0
+2329,Bump urllib3 from 2.2.1 to 2.2.2 in /doc/UsersGuide,dependabot[bot],2024-06-17 22:57:04+00:00,2024-06-25 21:10:00+00:00,False,['dependencies'],190.22
+2327, Add an option in dynamics to calculate omega in non-hydrostatic runs similar to hydrostatic method,XiaqiongZhou-NOAA,2024-06-14 15:16:15+00:00,2024-07-03 18:04:09+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",458.8
+2326,sync with head of NOAA-EMC UPP develop,SamuelTrahanNOAA,2024-06-13 21:22:46+00:00,2024-08-23 17:53:20+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",1700.51
+2324,Add CICE end of run restart file capability+Update submodule FV3/atmos_cubed_sphere to fix a typo when printing out the nest grid corner locations #2323+Bump urllib3 from 2.2.1 to 2.2.2 in /doc/UsersGuide #2329 + Orion changes for switch to new OS - Rocky-9 #2336,dpsarmie,2024-06-13 15:27:12+00:00,2024-06-25 21:08:46+00:00,True,"['enhancement', 'No Baseline Change', 'Ready for Commit Queue']",293.69
+2323,Update submodule FV3/atmos_cubed_sphere to fix a typo when printing out the nest grid corner locations,BinLiu-NOAA,2024-06-13 14:58:24+00:00,2024-06-26 12:28:42+00:00,False,[],309.5
+2318,DRAFT Jenkinsfile label drop bug-fix,zach1221,2024-06-11 14:44:40+00:00,2024-07-11 13:25:06+00:00,False,['jenkins-ort'],718.67
+2316,Ss 160,RatkoVasic-NOAA,2024-06-10 16:16:49+00:00,2024-06-18 19:09:31+00:00,False,[],194.88
+2315,[WIP] Update cpld_bmark_p8 to EP5 configuration towards GEFS.v13,NickSzapiro-NOAA,2024-06-10 09:44:49+00:00,2024-09-19 16:25:22+00:00,False,[],2430.68
+2312,Adding a change to generate a PR,kbooker79,2024-06-06 21:19:21+00:00,2024-06-07 14:11:13+00:00,False,['Incomplete'],16.86
+2308,Update submodule ufs_model.fd features for gaea c5,AnilKumar-NOAA,2024-06-04 19:48:13+00:00,2024-06-07 23:27:28+00:00,False,[],75.65
+2307,Update submodule ufs_model.fd features for gaea c5,AnilKumar-NOAA,2024-06-04 19:43:12+00:00,2024-06-04 19:47:27+00:00,False,[],0.07
+2304,Add ability to read increment files on native cubed sphere grid,DavidNew-NOAA,2024-05-30 18:12:17+00:00,2024-08-27 16:00:44+00:00,False,[],2133.81
+2302,Update WCOSS2 libraries for spack-stack 1.6.0 (Combined PR #2301),BrianCurtis-NOAA,2024-05-30 15:40:59+00:00,2024-05-31 18:52:06+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",27.19
+2301,A few miscellaneous minor fixes to regression test scripts,DusanJovic-NOAA,2024-05-29 20:59:11+00:00,2024-05-31 18:52:07+00:00,False,['No Baseline Change'],45.88
+2298,[production/RRFS.v1] The final smoke update PR to RRFS.v1,haiqinli,2024-05-28 22:41:34+00:00,2024-08-06 18:44:20+00:00,True,[],1676.05
+2297,Add explicit alpha_fd coefficient to TOFD in UGWPv1 drag suite,mdtoyNOAA,2024-05-28 16:49:46+00:00,2025-04-01 23:04:00+00:00,False,[],7398.24
+2296,[develop]: Minor documentation bug fixes,gspetro-NOAA,2024-05-24 05:42:54+00:00,2024-05-28 21:03:23+00:00,False,['documentation'],111.34
+2292,Bump requests from 2.31.0 to 2.32.0 in /doc/UsersGuide,dependabot[bot],2024-05-21 07:44:09+00:00,2024-05-28 21:04:52+00:00,False,['dependencies'],181.35
+2290,HR4 GWD update for FV3,Qingfu-Liu,2024-05-19 15:52:54+00:00,2024-07-11 11:21:18+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd""]",1267.47
+2287,Update AQM RT's to v16 and update input-data (Merged with Bring AQM changes from production/AQM.v7 into develop branch #2279),BrianCurtis-NOAA,2024-05-17 14:49:44+00:00,2025-04-02 12:14:48+00:00,False,"['Baseline Updates', ""New Input Data Req'd"", 'New Baselines']",7677.42
+2286,Add end of run restart functionality to MOM6,jiandewang,2024-05-16 02:59:51+00:00,2024-05-21 23:28:19+00:00,False,['No Baseline Change'],140.47
+2284,New gnv1_nested regression test,SamuelTrahanNOAA,2024-05-15 20:15:31+00:00,2024-06-11 19:18:37+00:00,False,[],647.05
+2283,update WAM RT compatible with v17,WChen-NOAA,2024-05-15 18:25:19+00:00,2024-06-18 17:11:08+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd""]",814.76
+2281,Allow diagnostic accumulation bucket to change in fv3atm integration  + develop]: Minor documentation bug fixes #2296,DusanJovic-NOAA,2024-05-14 20:27:00+00:00,2024-05-28 21:03:22+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",336.61
+2279,Bring AQM changes from production/AQM.v7 into develop branch,BrianCurtis-NOAA,2024-05-13 18:58:22+00:00,2025-04-21 12:21:22+00:00,False,['Waiting for Reviews'],8225.38
+2278,Addition of python script to add yaml-based test option + Creation of FV3 diag table documentation #2277 + SKEB fix with d_con = zero #2374,jkbk2004,2024-05-13 11:43:11+00:00,2024-08-12 23:03:49+00:00,True,"['No Baseline Change', 'Ready for Commit Queue', 'EPIC Support Requested']",2195.34
+2277,Creation of FV3 diag table documentation,selbigmtnwx23,2024-05-10 19:46:05+00:00,2024-08-12 23:31:23+00:00,False,['documentation'],2259.76
+2275,update mom6 to  its main repo. 20240508 commit,jiandewang,2024-05-09 17:52:45+00:00,2024-05-14 10:05:19+00:00,False,[],112.21
+2273,upgrade MERRA2 climatology from 2003-2014 mean to 2014 to 2024 mean,AnningCheng-NOAA,2024-05-09 13:59:30+00:00,2024-05-24 17:56:59+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd""]",363.96
+2271,update cubed sphere gitmodules for perturbation/increments for cold starts,pjpegion,2024-05-08 21:36:48+00:00,2024-06-07 23:22:02+00:00,False,[],721.75
+2270,Bump jinja2 from 3.1.3 to 3.1.4 in /doc/UsersGuide,dependabot[bot],2024-05-06 21:16:32+00:00,2024-05-09 18:02:04+00:00,False,['dependencies'],68.76
+2269,Build ufs_weather_model on Gaea-C5 + update cubed sphere gitmodules for perturbation/increments for cold starts #2271,DavidBurrows-NCO,2024-05-06 17:14:47+00:00,2024-06-07 23:22:01+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",774.12
+2265,Feature/detect frontera,benjamin-cash,2024-05-03 17:58:46+00:00,2024-07-26 16:08:40+00:00,False,[],2014.16
+2264,"Combination CCPP-related PR for ozone diagnostics, metadata intent bugfixes, sfcsub.F landmask bugfix, and canopy resistance output",grantfirl,2024-05-03 15:08:35+00:00,2024-05-20 15:43:28+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",408.58
+2259,Update CICE to CICE-Consortium (2024-05-01)+update mom6 to its main repo. 20240508 commit #2275,NickSzapiro-NOAA,2024-04-30 05:36:30+00:00,2024-05-13 17:07:27+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",323.52
+2258,Modify module files to compile on AWS with spack-stack-1.6.0,weihuang-jedi,2024-04-29 19:30:41+00:00,2024-05-28 14:34:32+00:00,False,[],691.06
+2255,Add a RT for SFS with hydrostatic options,XiaqiongZhou-NOAA,2024-04-26 13:58:17+00:00,2024-05-16 05:35:50+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",471.63
+2254,Add option to specify fv3atm history and inline post files output directory,DusanJovic-NOAA,2024-04-26 13:40:37+00:00,2024-05-09 18:02:04+00:00,False,['No Baseline Change'],316.36
+2253,Bug fix for ccpp-physics routine sfcsub.F,GeorgeGayno-NOAA,2024-04-26 12:27:03+00:00,2024-05-07 20:15:40+00:00,False,[],271.81
+2252,add a model_configure template for global nest,guoqing-noaa,2024-04-26 03:34:53+00:00,2024-05-30 20:33:02+00:00,False,[],832.97
+2249,[production/RRFS.v1] Add clear-sky shortwave downward at surface flux to available diagnostics.,dustinswales,2024-04-23 20:42:56+00:00,2024-05-07 15:46:06+00:00,True,[],331.05
+2248,Feature/swdnclrskyflx diag,dustinswales,2024-04-23 18:08:17+00:00,2024-04-24 14:27:14+00:00,False,[],20.32
+2241,update MOM6 to its main repo. 20240401 commit,jiandewang,2024-04-17 14:32:30+00:00,2024-04-25 18:52:01+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",196.33
+2238,DRAFT: Update Jenkinsfile.combined,zach1221,2024-04-15 15:56:14+00:00,2024-04-30 16:29:45+00:00,False,[],360.56
+2235,update inputdata for Bu angle fix; re-enable cpld C48 warmstart test,DeniseWorthen,2024-04-12 15:42:28+00:00,2024-05-07 13:37:57+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', ""New Input Data Req'd""]",597.92
+2234,Bump idna from 3.6 to 3.7 in /doc/UsersGuide,dependabot[bot],2024-04-12 04:47:31+00:00,2024-04-15 12:59:42+00:00,True,"['No Baseline Change', 'Priority: High', 'dependencies']",80.2
+2229,DRAFT: Update Jenkinsfile.combined refresh branch,zach1221,2024-04-08 13:39:26+00:00,2024-04-15 15:56:05+00:00,False,['hercules-RT'],170.28
+2226,[production/RRFS.v1] parallel IO enhancements from GDIT,MatthewPyle-NOAA,2024-04-04 21:04:29+00:00,2024-05-03 16:37:53+00:00,True,[],691.56
+2225,Add bash linting to CI. Cleanup .sh scripts a bit. Address .sh bugs. Adds -v Verbose option. (#2218)  Remove nowarn Intel compiler flag,BrianCurtis-NOAA,2024-04-03 23:56:59+00:00,2024-04-17 19:59:48+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",332.05
+2224,Support IntelLLVM compiler,DusanJovic-NOAA,2024-04-03 15:37:05+00:00,2024-10-01 18:24:06+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",4346.78
+2223,Hotfix/cubed sphere hash fix: HAILCAST diagnostic code (units issue),jkbk2004,2024-04-03 12:35:36+00:00,2024-04-04 23:49:13+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",35.23
+2221,fixed excessive evaporation when both innerloop and mraerosol=T,AnningCheng-NOAA,2024-04-01 18:31:08+00:00,2024-05-02 11:53:47+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",737.38
+2220,Fire Coupling FV3ATM and Community Fire Behavior Model,danrosen25,2024-04-01 18:25:26+00:00,2024-09-17 16:41:53+00:00,True,"['Ready for Commit Queue', ""New Input Data Req'd"", 'New Baselines']",4054.27
+2218,Remove nowarn Intel compiler flag,DusanJovic-NOAA,2024-04-01 16:09:41+00:00,2024-04-19 14:44:19+00:00,False,"['No Baseline Change', 'Ready for Commit Queue']",430.58
+2215,Adding a few JEDI-related aliases into the `fd_ufs.yaml` file+Add option to specify fv3atm history and inline post files output directory #2254 + Bump jinja2 from 3.1.3 to 3.1.4 in /doc/UsersGuide #2270,fabiolrdiniz,2024-03-29 03:51:37+00:00,2024-05-09 18:02:02+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",998.17
+2214,[production/RRFS.v1] Fix improperly assigned fire emissions for ebb_dcycle==1 for retrospectives (NOT operational!),jordanschnell,2024-03-28 18:37:26+00:00,2024-04-11 17:59:21+00:00,True,[],335.37
+2213,Update upp submodule,WenMeng-NOAA,2024-03-28 17:25:27+00:00,2024-04-19 17:59:13+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",528.56
+2212,[production/RRFS.v1] Update module_write_netcdf to avoid hangs in RRFS runs,DusanJovic-NOAA,2024-03-28 16:47:43+00:00,2024-04-02 13:50:16+00:00,True,[],117.04
+2205,Add support for optional arguments in ccpp physics and framework AND add end of run restart functionality to MOM6 (was #2286),climbfuji,2024-03-22 19:57:33+00:00,2024-05-21 22:31:34+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",1442.57
+2202,"regression test system bug fixes, eliminate MOM6 warnings (#2197), add xr_cnvcld flag to FV3 (#2185)",SamuelTrahanNOAA,2024-03-21 18:08:16+00:00,2024-03-27 20:11:03+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",146.05
+2201,"bug fixes: kchunk3d ignored, hailwat uninitialized in dycore, tile_num wrong for nests",SamuelTrahanNOAA,2024-03-21 18:00:44+00:00,2024-04-15 12:38:01+00:00,True,"['No Baseline Change', 'Ready for Commit Queue', 'Priority: High']",594.62
+2197,update MOM6 to remove compiling warning,jiandewang,2024-03-19 02:50:59+00:00,2024-03-27 21:19:11+00:00,False,[],210.47
+2195,WW3 feature:  Langmuir turbulence parameterization,MatthewMasarik-NOAA,2024-03-15 18:52:47+00:00,2024-03-29 19:23:42+00:00,True,"['No Baseline Change', 'Ready for Commit Queue', ""New Input Data Req'd""]",336.52
+2194,Fix modulefiles for Hera/Rocky8 OS.,RatkoVasic-NOAA,2024-03-15 17:34:58+00:00,2024-03-22 13:09:39+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",163.58
+2193,Update module_write_netcdf to avoid hangs in RRFS runs,DusanJovic-NOAA,2024-03-15 15:53:38+00:00,2024-04-01 22:04:44+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",414.19
+2191,Fix for land component model,uturuncoglu,2024-03-14 16:41:28+00:00,2024-04-30 17:35:26+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', 'New Baselines']",1128.9
+2190,Updating to obfuscate sensitive AWS account information.,kbooker79,2024-03-13 19:05:00+00:00,2024-03-18 18:46:38+00:00,False,[],119.69
+2188,Langmuir turbulence parameterization for WW3,MatthewMasarik-NOAA,2024-03-13 15:07:11+00:00,2024-03-15 18:28:35+00:00,False,[],51.36
+2186,Add active atmosphere applications with data ocn and data ice components (ATM_DS2S and ATM_DS2S-PCICE) and regression tests (atm_ds2s_docn_dice and atm_ds2s_docn_pcice),NickSzapiro-NOAA,2024-03-12 20:10:52+00:00,2024-06-11 18:21:05+00:00,True,"['Baseline Updates', 'Ready for Commit Queue', 'input data change']",2182.17
+2185,Introduce namelist flag xr_cnvcld to control if suspended grid-mean convective cloud condensate should be included in cloud fraction and optical depth calculation in radiation in the GFS suite. ,lisa-bengtsson,2024-03-12 19:18:43+00:00,2024-03-27 21:19:42+00:00,False,[],362.02
+2183,In fv3atm: convert GFS DDTs from blocked data structures to contiguous arrays,climbfuji,2024-03-11 20:29:52+00:00,2024-08-08 16:28:23+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",3595.98
+2181,Updates of ccpp-framework and ccpp-physics (merge ccpp-framework feature/capgen into main/20240308) Combined PR #2190,climbfuji,2024-03-08 17:06:52+00:00,2024-03-18 18:44:52+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",241.63
+2180,Incorporate csawMG update and pass both intel and GNU RT tests,grantfirl,2024-03-07 19:59:37+00:00,2024-03-14 20:38:41+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",168.65
+2179,Add traditional threading templates for global apps and append `_esmf` for templates using ESMF-managed threading.,aerorahul,2024-03-07 18:52:42+00:00,2024-03-11 14:57:07+00:00,False,[],92.07
+2175,Enable cpl_scalars export from ATM and NoahMP for use by CMEPS,DeniseWorthen,2024-03-06 20:22:32+00:00,2024-04-03 23:57:09+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",675.58
+2173,Merged global namelist,dpsarmie,2024-03-06 19:26:11+00:00,2024-04-23 16:24:22+00:00,True,"['enhancement', 'Baseline Updates', 'Ready for Commit Queue']",1148.97
+2172,Remove compiler warnings for CMEPS and CICE; Add traditional threading templates for global apps and append _esmf for templates using ESMF-managed threading (was #2179),DeniseWorthen,2024-03-05 17:44:42+00:00,2024-03-12 19:20:34+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",169.6
+2170,[production/RRFS.v1] MYNN PBL & Smoke update for RRFS.v1,haiqinli,2024-03-05 03:58:11+00:00,2024-03-19 19:01:44+00:00,True,[],351.06
+2168,Enable Rocky OS on Jet,RatkoVasic-NOAA,2024-03-04 20:10:39+00:00,2024-03-11 16:51:24+00:00,False,[],164.68
+2166,update MOM6 to its main repo. 20240228 updating,jiandewang,2024-03-01 04:58:08+00:00,2024-03-04 22:25:05+00:00,True,"['Baseline Updates', 'Ready for Commit Queue']",89.45
+2164,"Add conflict for MOVING_NEST option with GNU Fortran, use mcmodel=small on macOS arm64 (also contains #2017)",climbfuji,2024-02-29 21:47:42+00:00,2024-03-11 16:43:08+00:00,True,"['No Baseline Change', 'Ready for Commit Queue']",258.92

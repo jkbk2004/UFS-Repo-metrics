@@ -1,0 +1,9 @@
+repos:
+  - name: ufs-weather-model
+    url: https://api.github.com/repos/ufs-community/ufs-weather-model
+
+  - name: ufs-srweather-app
+    url: https://api.github.com/repos/ufs-community/ufs-srweather-app
+
+  - name: land-DA_workflow
+    url: https://api.github.com/repos/ufs-community/land-DA_workflow
