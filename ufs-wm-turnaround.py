@@ -2,28 +2,23 @@ import os
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 from datetime import datetime
 from time import sleep
+from collections import defaultdict
 
-# Repository to analyze
 REPO = "ufs-community/ufs-weather-model"
-
-# Optional GitHub token for higher rate limits
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
+LABEL_COLORS = {
+    "bug": "#E24A33",
+    "enhancement": "#348ABD",
+    "documentation": "#988ED5",
+    "default": "#4C72B0"
+}
+
 def fetch_prs(state="closed", per_page=100, max_pages=10):
-    """
-    Fetches pull requests from GitHub API.
-
-    Args:
-        state (str): 'open', 'closed', or 'all'
-        per_page (int): PRs per page
-        max_pages (int): Max number of pages to fetch
-
-    Returns:
-        list of dicts: PR metadata
-    """
     prs = []
     for page in range(1, max_pages + 1):
         url = f"https://api.github.com/repos/{REPO}/pulls"
@@ -36,19 +31,10 @@ def fetch_prs(state="closed", per_page=100, max_pages=10):
         if not data:
             break
         prs.extend(data)
-        sleep(0.5)  # Rate limit buffer
+        sleep(0.5)
     return prs
 
 def compute_turnaround(prs):
-    """
-    Computes turnaround time for each PR.
-
-    Args:
-        prs (list): List of PR metadata
-
-    Returns:
-        pd.DataFrame: PRs with turnaround time in hours
-    """
     records = []
     for pr in prs:
         created = datetime.fromisoformat(pr["created_at"].replace("Z", "+00:00"))
@@ -57,23 +43,20 @@ def compute_turnaround(prs):
         if closed:
             closed_dt = datetime.fromisoformat(closed.replace("Z", "+00:00"))
             turnaround = (closed_dt - created).total_seconds() / 3600
+            labels = [label["name"] for label in pr.get("labels", [])]
             records.append({
                 "number": pr["number"],
                 "title": pr["title"],
+                "user": pr["user"]["login"],
                 "created_at": created,
                 "closed_at": closed_dt,
                 "merged": bool(merged),
+                "labels": labels,
                 "turnaround_hours": round(turnaround, 2)
             })
     return pd.DataFrame(records)
 
 def summarize(df):
-    """
-    Prints summary statistics for merged PRs.
-
-    Args:
-        df (pd.DataFrame): PR turnaround data
-    """
     merged = df[df["merged"]]
     print(f"🔁 Total merged PRs: {len(merged)}")
     print(f"⏱ Average turnaround: {merged['turnaround_hours'].mean():.2f} hours")
@@ -81,24 +64,42 @@ def summarize(df):
     print(f"🚀 Fastest turnaround: {merged['turnaround_hours'].min():.2f} hours")
     print(f"🐢 Slowest turnaround: {merged['turnaround_hours'].max():.2f} hours")
 
-def plot_turnaround(df, output_path="ufs_pr_turnaround_barplot.png"):
-    """
-    Generates a bar plot of PR turnaround time in days.
+    print("\n👥 Contributor Summary:")
+    by_user = merged.groupby("user")["turnaround_hours"].agg(["count", "mean", "std"]).sort_values("count", ascending=False)
+    print(by_user.round(2))
 
-    Args:
-        df (pd.DataFrame): PR turnaround data
-        output_path (str): Path to save the plot
-    """
+def plot_turnaround(df, output_path="ufs_pr_turnaround_advanced.png", show_rolling=True):
     df["turnaround_days"] = df["turnaround_hours"] / 24
     merged = df[df["merged"]].sort_values("number")
 
-    plt.figure(figsize=(12, 6))
-    bars = plt.bar(merged["number"], merged["turnaround_days"], color="#4C72B0", edgecolor="black")
+    x = merged["number"].values
+    y = merged["turnaround_days"].values
 
-    # Highlight longest turnaround
-    max_idx = merged["turnaround_days"].idxmax()
-    max_pr = merged.loc[max_idx]
-    plt.bar(max_pr["number"], max_pr["turnaround_days"], color="#DD8452", edgecolor="black")
+    # Assign colors based on labels
+    colors = []
+    for labels in merged["labels"]:
+        label = next((l for l in labels if l in LABEL_COLORS), "default")
+        colors.append(LABEL_COLORS[label])
+
+    plt.figure(figsize=(14, 6))
+    bars = plt.bar(x, y, color=colors, edgecolor="black")
+
+    # Linear trend line
+    coeffs = np.polyfit(x, y, 1)
+    trend = np.poly1d(coeffs)
+    plt.plot(x, trend(x), color="black", linestyle="--", label="Linear Trend")
+
+    # Rolling average
+    if show_rolling and len(y) >= 5:
+        rolling = pd.Series(y).rolling(window=5).mean()
+        plt.plot(x, rolling, color="green", linestyle="-", label="Rolling Avg (5)")
+
+    # Outlier annotations
+    mean = np.mean(y)
+    std = np.std(y)
+    for i, val in enumerate(y):
+        if val > mean + 2 * std:
+            plt.text(x[i], val + 0.5, f"{int(val)}d", ha="center", fontsize=8, color="red")
 
     plt.title("PR Turnaround Time (Days) – ufs-weather-model", fontsize=14)
     plt.xlabel("PR Number", fontsize=12)
@@ -106,6 +107,7 @@ def plot_turnaround(df, output_path="ufs_pr_turnaround_barplot.png"):
     plt.xticks(rotation=45, fontsize=10)
     plt.yticks(fontsize=10)
     plt.grid(axis="y", linestyle="--", alpha=0.7)
+    plt.legend()
     plt.tight_layout()
     plt.savefig(output_path)
     plt.close()
@@ -119,4 +121,4 @@ if __name__ == "__main__":
     df.to_csv("ufs_pr_turnaround.csv", index=False)
     print("📁 Saved results to ufs_pr_turnaround.csv")
     plot_turnaround(df)
-    print("📈 Saved plot to ufs_pr_turnaround_barplot.png")
+    print("📈 Saved plot to ufs_pr_turnaround_advanced.png")
