@@ -1,0 +1,1001 @@
+number,title,created_at,closed_at,merged,turnaround_hours
+2870,Use container with spack stack 1.9.2,2025-08-21 15:32:59+00:00,2025-09-02 16:09:25+00:00,True,288.61
+2862,Update CMEPS and CDEPS,2025-08-13 16:14:44+00:00,2025-08-25 12:20:48+00:00,False,284.1
+2859,Fixing repo sync check with proper if...else block and re-instatiatin…,2025-08-11 19:37:23+00:00,2025-08-15 17:43:35+00:00,False,94.1
+2858,Update the detection of Hera/Ursa,2025-08-08 14:20:30+00:00,2025-08-13 16:03:19+00:00,False,121.71
+2856,Testing CICD capabilties on Ursa.,2025-08-07 20:14:26+00:00,2025-08-11 14:40:54+00:00,False,90.44
+2854,Bring new RTs for Duck case,2025-08-07 18:15:21+00:00,2025-08-07 18:15:32+00:00,False,0.0
+2852,Update CICE through 2025-07 and switch to ice history variables with expected ranges. Sync of WW3 develop to dev/ufs-weather-model,2025-08-07 07:04:53+00:00,2025-08-19 17:31:07+00:00,True,298.44
+2851,Fix Restart IAU and Ultra-Low Reproducibility Issues by Adding Control Parameter to Restart File,2025-08-07 02:13:45+00:00,2025-08-22 13:52:56+00:00,True,371.65
+2850,Gaea-c6 use ecflow/5.11.4 from spack-stack-1.9.2 environment,2025-08-05 23:14:27+00:00,2025-08-11 16:15:45+00:00,False,137.02
+2849,update MOM6 to its main repo. 20250801 commit,2025-08-03 04:53:17+00:00,2025-08-06 17:42:49+00:00,False,84.83
+2841,Sync WW3 develop -> dev/ufs-weather-model ,2025-07-31 15:00:40+00:00,2025-08-19 17:32:34+00:00,False,458.53
+2836,FV3: Fix Prate_avg and UPP call freq + Fixing repo sync check with proper if...else block and re-instatiatin… #2859,2025-07-30 11:24:28+00:00,2025-08-15 17:43:07+00:00,True,390.31
+2833,Fixing bug with platform log being removed for CI/CD failure cases.,2025-07-29 16:59:23+00:00,2025-08-06 17:55:41+00:00,False,192.94
+2819,Update GOCART to v2.4.3,2025-07-21 17:43:18+00:00,2025-08-01 19:44:14+00:00,True,266.02
+2818,Add FV3 grid mask for regional domains to speed up nearest n. interpolation; Update CMEPS and CDEPS (#2862),2025-07-21 15:04:16+00:00,2025-08-25 19:54:41+00:00,True,844.84
+2816,Updating to test GaeaC6.,2025-07-21 13:45:29+00:00,2025-07-30 21:07:05+00:00,False,223.36
+2814,Update FV3 hash to include UPP ss192/Ursa updates,2025-07-18 12:42:15+00:00,2025-07-24 18:15:46+00:00,True,149.56
+2813,"Combination of 2684,2707,2771 (MERRA2 3-hr, photochem diag, prog closure SFS)",2025-07-17 17:03:49+00:00,2025-07-21 18:34:00+00:00,True,97.5
+2812,Jenkins ORTs transition to /scratch3,2025-07-16 21:22:05+00:00,2025-08-06 17:56:01+00:00,False,500.57
+2808,Jenkins CICD testing,2025-07-11 17:46:35+00:00,2025-07-21 13:38:35+00:00,False,235.87
+2803,Creating a small change to trigger CICD,2025-07-10 15:23:40+00:00,2025-07-11 17:39:40+00:00,False,26.27
+2802,Feature/2743 rt.conf cleanup,2025-07-10 14:19:25+00:00,2025-08-25 19:59:12+00:00,False,1109.66
+2799,[Test PR] CICD Verification,2025-07-08 19:25:55+00:00,2025-08-11 14:25:39+00:00,False,811.0
+2796,Reinstate med restarts for 4 tests after update to ESMF 8.8,2025-07-08 12:33:24+00:00,2025-07-29 19:47:50+00:00,False,511.24
+2795,"Combination #2777 (maintask writes CMEPS restart log), #2779 (FV3 CI/CD), and fix RT if statement blocks",2025-07-08 11:09:51+00:00,2025-07-09 15:26:23+00:00,True,28.28
+2790,Combination of several CCPP-physics PRs,2025-06-27 19:12:49+00:00,2025-07-11 15:02:42+00:00,True,331.83
+2788,Fix default cdmbgwd settings,2025-06-24 19:34:26+00:00,2025-09-04 14:45:03+00:00,True,1723.18
+2784,Fix GFSv17 Restart IAU Reproducibility by Adjusting WW3 Internal Timestep,2025-06-23 16:18:59+00:00,2025-08-18 16:56:14+00:00,False,1344.62
+2780,MPAS dycore + Atmosphere Generalization & Update RAP tests to FHMAX=12,2025-06-18 22:03:43+00:00,2025-08-29 22:59:42+00:00,True,1728.93
+2779,Add FV3 changes to CI/CD workflow,2025-06-17 18:15:36+00:00,2025-07-09 15:26:25+00:00,False,525.18
+2777,maintask writes CMEPS restart log,2025-06-16 23:04:35+00:00,2025-07-09 15:26:24+00:00,False,544.36
+2776,"Add/Modify modulefiles, and detect machine with container including intel compiler and stack-stack 1.6.0",2025-06-13 14:28:52+00:00,2025-09-04 19:40:38+00:00,False,1997.2
+2773,Adding GaeaC6 CI/CD support (deprecating GaeaC5),2025-06-11 15:28:02+00:00,2025-07-21 13:22:00+00:00,False,957.9
+2771,Enable use of prognostic closure in convection at coarse resolutions for SFSv1,2025-06-09 19:35:06+00:00,2025-07-21 18:58:21+00:00,False,1007.39
+2765,Urgent Documentation Update for HSD Capability Announcement ,2025-06-02 19:29:13+00:00,2025-06-05 03:52:23+00:00,True,56.39
+2763,Add option in GFS TKE EDMF PBL scheme to use liquid/ice potential temperature in local mixing,2025-06-02 15:49:09+00:00,2025-06-30 15:40:56+00:00,False,671.86
+2761,Mom6 025 warmstart option,2025-05-30 13:50:30+00:00,2025-06-30 15:39:39+00:00,False,745.82
+2757,Update MOM6 to its main repo. 20250527 commit,2025-05-28 18:04:55+00:00,2025-06-30 15:40:12+00:00,False,789.59
+2754,[Draft] Sample Test PR,2025-05-27 20:45:58+00:00,2025-06-11 14:55:28+00:00,False,354.16
+2753,Fix conus13km tests restart and decomposition reproducibility + Update the detection of Hera/Ursa #2858,2025-05-23 14:21:00+00:00,2025-08-13 16:02:38+00:00,True,1969.69
+2752,Slight modification in orographic gravity wave drag (OGWD) scheme,2025-05-22 19:11:56+00:00,2025-06-26 11:40:53+00:00,True,832.48
+2750,Allow photochemistry schemes to have parameters at different times.,2025-05-22 15:24:41+00:00,2025-05-28 15:51:41+00:00,False,144.45
+2747,gcycle update,2025-05-22 03:10:03+00:00,2025-06-20 19:39:23+00:00,True,712.49
+2746,Documentation for running Idealized TC case and tutorial for adding cases to the HSD framework,2025-05-21 19:59:22+00:00,2025-05-23 19:33:12+00:00,False,47.56
+2740,bug fix to maxMF check: only access when do_mynnedmf=.true.,2025-05-15 21:22:04+00:00,2025-07-11 15:09:21+00:00,False,1361.79
+2739,Bug fix for surface roughness calculation over lakes and sea ice points when wave model is turned on,2025-05-15 18:35:44+00:00,2025-06-02 15:55:39+00:00,True,429.33
+2737,Fix bug to improve wave initialization by saving location/weights for point output,2025-05-12 12:43:05+00:00,2025-05-27 15:04:23+00:00,True,362.36
+2736,Fix to data pathway in UFS WM UG (USS-276),2025-05-09 19:09:43+00:00,2025-05-23 14:29:55+00:00,False,331.34
+2734,Bring in scale-aware 3DTKE related changes for GFS TKE EDMF PBL scheme #2734; Add option in GFS PBL to use liquid/ice potential temperature in local mixing #2763; Update MOM6 to its main repo. 20250527 commit #2757; Mom6 025 warmstart option #2761,2025-05-09 17:18:01+00:00,2025-06-30 15:38:54+00:00,True,1246.35
+2733,Update DATM meshes and switch to bilinear mapping; Reinstate med restarts for 4 tests after update to ESMF 8.8 (was #2796),2025-05-09 16:28:14+00:00,2025-07-29 17:36:23+00:00,True,1945.14
+2731,Testing: Please ignore,2025-05-08 15:51:26+00:00,2025-05-08 20:59:21+00:00,False,5.13
+2730,Add a new parameter in dycore to control cutoff level for implicit RF ,2025-05-08 15:34:29+00:00,2025-06-12 19:57:15+00:00,True,844.38
+2729,revert MOM6 ISO code,2025-05-08 02:42:31+00:00,2025-05-15 20:36:19+00:00,False,185.9
+2727,Add tags to stoch physics int variables,2025-05-06 13:56:23+00:00,2025-05-23 14:30:18+00:00,False,408.57
+2725,[release/public v3.0.0]: Documentation hotfix,2025-05-02 21:33:51+00:00,2025-05-06 16:02:18+00:00,True,90.47
+2723,"In Noah-MP, set zero for canopy liquid and canopy ice over glacier ",2025-05-02 17:44:42+00:00,2025-06-06 14:44:37+00:00,True,837.0
+2721,Add switch to disable InfoBroadcast in fv3 cap run phase2,2025-05-01 16:36:01+00:00,2025-05-02 19:18:15+00:00,False,26.7
+2719,"Create a user-friendly ""process model"" testing capability + update MOM6 to its main repo. 20250801 commit #2849",2025-04-26 17:56:36+00:00,2025-08-06 17:37:18+00:00,True,2447.68
+2718,Stochastic Physics CI/CD & Unit Test,2025-04-25 18:23:20+00:00,2025-05-01 17:36:45+00:00,False,143.22
+2715,improve coupled model startup cost for waves; Add switch to disable InfoBroadcast in fv3 cap run phase2 (was #2721),2025-04-23 12:37:37+00:00,2025-05-02 19:17:43+00:00,True,222.67
+2714,Add ECMWF non-stationary gravity wave scheme option,2025-04-22 14:39:02+00:00,2025-07-11 15:08:25+00:00,False,1920.49
+2708,Fix for JEDI cubed sphere grid,2025-04-18 19:24:56+00:00,2025-04-23 15:26:20+00:00,False,116.02
+2707,Merge FV3 changes for water vapor photochemistry diagnostics,2025-04-18 17:08:37+00:00,2025-07-21 18:57:57+00:00,False,2257.82
+2701,fix ww3 and fv3atm for gnu+debug issues (hera),2025-04-15 21:25:59+00:00,2025-05-05 18:35:15+00:00,False,477.15
+2700,Add WW3 indicator log file at restart write,2025-04-15 14:07:46+00:00,2025-08-07 18:22:30+00:00,False,2740.25
+2698,Add CMEPS log file at restart write; IAU Tags for Global Workflow (was #2674),2025-04-14 13:49:12+00:00,2025-04-21 19:01:28+00:00,True,173.2
+2697,Update mom6 to its main repository 20250411 commit,2025-04-12 20:07:18+00:00,2025-04-18 14:25:28+00:00,True,138.3
+2695,Add PIO configuration variables for CMEPS + Update CCPP framework and physics CMakeLists.txt; forward ccpp-framework to HEAD of main #2659,2025-04-11 20:52:00+00:00,2025-04-16 16:31:50+00:00,True,115.66
+2694,"Enable Hera, Hercules Gnu tests: cpld_debug_p8_gnu and cpld_control_p8_gnu + revert MOM6 ISO code #2729",2025-04-11 15:31:31+00:00,2025-05-15 20:35:44+00:00,True,821.07
+2693,"Add idealized, regional tropical cyclone test to tests-dev + Documentation for running Idealized TC case and tutorial for adding cases to the HSD framework #2746",2025-04-10 20:43:15+00:00,2025-05-23 19:32:23+00:00,True,1030.82
+2691,Add GFSv17 IAU restart tests without waves + Add tags to stoch physics int variables + Fix filepath in user's guide,2025-04-10 14:19:12+00:00,2025-05-23 14:29:16+00:00,True,1032.17
+2690,Switch to vector remapping and bilinear interpolation for global coupled configurations,2025-04-09 16:53:17+00:00,2025-05-05 14:28:16+00:00,True,621.58
+2684,Add MERRA2 aerosol three hourly forcing to drive UFS ,2025-04-07 18:12:29+00:00,2025-07-21 18:57:33+00:00,False,2520.75
+2682,Update upp submodule to the latest UPP,2025-04-06 00:13:56+00:00,2025-04-10 14:02:40+00:00,True,109.81
+2680,Scientific documentation for SRW v3.0.0 release,2025-04-04 17:42:45+00:00,2025-04-07 13:24:41+00:00,True,67.7
+2679,CCPP Scientific documentation for SRW v3.0.0 release,2025-04-03 18:05:20+00:00,2025-04-03 18:35:02+00:00,False,0.49
+2674,IAU Tags for Global Workflow,2025-03-31 15:34:42+00:00,2025-04-21 19:01:58+00:00,False,507.45
+2672,Add GFSv17 IAU restart tests without waves,2025-03-31 15:15:45+00:00,2025-04-03 18:28:58+00:00,False,75.22
+2669,Update WW3  by merging develop  as of 2025-03-20,2025-03-26 19:00:06+00:00,2025-03-28 21:14:21+00:00,True,50.24
+2664,Sync CDEPS and CMEPS to ESCOMP,2025-03-21 19:03:07+00:00,2025-03-27 18:38:50+00:00,True,143.6
+2663,"Add ""ultra low"" coupled configurations to RTs (Reopen #2564); update inputdata; clean up misc items in multiple test configurations",2025-03-21 16:48:48+00:00,2025-05-09 15:00:23+00:00,True,1174.19
+2661,NSSL MP scheme updates + Stochastic Physics CI/CD & Unit Test,2025-03-21 14:54:05+00:00,2025-05-01 17:26:53+00:00,True,986.55
+2659,Update CCPP framework and physics CMakeLists.txt; forward ccpp-framework to HEAD of main,2025-03-21 11:42:36+00:00,2025-04-16 16:32:40+00:00,False,628.83
+2655,Memcheck fixes,2025-03-19 12:47:14+00:00,2025-04-11 20:49:50+00:00,True,560.04
+2651,"CCPP updates in fv3atm/ccpp-physics: split physics in two groups, reset GFS_interstitial DDT in CCPP_driver.F90",2025-03-14 16:49:03+00:00,2025-04-02 19:28:07+00:00,False,458.65
+2650,Upgrade UFS-WM to spack-stack/1.9.2,2025-03-14 01:08:51+00:00,2025-07-03 16:46:09+00:00,True,2679.62
+2649,[Trial] Jenkins build,2025-03-13 22:22:19+00:00,2025-03-14 15:47:37+00:00,False,17.42
+2645,Update WM docs for SRW v3.0.0 release,2025-03-12 13:41:58+00:00,2025-03-18 12:41:39+00:00,True,142.99
+2635,Update the upp submodule for GFS v17 and GEFS v13,2025-03-06 14:05:26+00:00,2025-03-11 18:08:05+00:00,True,124.04
+2634,Update FHMAX to 12 for RAP tests,2025-03-05 13:51:25+00:00,2025-08-29 23:00:24+00:00,False,4257.15
+2633,Resolve miscellaneous WM issues and update documentation,2025-03-04 19:17:27+00:00,2025-05-06 20:39:47+00:00,True,1513.37
+2632,Add output of ocean scalar variables for quick diagnostics ,2025-03-04 02:55:07+00:00,2025-03-10 17:05:01+00:00,False,158.16
+2630,Exporting Canopy Variables from AQM to Facilitate Sub-Canopy Effects in FV3 and CCPP,2025-02-28 19:23:02+00:00,2025-07-17 15:35:16+00:00,True,3332.2
+2629,Upgrade AQM to v8 (CMAQ 5.4),2025-02-28 18:32:54+00:00,2025-03-13 20:41:50+00:00,True,314.15
+2628,Fix CICD Jenkinsfile change default RT suite to full ,2025-02-27 21:32:59+00:00,2025-03-10 17:04:15+00:00,False,259.52
+2625,fixed restart non-reproducing issue 2588 when using MERRA2 climatology + Add output of ocean scalar variables for quick diagnostics #2632 + Fix CICD Jenkinsfile change default RT suite to full #2628,2025-02-27 14:38:46+00:00,2025-03-10 17:02:51+00:00,True,266.4
+2624,Reduce WW3 memory use,2025-02-26 15:23:59+00:00,2025-07-01 13:07:18+00:00,True,2997.72
+2622,Create CICD README.txt,2025-02-26 01:24:24+00:00,2025-03-13 22:10:13+00:00,False,380.76
+2621,Update WW3 to sync develop through 20241220 commits ,2025-02-25 21:01:50+00:00,2025-03-20 13:46:00+00:00,True,544.74
+2620,Update AQM to use latest CMAQ v5.2.1,2025-02-25 18:01:41+00:00,2025-02-25 18:12:01+00:00,True,0.17
+2618,"Revert ""Update AQM""",2025-02-25 17:15:02+00:00,2025-02-25 17:15:35+00:00,True,0.01
+2617,Update AQM,2025-02-25 17:09:49+00:00,2025-02-25 17:11:22+00:00,True,0.03
+2613,[production/GFS.v16.3] - update WW3 .gitmodules branch name for future referece,2025-02-21 17:54:29+00:00,2025-02-21 17:58:10+00:00,True,0.06
+2610,"Convert GFS DDTs from blocked data structures to contiguous arrays: Part Deux  + CCPP updates in fv3atm/ccpp-physics: split physics in two groups, reset GFS_interstitial DDT in CCPP_driver.F90 #2651 + Hera move spack-stack to /contrib #2579",2025-02-21 15:52:23+00:00,2025-04-02 19:27:20+00:00,True,963.58
+2604,CMake Atmosphere Dycore Generalization + Fix for JEDI cubed sphere grid #2708,2025-02-14 23:22:30+00:00,2025-04-23 15:25:39+00:00,True,1624.05
+2603,Update GFSv16.4 ,2025-02-14 16:42:13+00:00,2025-02-14 17:01:19+00:00,True,0.32
+2601,Merge NCAR:main to ufs-community:ufs/dev (ccpp/physics) + update GF/C3 for SRW3.0 release,2025-02-11 15:32:49+00:00,2025-02-14 17:38:34+00:00,True,74.1
+2599,Update upp in FV3,2025-02-10 19:18:47+00:00,2025-02-27 21:35:38+00:00,False,410.28
+2597,Tenth reconciliation PR from production/RRFS.v1,2025-02-10 17:03:00+00:00,2025-02-19 18:40:07+00:00,True,217.62
+2595,Use ESMF Redist instead of Remap for FV3 history bundles with 'cubed_sphere_grid' output grid,2025-02-10 14:00:54+00:00,2025-04-07 16:52:10+00:00,True,1346.85
+2594,Production/GFS.v16:  update WW3 component to write indicator log file for gridded output,2025-02-06 19:07:45+00:00,2025-02-11 18:15:58+00:00,True,119.14
+2592,Feature/cicd bugfix to save metrics result files,2025-02-06 16:41:30+00:00,2025-02-10 14:58:37+00:00,False,94.29
+2591,"Add support for FV3 native grid (cubed sphere) to history and restart write netcdf routines + Add new cmake variable UFS_COMPILER_SUITE to support mixed Intel compilers (icx, icpx, ifort) #2504",2025-02-05 15:14:24+00:00,2025-03-26 17:10:35+00:00,True,1177.94
+2590,Tempo implementation,2025-02-04 16:31:32+00:00,2025-07-02 19:20:41+00:00,False,3554.82
+2587,Add Land IAU parameters to default_vars / control_c48_lnd_iau modifications // #2585 Update for WW3 initialization,2025-02-01 02:21:25+00:00,2025-02-05 18:02:29+00:00,True,111.68
+2585,Update for WW3 initialization ,2025-01-31 14:55:10+00:00,2025-02-05 18:02:31+00:00,False,123.12
+2584,Add two-way ocean-wave coupling feature to the HAFS applications,2025-01-30 19:13:55+00:00,2025-08-11 15:56:20+00:00,True,4628.71
+2581,Allow model_configure to provide a path for FV3ATM output,2025-01-30 13:43:45+00:00,2025-02-03 19:28:36+00:00,False,101.75
+2579,Hera move spack-stack to /contrib,2025-01-29 00:13:02+00:00,2025-04-02 19:28:36+00:00,False,1531.26
+2576,update GF/C3 for SRW3.0 release,2025-01-28 16:41:21+00:00,2025-02-14 17:39:01+00:00,False,408.96
+2575,[production/GFS.v16] GFSv16 prod update of WW3 for optimized point output,2025-01-28 15:57:16+00:00,2025-01-29 13:57:10+00:00,True,22.0
+2573,Loosen restriction on optional arguments in CCPP Framework,2025-01-27 21:59:12+00:00,2025-04-25 16:47:43+00:00,True,2106.81
+2572,FV3 CCPP: wet() bug fix and workaround for bad tsfco,2025-01-27 20:57:35+00:00,2025-02-12 19:08:52+00:00,False,382.19
+2570,Remove Expanse/Odin/Stampede & Update Orion/Hercules lmod init script location,2025-01-24 16:57:31+00:00,2025-02-10 14:59:09+00:00,False,406.03
+2569,Update CICE (2025-01) +  Feature/cicd bugfix to save metrics result files #2592 +  Remove Expanse/Odin/Stampede & Update Orion/Hercules lmod init script location #2570 ,2025-01-24 08:50:43+00:00,2025-02-10 14:58:00+00:00,True,414.12
+2568,Update CICD to move label deletion to Jenkinsfile,2025-01-24 00:27:39+00:00,2025-02-03 19:30:56+00:00,False,259.05
+2567,Introduce prognostic updraft velocity to saSAS and C3 convection schemes,2025-01-23 21:20:13+00:00,2025-03-24 18:12:29+00:00,True,1436.87
+2566,fix ci post_test_results,2025-01-23 16:42:53+00:00,2025-01-23 23:56:43+00:00,False,7.23
+2564,"Add ""ultra low"" coupled configurations to RTs",2025-01-21 17:54:21+00:00,2025-03-21 15:57:42+00:00,False,1414.06
+2559,"Enable customizable idealized, doubly-periodic tests",2025-01-15 15:35:08+00:00,2025-08-06 17:46:01+00:00,False,4874.18
+2556,update MOM6 to its main repo. 20250113 commit (original 20241127-PR),2025-01-14 03:32:02+00:00,2025-01-21 19:13:05+00:00,False,183.68
+2552,Fix computation of average radiation quantities,2025-01-13 15:27:12+00:00,2025-01-13 15:29:29+00:00,False,0.04
+2550,Update WW3 with 20240116 commit ,2025-01-06 20:48:36+00:00,2025-02-24 13:37:48+00:00,True,1168.82
+2549,Merge develop of WW3 up to 2024-01-11 to dev/ufs-weather-model #1342,2025-01-06 17:52:36+00:00,2025-01-17 18:23:54+00:00,False,264.52
+2548,"Updates to radiation, cloud, and land processes for improved surface temperature and radiative flux biases + Allow model_configure to provide a path for FV3ATM output #2581 + Update CICD to move label deletion to Jenkinsfile #2568",2025-01-06 17:43:27+00:00,2025-02-03 19:28:35+00:00,True,673.75
+2546,Update with WW3 develop branch 20241220 ,2024-12-20 22:06:55+00:00,2025-03-26 19:01:32+00:00,False,2300.91
+2544,Update fv3atm/ccpp-physics submodules: Add CCPP host variable to track initialization of GFS_phys_time_vary,2024-12-19 22:35:42+00:00,2025-01-17 18:24:25+00:00,False,691.81
+2543,Fix ugwpv1 timing / remove some extended WLCLK cases & PR#2491 Updates from the jedi model convention,2024-12-19 17:39:29+00:00,2025-01-13 21:32:10+00:00,True,603.88
+2538,Sync with ESCOMP/CDEPS (2024-12-16) + Add support for traditional threading (#2533),2024-12-17 16:23:16+00:00,2024-12-23 21:27:07+00:00,True,149.06
+2536,Feature epic metrics,2024-12-12 17:10:13+00:00,2025-01-22 16:41:26+00:00,True,983.52
+2533,Add support for traditional threading,2024-12-10 16:31:08+00:00,2024-12-23 21:27:46+00:00,False,316.94
+2532,Ninth reconciliation PR from production/RRFS.v1 + Add CCPP host variable to track initialization of GFS_phys_time_vary (#2544) + develop of WW3 up to 2024-01-11 to dev/ufs-weather-model #1342 (#2549),2024-12-05 22:07:27+00:00,2025-01-17 17:14:45+00:00,True,1027.12
+2531,Eighth reconciliation PR from production/RRFS.v1,2024-12-05 21:47:12+00:00,2025-01-07 19:52:03+00:00,True,790.08
+2530,Seventh reconciliation PR from production/RRFS.v1,2024-12-05 21:10:05+00:00,2025-01-03 16:43:05+00:00,True,691.55
+2529,Sixth reconciliation PR from production/RRFS.v1 + FV3 CCPP: wet() bug fix and workaround for bad tsfco #2572,2024-12-05 16:17:45+00:00,2025-02-12 19:08:18+00:00,True,1658.84
+2528,Update global_control.nml.IN based on GW specs,2024-12-04 21:51:55+00:00,2024-12-16 20:48:12+00:00,False,286.94
+2512,Add PIO switch to WW3 to avoid build errors,2024-11-22 17:46:12+00:00,2024-12-06 16:50:57+00:00,False,335.08
+2510,Avoid conflicting instantaneous CICE history output,2024-11-21 18:45:07+00:00,2024-11-26 17:05:40+00:00,False,118.34
+2505,Update CICE (2024-11) including pio_finalize bug fix,2024-11-19 06:39:40+00:00,2024-12-03 19:58:27+00:00,True,349.31
+2504,"Add new cmake variable UFS_COMPILER_SUITE to support mixed Intel compilers (icx, icpx, ifort)",2024-11-19 03:33:34+00:00,2025-03-26 17:11:31+00:00,False,3061.63
+2503,GFDLMP-v3 and TEMPO MP microphysics,2024-11-18 23:39:10+00:00,2025-07-14 23:32:58+00:00,True,5711.9
+2498,[develop]: Add documentation for HSD cases in `tests-dev`,2024-11-14 20:27:09+00:00,2024-11-21 18:32:36+00:00,False,166.09
+2495,Feature/ci metrics,2024-11-12 22:46:34+00:00,2024-11-13 19:25:26+00:00,False,20.65
+2491,Updates from the jedi model convention,2024-11-06 16:45:11+00:00,2025-01-13 21:32:12+00:00,False,1636.78
+2489,Update inline post + Add documentation for HSD cases in tests-dev #2498,2024-11-04 00:34:11+00:00,2024-11-21 18:27:13+00:00,True,425.88
+2488,[production/RRFS.v1] saSAS sigmab initialization changes and and inline post bug fix for RUC LSM,2024-11-02 01:32:21+00:00,2025-01-28 13:45:03+00:00,True,2100.21
+2487,Minor modification and bug fix in GFS cumulus convection schemes,2024-10-31 16:59:49+00:00,2025-03-06 19:48:35+00:00,True,3026.81
+2485,Fifth reconciliation PR from production/RRFS.v1,2024-10-29 21:10:23+00:00,2024-12-30 18:27:24+00:00,True,1485.28
+2483,Fourth reconciliation PR from production/RRFS.v1 + Add PIO switch to WW3 to avoid build errors #2512,2024-10-29 20:11:16+00:00,2024-12-06 16:49:40+00:00,True,908.64
+2482,Third reconciliation PR from production/RRFS.v1,2024-10-29 17:19:42+00:00,2024-11-25 16:12:27+00:00,True,646.88
+2481,Second reconciliation PR from production/RRFS.v1,2024-10-25 20:24:20+00:00,2024-11-08 19:48:39+00:00,False,335.41
+2478,Add long forecast SFS Regression Test,2024-10-22 14:52:07+00:00,2024-12-05 15:56:09+00:00,False,1057.07
+2475,Fix/cpld sfs rt + Pull in units updates from FV3 #2467,2024-10-18 17:49:52+00:00,2024-11-05 21:28:18+00:00,True,435.64
+2471,Port UFS-WM to Ursa,2024-10-15 19:11:57+00:00,2025-07-07 19:07:27+00:00,True,6359.93
+2469,Sync with ESCOMP/CDEPS (2024-12) + Update global_control.nml.IN based on GW specs (#2528) + Sync with ESCOMP/CMEPS,2024-10-14 14:34:21+00:00,2024-12-16 20:47:06+00:00,True,1518.21
+2467,Pull in units updates from FV3,2024-10-11 14:31:17+00:00,2024-11-05 21:28:51+00:00,False,606.96
+2465,Update chunksizes for cubed sphere grid,2024-10-11 13:33:00+00:00,2024-10-23 16:02:19+00:00,False,290.49
+2464,"Submodule pointer update (fv3atm, ccpp-framework) for ccpp-framework PR 600 (bug fix for unit conversion error in ccpp_prebuild.py )",2024-10-11 02:39:09+00:00,2024-10-23 16:02:46+00:00,False,301.39
+2463,"[develop]: Documentation updates + Submodule pointer update (fv3atm, ccpp-framework) for ccpp-framework PR 600 (bug fix for unit conversion error in ccpp_prebuild.py ) #2464 + Update chunksizes for cubed sphere grid #2465",2024-10-10 20:40:47+00:00,2024-10-23 16:01:55+00:00,True,307.35
+2461,Add developmental test cases: idealized baroclinic wave and 2020 July CAPE cases + https://github.com/ufs-community/ufs-weather-model/pull/2459,2024-10-10 20:25:30+00:00,2024-11-12 21:08:15+00:00,True,792.71
+2459,Update calculation of time-averaged radiation variables,2024-10-09 13:59:37+00:00,2024-12-13 18:01:10+00:00,False,1564.03
+2458,Enable some of the intel llvm tests in rt conf + Second reconciliation PR from production/RRFS.v1 #2481,2024-10-09 13:42:32+00:00,2024-11-08 19:47:58+00:00,True,726.09
+2456,support ufs-weather-model using Rocky 8 on CSPs,2024-10-08 15:26:10+00:00,2024-11-12 21:09:16+00:00,False,845.72
+2453,Upgrade to spack-stack 1.8.0,2024-10-07 22:05:38+00:00,2025-02-25 17:46:54+00:00,False,3379.69
+2451,Feature/mpas dycore,2024-10-07 14:41:08+00:00,2025-06-18 22:04:28+00:00,False,6103.39
+2449,First reconciliation PR from production/RRFS.v1,2024-10-04 15:10:43+00:00,2024-10-18 16:58:17+00:00,True,337.79
+2448,Gaea C6 support for UFSWM,2024-10-02 17:48:48+00:00,2024-12-18 17:33:20+00:00,True,1847.74
+2446,Bring CMAQ 5.4 into AQM,2024-09-25 14:51:35+00:00,2024-11-19 19:45:43+00:00,False,1324.9
+2445,Update WW3 for PIO/netCDF restarts,2024-09-24 17:26:21+00:00,2024-11-14 21:17:34+00:00,True,1227.85
+2442,Add GEFS regression test suite from EP5r2 configuration/case + Update UPP with new variables,2024-09-19 16:24:41+00:00,2025-02-27 21:34:32+00:00,True,3869.16
+2437,Add forecast day output for CICE via timestep stream,2024-09-11 15:00:17+00:00,2024-10-05 17:45:14+00:00,True,578.75
+2436,Updates for NOAA Cloud Rocky 8 platforms,2024-09-11 13:47:34+00:00,2024-09-25 15:55:46+00:00,False,338.14
+2434,Support Rocky8 on CSPs,2024-09-10 20:56:36+00:00,2024-09-25 15:59:40+00:00,False,355.05
+2431, Bump libraries on WCOSS2 to ip/4.0.0 w3emc/2.12.0 and all platforms to fms/2024.01,2024-09-09 16:56:10+00:00,2024-09-25 12:38:09+00:00,True,379.7
+2430,Update CICE and use EMC/CICE:develop branch from CICE-Consortium:main,2024-09-07 03:33:11+00:00,2024-09-19 20:51:41+00:00,True,305.31
+2428,[production/RRFS.v1] fix RRFS_sas_nogwd suite name inconsistency,2024-09-05 19:54:03+00:00,2024-09-11 11:48:22+00:00,True,135.91
+2425,GW-RT global_control.nml modifications,2024-09-03 14:54:40+00:00,2024-10-31 21:53:22+00:00,True,1398.98
+2419,"Flexible restart write times (restart_fh) for med, ocn, ice, wav",2024-08-28 17:36:59+00:00,2024-12-11 18:19:28+00:00,True,2520.71
+2417,Remove the IFI tests,2024-08-27 22:15:02+00:00,2024-09-03 14:35:59+00:00,False,160.35
+2415,Add soil temperature and moisture IAU,2024-08-27 14:15:18+00:00,2024-11-19 14:03:53+00:00,True,2015.81
+2412,update mom6 to its main repo. 20240824 commit (FMA),2024-08-26 03:26:45+00:00,2024-09-09 13:10:21+00:00,True,345.73
+2408,Combination for CCPP-physics #213 and #218 (H2O scheme refactor and C3/SAS/MYNN fix),2024-08-23 19:24:02+00:00,2024-08-29 19:49:45+00:00,True,144.43
+2405,[production/RRFS.v1] a new parameter to fix REFS member crash and new ccpp suites for RRFS fire weather,2024-08-22 18:51:56+00:00,2024-09-04 20:49:26+00:00,True,313.96
+2404,[DRAFT] GFSv17 iau restart test,2024-08-21 17:33:15+00:00,2025-07-03 14:05:40+00:00,False,7580.54
+2396,Modifications for ufs-coastal app; update MOM6 to its main repo. 20250113 commit (original 20241127-PR) (was #2556),2024-08-12 13:13:42+00:00,2025-01-21 19:12:28+00:00,True,3893.98
+2395,Update CMEPS; fix aux history functionality for float variable type; Switch to using Aux history files in atm_ds2s_docn_dice test; Remove IFI tests (was #2417),2024-08-12 13:04:58+00:00,2024-09-03 14:30:56+00:00,True,529.43
+2391,Refactor NRL h2o photochemical scheme,2024-08-09 15:22:23+00:00,2024-08-23 19:33:18+00:00,False,340.18
+2389,"Unify CDEPS gfs, cfsr, and gefs datm datamodes + Improve error checking in rt.sh (2388) + Add ability to read increment files on native cubed sphere grid (2304)",2024-08-07 05:54:20+00:00,2024-08-27 15:29:46+00:00,True,489.59
+2388,Improve error checking in rt.sh,2024-08-05 13:54:06+00:00,2024-08-27 16:00:17+00:00,False,530.1
+2387,Updates for component NoahMP land model,2024-08-02 17:41:34+00:00,2025-01-28 19:03:31+00:00,True,4297.37
+2381,update to MOM6 main 20240729 commit (gfdl-to-main-2024-05-31),2024-07-31 14:15:55+00:00,2024-08-17 18:18:14+00:00,True,412.04
+2375,Allow use of downscaled warmstart files for cpld_control_sfs test,2024-07-19 23:07:18+00:00,2024-08-21 12:23:16+00:00,True,781.27
+2374,SKEB fix with d_con = zero,2024-07-19 21:36:44+00:00,2024-08-12 23:31:58+00:00,False,577.92
+2373,Add omega calculation and change LSM diag option to RTs,2024-07-19 15:13:49+00:00,2024-08-01 14:15:05+00:00,True,311.02
+2370,initialize scalar field when created for non-CSG (cube-sphere grid) components,2024-07-17 13:06:38+00:00,2024-08-06 14:40:14+00:00,True,481.56
+2367,Fix WW3 NUOPC cap to allow using radiation stress components,2024-07-16 16:27:06+00:00,2024-08-13 21:56:22+00:00,False,677.49
+2363,Update damping and time step parameters,2024-07-11 18:39:43+00:00,2024-09-13 14:08:21+00:00,True,1531.48
+2362,Hotfix to update with cubed sphere bug fix ,2024-07-11 13:17:19+00:00,2024-07-16 13:25:31+00:00,True,120.14
+2357,Bump certifi from 2024.2.2 to 2024.7.4 in /doc/UsersGuide,2024-07-06 01:36:51+00:00,2024-07-18 15:06:31+00:00,False,301.49
+2355,Fix dumpfields=true option by using ESMF_FieldBundleWrite,2024-07-03 13:45:54+00:00,2024-07-30 11:17:16+00:00,True,645.52
+2354,Land surface upgrades for HR4,2024-07-02 23:54:56+00:00,2024-07-24 12:04:22+00:00,True,516.16
+2352,update CMEPS ,2024-07-01 22:56:34+00:00,2024-07-26 15:45:51+00:00,True,592.82
+2344,Bug fix for physics suites using C3 or SAS convection with MYNN PBL scheme,2024-06-26 17:59:13+00:00,2024-08-29 19:51:26+00:00,False,1537.87
+2343,"[production/RRFS.v1] ""to use fms/2024.1 & RUC LSM deep soil temperature updates""",2024-06-26 17:00:33+00:00,2024-07-03 17:58:09+00:00,True,168.96
+2340,HR4 and SFS baseline update: Improve convection/radiation interaction in the GFS physics suite ,2024-06-25 18:29:28+00:00,2024-07-20 01:27:12+00:00,True,582.96
+2337,[production/AQM.v7] AQMv7.1 upgrades,2024-06-24 15:53:00+00:00,2024-06-25 15:41:03+00:00,True,23.8
+2336,Orion changes for switch to new OS - Rocky-9,2024-06-21 23:19:10+00:00,2024-06-25 21:09:59+00:00,False,93.85
+2335,Restore error checking in regression test system. (Combined PR#2357 and PR#2265),2024-06-21 19:46:33+00:00,2024-07-18 15:04:43+00:00,True,643.3
+2333,Adds support for TEMPO microphysics,2024-06-21 14:32:00+00:00,2025-02-04 16:32:16+00:00,False,5474.0
+2329,Bump urllib3 from 2.2.1 to 2.2.2 in /doc/UsersGuide,2024-06-17 22:57:04+00:00,2024-06-25 21:10:00+00:00,False,190.22
+2327, Add an option in dynamics to calculate omega in non-hydrostatic runs similar to hydrostatic method,2024-06-14 15:16:15+00:00,2024-07-03 18:04:09+00:00,True,458.8
+2326,sync with head of NOAA-EMC UPP develop,2024-06-13 21:22:46+00:00,2024-08-23 17:53:20+00:00,True,1700.51
+2324,Add CICE end of run restart file capability+Update submodule FV3/atmos_cubed_sphere to fix a typo when printing out the nest grid corner locations #2323+Bump urllib3 from 2.2.1 to 2.2.2 in /doc/UsersGuide #2329 + Orion changes for switch to new OS - Rocky-9 #2336,2024-06-13 15:27:12+00:00,2024-06-25 21:08:46+00:00,True,293.69
+2323,Update submodule FV3/atmos_cubed_sphere to fix a typo when printing out the nest grid corner locations,2024-06-13 14:58:24+00:00,2024-06-26 12:28:42+00:00,False,309.5
+2318,DRAFT Jenkinsfile label drop bug-fix,2024-06-11 14:44:40+00:00,2024-07-11 13:25:06+00:00,False,718.67
+2316,Ss 160,2024-06-10 16:16:49+00:00,2024-06-18 19:09:31+00:00,False,194.88
+2315,[WIP] Update cpld_bmark_p8 to EP5 configuration towards GEFS.v13,2024-06-10 09:44:49+00:00,2024-09-19 16:25:22+00:00,False,2430.68
+2312,Adding a change to generate a PR,2024-06-06 21:19:21+00:00,2024-06-07 14:11:13+00:00,False,16.86
+2308,Update submodule ufs_model.fd features for gaea c5,2024-06-04 19:48:13+00:00,2024-06-07 23:27:28+00:00,False,75.65
+2307,Update submodule ufs_model.fd features for gaea c5,2024-06-04 19:43:12+00:00,2024-06-04 19:47:27+00:00,False,0.07
+2304,Add ability to read increment files on native cubed sphere grid,2024-05-30 18:12:17+00:00,2024-08-27 16:00:44+00:00,False,2133.81
+2302,Update WCOSS2 libraries for spack-stack 1.6.0 (Combined PR #2301),2024-05-30 15:40:59+00:00,2024-05-31 18:52:06+00:00,True,27.19
+2301,A few miscellaneous minor fixes to regression test scripts,2024-05-29 20:59:11+00:00,2024-05-31 18:52:07+00:00,False,45.88
+2298,[production/RRFS.v1] The final smoke update PR to RRFS.v1,2024-05-28 22:41:34+00:00,2024-08-06 18:44:20+00:00,True,1676.05
+2297,Add explicit alpha_fd coefficient to TOFD in UGWPv1 drag suite,2024-05-28 16:49:46+00:00,2025-04-01 23:04:00+00:00,False,7398.24
+2296,[develop]: Minor documentation bug fixes,2024-05-24 05:42:54+00:00,2024-05-28 21:03:23+00:00,False,111.34
+2292,Bump requests from 2.31.0 to 2.32.0 in /doc/UsersGuide,2024-05-21 07:44:09+00:00,2024-05-28 21:04:52+00:00,False,181.35
+2290,HR4 GWD update for FV3,2024-05-19 15:52:54+00:00,2024-07-11 11:21:18+00:00,True,1267.47
+2287,Update AQM RT's to v16 and update input-data (Merged with Bring AQM changes from production/AQM.v7 into develop branch #2279),2024-05-17 14:49:44+00:00,2025-04-02 12:14:48+00:00,False,7677.42
+2286,Add end of run restart functionality to MOM6,2024-05-16 02:59:51+00:00,2024-05-21 23:28:19+00:00,False,140.47
+2284,New gnv1_nested regression test,2024-05-15 20:15:31+00:00,2024-06-11 19:18:37+00:00,False,647.05
+2283,update WAM RT compatible with v17,2024-05-15 18:25:19+00:00,2024-06-18 17:11:08+00:00,True,814.76
+2281,Allow diagnostic accumulation bucket to change in fv3atm integration  + develop]: Minor documentation bug fixes #2296,2024-05-14 20:27:00+00:00,2024-05-28 21:03:22+00:00,True,336.61
+2279,Bring AQM changes from production/AQM.v7 into develop branch,2024-05-13 18:58:22+00:00,2025-04-21 12:21:22+00:00,False,8225.38
+2278,Addition of python script to add yaml-based test option + Creation of FV3 diag table documentation #2277 + SKEB fix with d_con = zero #2374,2024-05-13 11:43:11+00:00,2024-08-12 23:03:49+00:00,True,2195.34
+2277,Creation of FV3 diag table documentation,2024-05-10 19:46:05+00:00,2024-08-12 23:31:23+00:00,False,2259.76
+2275,update mom6 to  its main repo. 20240508 commit,2024-05-09 17:52:45+00:00,2024-05-14 10:05:19+00:00,False,112.21
+2273,upgrade MERRA2 climatology from 2003-2014 mean to 2014 to 2024 mean,2024-05-09 13:59:30+00:00,2024-05-24 17:56:59+00:00,True,363.96
+2271,update cubed sphere gitmodules for perturbation/increments for cold starts,2024-05-08 21:36:48+00:00,2024-06-07 23:22:02+00:00,False,721.75
+2270,Bump jinja2 from 3.1.3 to 3.1.4 in /doc/UsersGuide,2024-05-06 21:16:32+00:00,2024-05-09 18:02:04+00:00,False,68.76
+2269,Build ufs_weather_model on Gaea-C5 + update cubed sphere gitmodules for perturbation/increments for cold starts #2271,2024-05-06 17:14:47+00:00,2024-06-07 23:22:01+00:00,True,774.12
+2265,Feature/detect frontera,2024-05-03 17:58:46+00:00,2024-07-26 16:08:40+00:00,False,2014.16
+2264,"Combination CCPP-related PR for ozone diagnostics, metadata intent bugfixes, sfcsub.F landmask bugfix, and canopy resistance output",2024-05-03 15:08:35+00:00,2024-05-20 15:43:28+00:00,True,408.58
+2259,Update CICE to CICE-Consortium (2024-05-01)+update mom6 to its main repo. 20240508 commit #2275,2024-04-30 05:36:30+00:00,2024-05-13 17:07:27+00:00,True,323.52
+2258,Modify module files to compile on AWS with spack-stack-1.6.0,2024-04-29 19:30:41+00:00,2024-05-28 14:34:32+00:00,False,691.06
+2255,Add a RT for SFS with hydrostatic options,2024-04-26 13:58:17+00:00,2024-05-16 05:35:50+00:00,True,471.63
+2254,Add option to specify fv3atm history and inline post files output directory,2024-04-26 13:40:37+00:00,2024-05-09 18:02:04+00:00,False,316.36
+2253,Bug fix for ccpp-physics routine sfcsub.F,2024-04-26 12:27:03+00:00,2024-05-07 20:15:40+00:00,False,271.81
+2252,add a model_configure template for global nest,2024-04-26 03:34:53+00:00,2024-05-30 20:33:02+00:00,False,832.97
+2249,[production/RRFS.v1] Add clear-sky shortwave downward at surface flux to available diagnostics.,2024-04-23 20:42:56+00:00,2024-05-07 15:46:06+00:00,True,331.05
+2248,Feature/swdnclrskyflx diag,2024-04-23 18:08:17+00:00,2024-04-24 14:27:14+00:00,False,20.32
+2241,update MOM6 to its main repo. 20240401 commit,2024-04-17 14:32:30+00:00,2024-04-25 18:52:01+00:00,True,196.33
+2238,DRAFT: Update Jenkinsfile.combined,2024-04-15 15:56:14+00:00,2024-04-30 16:29:45+00:00,False,360.56
+2235,update inputdata for Bu angle fix; re-enable cpld C48 warmstart test,2024-04-12 15:42:28+00:00,2024-05-07 13:37:57+00:00,True,597.92
+2234,Bump idna from 3.6 to 3.7 in /doc/UsersGuide,2024-04-12 04:47:31+00:00,2024-04-15 12:59:42+00:00,True,80.2
+2229,DRAFT: Update Jenkinsfile.combined refresh branch,2024-04-08 13:39:26+00:00,2024-04-15 15:56:05+00:00,False,170.28
+2226,[production/RRFS.v1] parallel IO enhancements from GDIT,2024-04-04 21:04:29+00:00,2024-05-03 16:37:53+00:00,True,691.56
+2225,Add bash linting to CI. Cleanup .sh scripts a bit. Address .sh bugs. Adds -v Verbose option. (#2218)  Remove nowarn Intel compiler flag,2024-04-03 23:56:59+00:00,2024-04-17 19:59:48+00:00,True,332.05
+2224,Support IntelLLVM compiler,2024-04-03 15:37:05+00:00,2024-10-01 18:24:06+00:00,True,4346.78
+2223,Hotfix/cubed sphere hash fix: HAILCAST diagnostic code (units issue),2024-04-03 12:35:36+00:00,2024-04-04 23:49:13+00:00,True,35.23
+2221,fixed excessive evaporation when both innerloop and mraerosol=T,2024-04-01 18:31:08+00:00,2024-05-02 11:53:47+00:00,True,737.38
+2220,Fire Coupling FV3ATM and Community Fire Behavior Model,2024-04-01 18:25:26+00:00,2024-09-17 16:41:53+00:00,True,4054.27
+2218,Remove nowarn Intel compiler flag,2024-04-01 16:09:41+00:00,2024-04-19 14:44:19+00:00,False,430.58
+2215,Adding a few JEDI-related aliases into the `fd_ufs.yaml` file+Add option to specify fv3atm history and inline post files output directory #2254 + Bump jinja2 from 3.1.3 to 3.1.4 in /doc/UsersGuide #2270,2024-03-29 03:51:37+00:00,2024-05-09 18:02:02+00:00,True,998.17
+2214,[production/RRFS.v1] Fix improperly assigned fire emissions for ebb_dcycle==1 for retrospectives (NOT operational!),2024-03-28 18:37:26+00:00,2024-04-11 17:59:21+00:00,True,335.37
+2213,Update upp submodule,2024-03-28 17:25:27+00:00,2024-04-19 17:59:13+00:00,True,528.56
+2212,[production/RRFS.v1] Update module_write_netcdf to avoid hangs in RRFS runs,2024-03-28 16:47:43+00:00,2024-04-02 13:50:16+00:00,True,117.04
+2205,Add support for optional arguments in ccpp physics and framework AND add end of run restart functionality to MOM6 (was #2286),2024-03-22 19:57:33+00:00,2024-05-21 22:31:34+00:00,True,1442.57
+2202,"regression test system bug fixes, eliminate MOM6 warnings (#2197), add xr_cnvcld flag to FV3 (#2185)",2024-03-21 18:08:16+00:00,2024-03-27 20:11:03+00:00,True,146.05
+2201,"bug fixes: kchunk3d ignored, hailwat uninitialized in dycore, tile_num wrong for nests",2024-03-21 18:00:44+00:00,2024-04-15 12:38:01+00:00,True,594.62
+2197,update MOM6 to remove compiling warning,2024-03-19 02:50:59+00:00,2024-03-27 21:19:11+00:00,False,210.47
+2195,WW3 feature:  Langmuir turbulence parameterization,2024-03-15 18:52:47+00:00,2024-03-29 19:23:42+00:00,True,336.52
+2194,Fix modulefiles for Hera/Rocky8 OS.,2024-03-15 17:34:58+00:00,2024-03-22 13:09:39+00:00,True,163.58
+2193,Update module_write_netcdf to avoid hangs in RRFS runs,2024-03-15 15:53:38+00:00,2024-04-01 22:04:44+00:00,True,414.19
+2191,Fix for land component model,2024-03-14 16:41:28+00:00,2024-04-30 17:35:26+00:00,True,1128.9
+2190,Updating to obfuscate sensitive AWS account information.,2024-03-13 19:05:00+00:00,2024-03-18 18:46:38+00:00,False,119.69
+2188,Langmuir turbulence parameterization for WW3,2024-03-13 15:07:11+00:00,2024-03-15 18:28:35+00:00,False,51.36
+2186,Add active atmosphere applications with data ocn and data ice components (ATM_DS2S and ATM_DS2S-PCICE) and regression tests (atm_ds2s_docn_dice and atm_ds2s_docn_pcice),2024-03-12 20:10:52+00:00,2024-06-11 18:21:05+00:00,True,2182.17
+2185,Introduce namelist flag xr_cnvcld to control if suspended grid-mean convective cloud condensate should be included in cloud fraction and optical depth calculation in radiation in the GFS suite. ,2024-03-12 19:18:43+00:00,2024-03-27 21:19:42+00:00,False,362.02
+2183,In fv3atm: convert GFS DDTs from blocked data structures to contiguous arrays,2024-03-11 20:29:52+00:00,2024-08-08 16:28:23+00:00,True,3595.98
+2181,Updates of ccpp-framework and ccpp-physics (merge ccpp-framework feature/capgen into main/20240308) Combined PR #2190,2024-03-08 17:06:52+00:00,2024-03-18 18:44:52+00:00,True,241.63
+2180,Incorporate csawMG update and pass both intel and GNU RT tests,2024-03-07 19:59:37+00:00,2024-03-14 20:38:41+00:00,True,168.65
+2179,Add traditional threading templates for global apps and append `_esmf` for templates using ESMF-managed threading.,2024-03-07 18:52:42+00:00,2024-03-11 14:57:07+00:00,False,92.07
+2175,Enable cpl_scalars export from ATM and NoahMP for use by CMEPS,2024-03-06 20:22:32+00:00,2024-04-03 23:57:09+00:00,True,675.58
+2173,Merged global namelist,2024-03-06 19:26:11+00:00,2024-04-23 16:24:22+00:00,True,1148.97
+2172,Remove compiler warnings for CMEPS and CICE; Add traditional threading templates for global apps and append _esmf for templates using ESMF-managed threading (was #2179),2024-03-05 17:44:42+00:00,2024-03-12 19:20:34+00:00,True,169.6
+2170,[production/RRFS.v1] MYNN PBL & Smoke update for RRFS.v1,2024-03-05 03:58:11+00:00,2024-03-19 19:01:44+00:00,True,351.06
+2168,Enable Rocky OS on Jet,2024-03-04 20:10:39+00:00,2024-03-11 16:51:24+00:00,False,164.68
+2166,update MOM6 to its main repo. 20240228 updating,2024-03-01 04:58:08+00:00,2024-03-04 22:25:05+00:00,True,89.45
+2164,"Add conflict for MOVING_NEST option with GNU Fortran, use mcmodel=small on macOS arm64 (also contains #2017)",2024-02-29 21:47:42+00:00,2024-03-11 16:43:08+00:00,True,258.92
+2161,[production/RRFS.v1] Thompson-Eidhammer microphysics code formatting,2024-02-28 19:30:25+00:00,2024-03-08 20:11:56+00:00,True,216.69
+2160,Document ATMW / ATMAERO / HAFS WM configurations,2024-02-27 23:04:04+00:00,2024-04-15 13:21:08+00:00,True,1142.28
+2158,[production/RRFS.v1] Fix 'check all' using 0-sized arrays,2024-02-27 22:18:27+00:00,2024-03-05 15:04:13+00:00,True,160.76
+2157,Document WM ATMW / ATMAERO / HAFS WM configurations,2024-02-27 20:55:11+00:00,2024-02-27 20:55:23+00:00,False,0.0
+2154,[production/AQM.v7] Remove -nowarn from FV3/atmos_cubed_sphere,2024-02-27 14:05:08+00:00,2024-02-27 14:43:21+00:00,True,0.64
+2149,[production/AQM.v7] Bring in fix for compile failure of unneeded file,2024-02-23 20:12:50+00:00,2024-02-23 21:34:07+00:00,True,1.35
+2147,[production/RRFS.v1] physics updates for RRFS.v1 code freeze,2024-02-23 16:52:30+00:00,2024-03-01 16:08:16+00:00,True,167.26
+2146,Add GFDL Land Model 4.0 ,2024-02-23 16:17:50+00:00,2024-10-11 15:00:38+00:00,True,5542.71
+2145,Add PIO namelist control for CICE,2024-02-22 18:27:05+00:00,2024-04-11 17:32:26+00:00,True,1175.09
+2142,[develop]: Update WM license and documentation logo,2024-02-21 00:04:47+00:00,2024-02-23 21:08:50+00:00,False,69.07
+2140,[production/RRFS.v1] Points FV3ATM and stochastic_physics at RRFS.v1 branches,2024-02-20 20:40:01+00:00,2024-02-21 21:38:48+00:00,True,24.98
+2139,[production/RRFS.v1] Points FV3ATM and stochastic_physics at RRFS.v1 branches,2024-02-20 20:33:12+00:00,2024-02-20 20:40:27+00:00,False,0.12
+2138,[production/RRFS.v1] Updates .gitmodules to use production/RRFS.v1 branches,2024-02-20 18:27:19+00:00,2024-02-20 20:31:08+00:00,False,2.06
+2137,tisfc bugfix,2024-02-20 17:58:11+00:00,2024-03-01 16:43:59+00:00,True,238.76
+2130,incorporate csawMG update and pass both intel and GNU RT tests,2024-02-12 22:50:17+00:00,2024-03-08 00:12:45+00:00,False,577.37
+2129,[production/AQM.v7] More EE2 compliance for removal of -nowarn in non-debug builds,2024-02-09 20:20:22+00:00,2024-02-12 20:26:29+00:00,True,72.1
+2128,allow diagnostic accumulation bucket to change in fv3atm integration,2024-02-08 14:55:05+00:00,2024-05-28 22:00:25+00:00,False,2647.09
+2125,allow cmeps mediator history files on single tiles; fix compiler warning,2024-02-05 22:59:50+00:00,2024-03-05 15:06:17+00:00,False,688.11
+2124,Fix out of bound errors in block_atmos_copy routines in fv3atm,2024-02-01 13:30:26+00:00,2024-02-10 05:27:19+00:00,False,207.95
+2123,Update .gitmodules and submodule pointer for fv3atm for code review and testing,2024-01-31 18:47:39+00:00,2024-02-27 19:08:52+00:00,False,648.35
+2118,Add extra variables to get ice temperature for marine DA,2024-01-26 13:43:30+00:00,2024-02-13 16:17:32+00:00,True,434.57
+2115,Updates for Gaea C5 & F2/F5 Transition + Fix out of bound errors in block_atmos_copy routines in fv3atm #2124,2024-01-24 20:08:49+00:00,2024-02-10 05:27:18+00:00,True,393.31
+2114,allow diagnostic accumulation bucket to change in fv3atm integration ,2024-01-24 16:49:45+00:00,2024-02-05 17:25:39+00:00,False,288.6
+2113,Post update,2024-01-23 22:40:18+00:00,2024-02-08 21:54:32+00:00,True,383.24
+2111,Use global-workflow detect_machine.sh to keep consistent between projects,2024-01-22 19:55:15+00:00,2024-02-10 05:27:20+00:00,False,441.53
+2108,Updating FV3 for moving nest land mask improvements,2024-01-19 21:03:34+00:00,2025-06-12 19:34:04+00:00,False,12238.51
+2107,Supplementary physics updates for RRFS code freeze,2024-01-19 19:41:58+00:00,2024-01-26 19:45:49+00:00,False,168.06
+2106,To replace PR #2059: Use MPI_Bcast instead of multiple p2p messages to update nest from parent,2024-01-19 18:42:44+00:00,2024-01-19 21:31:50+00:00,False,2.82
+2104,Consider sea surface currents in air-sea flux calculation for ufs atmosphere-ocean coupling,2024-01-19 08:51:04+00:00,2024-02-01 21:35:23+00:00,True,324.74
+2103,**DRAFT** Update UFS-WM RT System for GaeaC5/f5 data transfer ,2024-01-18 23:26:34+00:00,2024-01-23 19:15:13+00:00,False,115.81
+2102,Fix -check all runtime errors (for CCPP) using zero-size allocations,2024-01-18 21:56:04+00:00,2024-02-27 22:19:05+00:00,False,960.38
+2099,allow MOM6 to write non-interval restarts,2024-01-18 13:26:01+00:00,2024-01-18 19:22:03+00:00,False,5.93
+2098,fix NSSL MP init issue when initialized from other microphysics schemes,2024-01-18 02:00:36+00:00,2024-01-31 15:50:28+00:00,True,325.83
+2093,Upgrade spack-stack from version 1.5.1 to 1.6.0,2024-01-16 18:17:16+00:00,2024-06-05 17:48:34+00:00,True,3383.52
+2090,Update diag_table for global coupled iau test for mom6 history output ,2024-01-11 19:57:05+00:00,2024-01-24 14:51:50+00:00,True,306.91
+2086,Add timers to WW3 cap,2024-01-10 21:31:03+00:00,2024-01-18 00:19:52+00:00,False,170.81
+2085,Fix potential divide by zero in ww3; Add timers to WW3 cap (was #2086); Allow MOM6 to write non-interval restarts (was #2099),2024-01-10 20:30:46+00:00,2024-01-19 20:37:11+00:00,True,216.11
+2082,A MERRA2 aerosol interpolation bug was found by RRFS ,2024-01-09 00:42:51+00:00,2024-01-16 19:16:34+00:00,True,186.56
+2080,update MOM6 to its main repository 20231218 commit (disable FPEs) + Add stochastic physics pattern update frequency options within SPP and LNDP ('sppint' and 'lndpint') #2077 + Updates to ufs.configure for use in global applications #2074 + Doc Updates #2030,2024-01-07 04:43:56+00:00,2024-01-11 22:27:02+00:00,True,113.72
+2077,Add stochastic physics pattern update frequency options within SPP and LNDP ('sppint' and 'lndpint'),2024-01-06 05:15:24+00:00,2024-01-11 22:29:34+00:00,False,137.24
+2074,Updates to ufs.configure for use in global applications,2024-01-04 21:47:59+00:00,2024-01-11 22:30:04+00:00,False,168.7
+2069,Updates to ice_in.IN for use in global applications,2024-01-02 21:49:08+00:00,2024-01-04 17:40:31+00:00,False,43.86
+2066,Submodule pointer update for ccpp-framework/ccpp-physics & option to run compile jobs of regression test suite only & -mcmodel=medium gnu.cmake option (also includes https://github.com/ufs-community/ufs-weather-model/pull/2142),2023-12-28 21:48:24+00:00,2024-02-23 21:04:34+00:00,True,1367.27
+2064,Fix out-of-bounds access in module_diag_hailcast.F90 which crashes RRFS on WCOSS2,2023-12-27 19:52:21+00:00,2024-01-17 20:01:40+00:00,True,504.16
+2062,"Add option to write 3d soilt, soilw and soill variables to a history file",2023-12-22 17:09:27+00:00,2024-02-15 15:17:39+00:00,True,1318.14
+2061,"Re-work testing verification, fail file naming consistency, remove lsf support, simplify RT logs.",2023-12-22 16:21:09+00:00,2024-02-21 21:37:32+00:00,True,1469.27
+2059,Use MPI_Bcast instead of multiple p2p messages to update nest from parent,2023-12-20 23:13:14+00:00,2024-01-22 20:46:36+00:00,True,789.56
+2057,Adding Regression Tests Baseline Syncing Capabilities ,2023-12-19 18:10:59+00:00,2024-01-02 18:51:18+00:00,False,336.67
+2056,fix crash when using clm lake and GFS PBL/sfclay,2023-12-19 13:13:31+00:00,2023-12-21 18:13:02+00:00,False,52.99
+2054,Thompson-Eidhammer microphysics code formatting,2023-12-19 03:20:04+00:00,2024-02-28 20:18:21+00:00,False,1720.97
+2053,"Update PR template organization, adding commit message and priority section.",2023-12-19 02:01:05+00:00,2023-12-21 20:55:22+00:00,False,66.9
+2052,Fix build system to allow CMAKE_<COMPILER>_FLAGS to be specified for submodules,2023-12-18 20:37:57+00:00,2024-01-08 17:03:35+00:00,False,500.43
+2051,Fix build system to allow CMAKE_<COMPILER>_FLAGS to be specified for submodules,2023-12-18 20:10:20+00:00,2023-12-18 20:35:41+00:00,False,0.42
+2049,Test for RT log integration with Jenkins: no need to merge yet!,2023-12-18 19:08:58+00:00,2023-12-18 21:12:32+00:00,False,2.06
+2047,revisions to snowfall melting and accumulation from @tanyasmirnova,2023-12-18 17:58:32+00:00,2023-12-21 18:13:02+00:00,False,72.24
+2044,"CLM Lake pressure is not density and GFS Diagnostics: weasdi is not snodi + #2047, #2053, and #2056",2023-12-15 21:25:38+00:00,2023-12-21 18:13:00+00:00,True,140.79
+2043,Add comments to smc pert and fix bug in stc pert,2023-12-15 18:10:36+00:00,2023-12-19 20:07:04+00:00,False,97.94
+2041, bug fix: disable concurrency in GFS_phys_time_vary_init NetCDF calls AND #2040 and #2043,2023-12-15 00:51:45+00:00,2023-12-19 20:07:01+00:00,True,115.25
+2040,"Remove nfhout, nfhmax_hf, nfhout_hf etc configuration parameters",2023-12-14 21:29:56+00:00,2023-12-19 20:07:03+00:00,False,118.62
+2039,"feature/add-RT-logs, Jenkins testing.",2023-12-14 17:56:26+00:00,2024-01-02 18:50:41+00:00,False,456.9
+2035,Reorganization of ccpp-physics,2023-12-14 02:28:00+00:00,2024-01-04 14:43:44+00:00,True,516.26
+2030,WM Documentation Updates,2023-12-12 00:57:29+00:00,2024-01-11 22:29:08+00:00,False,741.53
+2028,Bring CDEPS inline capability to CMEPS,2023-12-06 20:38:19+00:00,2024-02-05 20:41:41+00:00,True,1464.06
+2027,"Update CICE, update ice_in for consistency w/ G-W (was #2069)",2023-12-06 20:11:58+00:00,2024-01-10 01:23:43+00:00,True,821.2
+2024,Smoke/Dust updates for RRFS code freeze,2023-12-03 22:03:24+00:00,2023-12-28 02:08:26+00:00,True,580.08
+2022,Code update for HR4_roughness,2023-12-01 15:14:10+00:00,2024-01-30 04:34:28+00:00,True,1429.34
+2021,Create 'coupler.res' log file in write grid comp. Explicitly specify chunk sizes in restart files,2023-11-30 22:42:10+00:00,2023-12-06 19:00:14+00:00,True,140.3
+2017,"PLATFORM 989/PLATFORM 1000 - Develop a label (manual) triggered pipeline based on CM team's approval of UFS-WM.  New and improved, now with parallelization. (Combined PR 2057 and PR 2039)",2023-11-29 17:19:25+00:00,2024-03-11 16:44:03+00:00,False,2471.41
+2013,"Spack-stack 1.5.1, ESMF 8.5.0, FMS 2023.02.01 + Remove Gaea C4 + Fix build system to allow CMAKE_<COMPILER>_FLAGS to be specified for submodules #2052",2023-11-29 01:47:13+00:00,2024-01-08 17:03:03+00:00,True,975.26
+2010,"add component defaults, rename templates to .in, rename ufs.configure for application, cleanup tests",2023-11-27 17:58:08+00:00,2023-12-11 15:07:48+00:00,True,333.16
+2009,Add atm+ocean+ice+aerosols S2SA regression test (cpld_s2sa_p8),2023-11-24 18:33:29+00:00,2023-12-13 16:30:23+00:00,True,453.95
+2007,"[production/AQM.v7] Updates to FV3/ccpp/physics , FV3/upp and FV3/atmos_cubed_sphere for AQMv7 EE2 compliance",2023-11-21 21:07:30+00:00,2023-11-30 21:34:23+00:00,True,216.45
+2005,New regression tests for V2 surface coldstart files,2023-11-20 13:10:04+00:00,2024-02-07 23:30:18+00:00,True,1906.34
+2001,fix grv function used by NST,2023-11-15 13:18:08+00:00,2023-11-20 20:49:05+00:00,True,127.52
+1998,Additional template variables for CICE namelist,2023-11-14 22:23:35+00:00,2023-11-27 18:39:25+00:00,False,308.26
+1997,new ccpp SDFs added to support RRFS multiphysics ensemble and add tob in ocean output (#2019),2023-11-14 19:13:28+00:00,2023-12-04 18:35:26+00:00,False,479.37
+1996,Feature/refconv,2023-11-14 19:02:52+00:00,2023-12-01 18:31:51+00:00,True,407.48
+1995,Sprint Demo Test PR,2023-11-13 18:56:14+00:00,2023-11-29 17:08:59+00:00,False,382.21
+1993,fix type mis-matches in nst water property module,2023-11-12 16:01:57+00:00,2023-11-30 01:37:12+00:00,True,417.59
+1992,[production/AQM.v7] Bring in build fixes to meet NCO requirements.,2023-11-11 23:13:05+00:00,2023-11-12 00:53:02+00:00,True,1.67
+1991,Platform-1000 add Sonarqube Static Code Analysis gate,2023-11-09 20:57:51+00:00,2023-12-01 21:17:35+00:00,False,528.33
+1990,Add option to use netcdf quantization,2023-11-09 19:03:56+00:00,2023-11-27 17:47:04+00:00,True,430.72
+1988,PLATFORM 989 - Develop a label (manual) triggered pipeline based on CM team's approval of UFS-WM,2023-11-08 21:52:06+00:00,2023-12-01 16:33:35+00:00,False,546.69
+1979,Update MOM6 templates for coordination with global-workflow updates ,2023-11-06 13:16:54+00:00,2023-12-07 20:52:20+00:00,True,751.59
+1974,Update upp revision,2023-11-02 14:24:39+00:00,2023-11-14 14:34:14+00:00,False,288.16
+1972,update MOM6 to its main repo 20231025 (NCAR candidate) and 20231031(GMAO FMS_cap) updating,2023-11-01 03:11:56+00:00,2023-11-14 14:34:13+00:00,False,323.37
+1967,Enable pdlib tests on more platforms,2023-10-30 12:48:43+00:00,2023-11-22 21:11:47+00:00,True,560.38
+1965,Updates to C3 and SAS convection schemes,2023-10-25 04:41:09+00:00,2023-11-15 21:02:24+00:00,False,520.35
+1953,Add a condition to turn off samfdeepcnv when MYNN shallow convection active,2023-10-20 16:59:33+00:00,2023-11-09 16:42:08+00:00,True,479.71
+1952,Unify coupled input.nml files ,2023-10-19 18:26:46+00:00,2023-10-19 18:27:03+00:00,False,0.0
+1950,Correct documentation build failures & reflect switch to spack-stack,2023-10-18 15:00:01+00:00,2023-10-25 14:30:05+00:00,False,167.5
+1948,"change references from ""nems"" to ""ufs"", allow file clobbering for GOCART history files",2023-10-18 14:27:39+00:00,2023-10-31 23:51:30+00:00,False,321.4
+1947,Allow instantaneous SW and LW fluxes to be used when cpllnd=.true. (re-opening #1943),2023-10-18 14:17:23+00:00,2023-10-20 18:15:25+00:00,True,51.97
+1946,Convert all global (uncoupled) and regional tests to use quilting restart,2023-10-17 13:21:38+00:00,2023-11-14 14:34:12+00:00,True,673.21
+1945,"MYNN-EDMF, MYNN surface layer, and Thompson AA updates (combines 1940)",2023-10-16 21:37:46+00:00,2023-11-17 14:59:42+00:00,True,761.37
+1943,Allow instantaneous SW and LW fluxes to be used when cpllnd=.true.,2023-10-16 13:22:13+00:00,2023-10-18 13:47:50+00:00,False,48.43
+1942,use instantaneous fields for coupling,2023-10-16 13:15:45+00:00,2023-11-08 12:54:36+00:00,True,551.65
+1941,new global_nest_v1 suite and #1965,2023-10-15 02:47:09+00:00,2023-11-15 21:02:22+00:00,True,762.25
+1940,RUC LSM update,2023-10-13 16:51:12+00:00,2023-11-17 15:00:19+00:00,False,838.15
+1937,Add unstructured wave grid to gfsv17 targeted tests ,2023-10-06 13:33:57+00:00,2023-10-19 14:03:05+00:00,False,312.49
+1935,production/GFS.v16: update upp and crtm version,2023-10-05 18:46:38+00:00,2023-10-05 18:49:26+00:00,True,0.05
+1932,"Add zstandard compression to fv3atm; change references from ""nems"" to ""ufs"", allow file clobbering for GOCART history files (was #1948)",2023-10-04 13:19:53+00:00,2023-10-31 23:50:48+00:00,True,658.52
+1926,Remove nine 3D arrays from CLM Lake and remove an incorrect dependency in rt.conf,2023-09-27 21:25:36+00:00,2023-10-03 19:17:02+00:00,False,141.86
+1925,"Mean to inst field names, part I ",2023-09-27 17:41:33+00:00,2023-10-10 18:57:51+00:00,True,313.27
+1924,Add 3-moment option for NSSL cloud microphysics,2023-09-26 03:48:23+00:00,2023-11-06 17:20:23+00:00,True,997.53
+1923,Develop meso fix new ksmax -- added testing for UGWPv1,2023-09-26 02:24:15+00:00,2023-10-24 15:20:13+00:00,True,684.93
+1922,[GOCART] update to gocart hash f7b34e - important updates for FENGSHA,2023-09-25 19:50:42+00:00,2023-10-26 17:43:19+00:00,True,741.88
+1920,Update to spack-stack-1.5.0 (update to gocart hash f7b34e),2023-09-25 15:52:25+00:00,2023-10-30 20:49:04+00:00,True,844.94
+1917, Fix the broken error detection in GFS_phys_time_vary.fv3.F90 and pointer issues in c3 scheme,2023-09-22 00:38:21+00:00,2023-10-03 19:17:49+00:00,False,282.66
+1916,Add coupled IAU RT test,2023-09-21 20:15:59+00:00,2023-10-12 16:38:20+00:00,True,500.37
+1915,Bug fix for MERRA2 coupled Thompson microphysics and UPP update,2023-09-21 19:40:37+00:00,2023-10-18 12:33:13+00:00,True,640.88
+1913,GF radar reflectivity update for RRFS realtime runs,2023-09-21 14:04:54+00:00,2023-10-03 19:17:27+00:00,False,293.21
+1912,Update RT scripts & modulefiles for removal of Cheyenne,2023-09-20 12:40:33+00:00,2023-11-14 16:41:55+00:00,False,1324.02
+1911,Optimize Docker builds,2023-09-19 19:24:18+00:00,2023-09-22 18:17:30+00:00,False,70.89
+1910,Pbl tapering,2023-09-18 18:12:35+00:00,2023-09-28 20:03:38+00:00,True,241.85
+1907,"WCOSS2/Acorn update DT_ATMOS to 120 for run completion using ""faster"" compile, also re-enable 3 hafs tests for WCOSS2.",2023-09-15 14:45:05+00:00,2023-10-27 18:31:29+00:00,True,1011.77
+1906,"Make exchanged field names consistent between CMEPS,MOM6,CICE6",2023-09-15 12:03:04+00:00,2023-10-06 16:52:05+00:00,True,508.82
+1904,Add possibility to run cellular automata in RRFS,2023-09-13 15:59:18+00:00,2023-10-02 15:07:22+00:00,False,455.13
+1903,Update fv3atm io routines to use same type kind for both axes and data variables,2023-09-13 14:48:15+00:00,2023-09-26 12:59:27+00:00,True,310.19
+1902,update CICE,2023-09-13 13:05:41+00:00,2023-09-21 18:55:56+00:00,True,197.84
+1900,"Preliminary cmake options files for Gaea C5, Derecho, Hercules to support SRW runs",2023-09-12 19:35:43+00:00,2023-09-14 22:22:05+00:00,False,50.77
+1894,update CMEPS for refactor of esmFldsExchange_nems,2023-09-10 16:19:16+00:00,2023-10-05 14:42:03+00:00,True,598.38
+1893,"Quartet of bug fixes for: c3 scheme, quilting restart with 32-bit physics, and string length mismatch in dycore (plus PR #1913, #1917, and #1926)",2023-09-08 22:18:56+00:00,2023-10-03 19:15:07+00:00,True,596.94
+1891,MYNN SFC OpenACC Acceleration,2023-09-08 14:46:13+00:00,2023-09-14 15:22:06+00:00,True,144.6
+1890,WW3:  Fix Intel CI,2023-09-07 20:16:31+00:00,2023-09-12 13:10:04+00:00,True,112.89
+1887,Updates for cloud autort and blstores,2023-09-07 14:23:50+00:00,2023-09-18 15:30:24+00:00,True,265.11
+1880,Bug fixes for 32-bit physics & correct the lake scheme in FV3_HRRR_c3 & FV3_HRRR_gf,2023-08-24 16:14:19+00:00,2023-08-29 15:13:31+00:00,True,118.99
+1879,Update CICE for Consortium/main,2023-08-23 21:59:42+00:00,2023-09-07 20:52:23+00:00,False,358.88
+1876,add SPP support to G-F deep convection,2023-08-21 21:14:09+00:00,2023-09-11 14:02:47+00:00,True,496.81
+1871,Add Scotch 7.0.3 modules to WCOSS2 ,2023-08-16 18:26:23+00:00,2023-09-01 20:00:09+00:00,True,385.56
+1870,2D advection of cellular automata (Combined PR# 1804),2023-08-16 18:25:24+00:00,2023-09-05 19:06:09+00:00,True,480.68
+1864,update MOM6 to its main repository 20230703 and 20230811 updating,2023-08-13 03:16:21+00:00,2023-08-16 18:05:58+00:00,True,86.83
+1863,UFS-SRW v3.0.0 SciDoc updates,2023-08-11 14:32:52+00:00,2023-08-22 15:06:36+00:00,False,264.56
+1853,Fix hrrr quilting restart tests,2023-08-03 12:03:12+00:00,2023-08-31 20:24:45+00:00,False,680.36
+1851,Feature reorg ozphys,2023-08-02 17:47:38+00:00,2023-11-02 15:05:03+00:00,True,2205.29
+1850,update MOM6 to its main repository 20230731 commit,2023-08-02 02:02:37+00:00,2023-08-16 15:47:59+00:00,False,349.76
+1846,Update orion stack path to use a new role-epic account location,2023-07-31 19:54:52+00:00,2023-08-31 12:46:10+00:00,False,736.86
+1845,Updates related to component land model (Combined PR#2107),2023-07-28 06:05:03+00:00,2024-01-26 19:44:29+00:00,True,4381.66
+1844, Changes to Logging and Initialization of the CLM Lake Model (Including PR#1863),2023-07-27 22:43:26+00:00,2023-08-22 14:57:58+00:00,True,616.24
+1842,Update CICE,2023-07-25 13:04:17+00:00,2023-08-02 23:13:31+00:00,True,202.15
+1841,Create new Jenkinsfile for Regression Testing on the Cloud,2023-07-23 19:31:32+00:00,2023-09-07 14:19:44+00:00,False,1098.8
+1838,Allow user to specify BUILD_DIR when using compile.sh,2023-07-16 15:52:33+00:00,2023-07-24 21:09:32+00:00,False,197.28
+1836,Add Derecho to supported platforms,2023-07-13 15:04:23+00:00,2023-12-14 22:14:58+00:00,True,3703.18
+1834,Update rt.sh to allow creating new baselines only for a subset of tests,2023-07-12 15:00:56+00:00,2023-08-31 20:25:17+00:00,False,1205.41
+1833,Update global atm-only control_c$resolution tests for GFSv17/GEFSv13 configuration,2023-07-12 03:18:53+00:00,2023-11-20 14:50:15+00:00,False,3155.52
+1831,Use inline post with cubed sphere history output,2023-07-11 16:41:08+00:00,2023-07-31 20:29:26+00:00,True,483.81
+1825,Ignore empty fv3atm output bundle,2023-07-06 14:15:06+00:00,2023-07-28 15:19:43+00:00,True,529.08
+1823,Add run time information and update fv3 to use unified missing value,2023-07-06 02:17:09+00:00,2023-09-07 20:43:21+00:00,True,1530.44
+1815,Fixed the warm bias in stratosphere from MERRA2 coupled microphysics (branch Maie),2023-06-30 02:50:22+00:00,2023-07-24 17:11:06+00:00,True,590.35
+1813,Make PR Template easier for PR Authors to understand,2023-06-29 14:02:20+00:00,2023-07-28 15:45:48+00:00,False,697.72
+1812,Send Evap rate from ATM to OCN,2023-06-28 19:26:03+00:00,2023-07-07 16:59:16+00:00,True,213.55
+1811,Update WW3: Sync develop branch to dev/ufs-weather-model branch - 2023-jun-27,2023-06-28 15:04:27+00:00,2023-07-26 12:59:06+00:00,True,669.91
+1810,Fix debug ORT test failure,2023-06-27 20:16:14+00:00,2023-07-10 20:09:42+00:00,False,311.89
+1807,Make signs of fields exported by ATM consistent with positive-down for CMEPS,2023-06-26 14:06:19+00:00,2023-08-14 22:54:01+00:00,True,1184.8
+1806,"kb-auto-noaacloud-test, updating.",2023-06-22 19:32:23+00:00,2023-06-22 19:33:43+00:00,False,0.02
+1804,[develop]: Update WM Documentation w/RRFS Configurations,2023-06-20 19:46:52+00:00,2023-09-05 19:51:45+00:00,False,1848.08
+1802,Update RT global test namelist templates to contain all the major variables required to be changed from default in GW,2023-06-16 16:06:08+00:00,2023-11-20 14:51:04+00:00,False,3766.75
+1799,Build the HAFS-MOM6 application,2023-06-16 12:29:55+00:00,2023-07-27 21:49:11+00:00,False,993.32
+1797,"Bug fixes for RRFS 32-bit physics support, and minor feature additions",2023-06-15 22:30:15+00:00,2023-07-10 19:53:05+00:00,True,597.38
+1795,Supplementary to PR # 1766: Updates for the Community Convective Cloud (C3) scheme,2023-06-15 13:56:16+00:00,2023-06-26 19:47:08+00:00,True,269.85
+1794,Update inline post,2023-06-14 15:06:26+00:00,2023-07-27 14:42:12+00:00,True,1031.6
+1793,Move unused ccpp suites to 'suites_not_used' directory,2023-06-14 13:44:56+00:00,2023-06-28 17:56:58+00:00,True,340.2
+1788,Fixed the warm bias in stratosphere from MERRA2 coupled microphysics,2023-06-05 19:10:22+00:00,2023-06-29 02:48:01+00:00,False,559.63
+1784,Add support for Gaea C5 (includes PR #1977: new ccpp SDFs added to support RRFS multiphysics ensemble and add tob in ocean output)(Includes PR #1997),2023-06-05 16:48:09+00:00,2023-12-04 18:32:38+00:00,True,4369.74
+1777,Land surface upgrades for HR2,2023-06-02 01:56:41+00:00,2023-07-19 17:07:11+00:00,True,1143.17
+1776,Update CDEPS tests with GEFS forcing,2023-06-01 19:38:20+00:00,2023-06-23 23:16:49+00:00,True,531.64
+1775,NSSL MP update: documentation update and parameter name change,2023-06-01 14:57:29+00:00,2023-07-05 15:05:06+00:00,True,816.13
+1773,Fix SW net to ocean,2023-05-31 12:08:18+00:00,2023-08-25 19:31:12+00:00,True,2071.38
+1769,Refactor fv3atm history & restart to reduce redundant code. Add rrfs-sd and clm lake to quilt restart.,2023-05-25 18:14:12+00:00,2023-06-20 22:52:01+00:00,True,628.63
+1766,Updates for the Community Convective Cloud (C3) scheme,2023-05-23 14:42:31+00:00,2023-06-14 22:11:49+00:00,False,535.49
+1761,[develop] Update documentation with land configurations and general updates,2023-05-19 19:09:33+00:00,2023-05-25 17:07:30+00:00,True,141.97
+1758,Gaea software stack location update after C3 and C4 partition upgrades,2023-05-19 13:57:06+00:00,2023-06-14 20:25:12+00:00,False,630.47
+1754,MYNN fix for numerical stability issues with mixing snow,2023-05-13 02:08:18+00:00,2023-06-12 21:06:39+00:00,True,738.97
+1752,Update CMEPS; add ATM ORT test (was #1747); update Gaea stack location (was #1758),2023-05-12 18:36:26+00:00,2023-06-14 20:21:28+00:00,True,793.75
+1751,Bugfixes for RRTMGP,2023-05-11 17:32:21+00:00,2023-06-08 18:34:08+00:00,True,673.03
+1749,Create new baseline to fix the issue with develop-20230504 and recover baseline on gaea,2023-05-10 16:43:20+00:00,2023-05-12 20:17:05+00:00,True,51.56
+1747,Adding atmw to the ort scripts,2023-05-10 03:32:41+00:00,2023-06-14 20:23:55+00:00,False,856.85
+1745,Update the libraries and gocart,2023-05-09 18:13:32+00:00,2023-08-07 22:36:17+00:00,True,2164.38
+1743,Hafs range check3d,2023-05-09 15:10:33+00:00,2023-06-06 18:41:21+00:00,True,675.51
+1741,Update CDEPS component in ufs-weather-model,2023-05-08 13:20:20+00:00,2023-05-25 16:31:35+00:00,False,411.19
+1736,update MOM6 to its main repository 20230504 updating,2023-05-05 03:09:32+00:00,2023-05-22 19:47:24+00:00,True,424.63
+1734,Few small fixes to Thompson MP,2023-05-03 18:54:40+00:00,2023-08-18 16:23:27+00:00,True,2565.48
+1733,Add Hercules support ,2023-05-02 21:47:28+00:00,2023-09-20 16:47:56+00:00,True,3379.01
+1731,"PBL, Convection and Microphysics Update for HR2",2023-04-29 14:14:21+00:00,2023-05-09 19:31:04+00:00,True,245.28
+1730,Update WW3:  Sync develop branch to dev/ufs-weather-model branch,2023-04-27 18:29:25+00:00,2023-05-02 13:25:08+00:00,False,114.93
+1728,Update build for gfsv17 test to use -D32BIT=ON and set fewer tests for S4,2023-04-26 22:55:07+00:00,2023-05-16 20:13:13+00:00,True,477.3
+1727,Add Unstructured WW3 mesh capability to UFS,2023-04-26 19:43:51+00:00,2023-05-15 17:20:34+00:00,True,453.61
+1723,"PBL, Convection and Microphysics Update for HR2",2023-04-24 21:53:05+00:00,2023-04-28 19:26:15+00:00,False,93.55
+1722,Multiple domains quilting restart,2023-04-24 19:05:14+00:00,2023-05-19 19:49:55+00:00,True,600.74
+1720,Dycore semi-implicit solver update ,2023-04-24 13:41:52+00:00,2023-04-28 15:29:54+00:00,True,97.8
+1718,Regression Testing Updates: GNU/Intel into one RT. New logs/ dir in tests/,2023-04-20 12:48:57+00:00,2023-05-31 20:03:38+00:00,True,991.24
+1717,Update WW3,2023-04-19 19:16:20+00:00,2023-04-24 19:01:38+00:00,False,119.75
+1715,update FV3 to better handle data source for regional model LBC processing and combined with #1730 WW3 update,2023-04-18 18:58:16+00:00,2023-05-02 13:23:30+00:00,True,330.42
+1714,[production/AQM.v7] Update cray-mpich to version 8.1.12,2023-04-18 14:46:22+00:00,2023-04-18 15:09:11+00:00,True,0.38
+1713,update GF for RRFS 2023 HWT SFE,2023-04-14 14:55:45+00:00,2023-04-20 17:17:53+00:00,True,146.37
+1712,[production/AQM.v7] Update WCOSS2 Intel lua for production available packages/libraries.,2023-04-14 14:49:16+00:00,2023-04-14 16:05:48+00:00,True,1.28
+1710,Update WW3 with latest develop,2023-04-13 20:15:55+00:00,2023-04-17 18:21:03+00:00,False,94.09
+1707,Update modulefiles to use spack-stack unified environment,2023-04-12 18:02:58+00:00,2023-08-24 16:06:31+00:00,True,3214.06
+1704,fix the fdiag for GEFS EP4,2023-04-10 12:22:53+00:00,2023-04-12 18:07:02+00:00,True,53.74
+1702,Use nccmp to compare netcdf files in regression test on NOAA R&D machines. Update WW3,2023-04-06 15:55:01+00:00,2023-04-24 18:25:35+00:00,True,434.51
+1701,Run fewer tests on S4,2023-04-06 14:13:47+00:00,2023-05-16 20:25:17+00:00,False,966.19
+1699,Updating nemelist templates and configuration files to have consistent format as the global workflow; Update CDEPS (was #1741),2023-04-06 02:13:48+00:00,2023-05-25 15:59:09+00:00,True,1189.76
+1696,Develop ugwp stoch phys fix,2023-04-05 04:07:52+00:00,2023-04-06 19:25:05+00:00,False,39.29
+1692,update CMEPS to allow bilinear ATM<->WAV mapping for global coupled application; utilize custom restart names for WW3 (was #1684) ,2023-04-01 12:42:39+00:00,2023-04-03 20:53:05+00:00,True,56.17
+1690,Update in-line post for RRFS and GFS,2023-03-30 23:35:11+00:00,2023-04-14 18:08:02+00:00,True,354.55
+1689,[production/AQM.v7] Emissions restart capability from @rmontuoro,2023-03-30 22:09:18+00:00,2023-03-30 22:57:25+00:00,True,0.8
+1685,update CMEPS to allow bilinear ATM<->WAV mapping for global coupled application; utilize custom restart names for WW3 (was #1684),2023-03-29 11:57:56+00:00,2023-04-01 12:23:40+00:00,False,72.43
+1684,utilize custom restart names for WW3,2023-03-28 22:36:57+00:00,2023-04-03 20:57:52+00:00,False,142.35
+1681,"Remove requirement for esmf and mapl debug versions, remove DEBUG_LINKMPI",2023-03-27 02:14:52+00:00,2023-04-05 16:42:09+00:00,True,230.45
+1678,MYNN surface Layer Upate,2023-03-24 19:36:50+00:00,2023-03-31 23:35:05+00:00,False,171.97
+1677,Bugfix for convection (prog closure) and gravity wave drag (for stochastic perturbations) needed for GFS/GEFS prototypes,2023-03-24 02:29:49+00:00,2023-04-06 19:24:27+00:00,True,328.91
+1676,AQM GNU support,2023-03-23 23:14:43+00:00,2023-06-01 12:52:52+00:00,False,1669.64
+1675,Regression Testing Updates,2023-03-23 23:07:18+00:00,2023-04-20 12:49:19+00:00,False,661.7
+1674,Support GNU in AQM & RT Test Updates,2023-03-23 15:25:42+00:00,2023-03-23 23:02:57+00:00,False,7.62
+1673,update WW3 with latest develop,2023-03-22 19:21:52+00:00,2023-03-28 16:31:25+00:00,False,141.16
+1672,Update CICE with latest Consortium/main,2023-03-22 11:54:38+00:00,2023-03-29 18:53:10+00:00,True,174.98
+1669,Development of a unified convection scheme and update WW3 with latest develop,2023-03-21 16:23:06+00:00,2023-04-17 18:20:26+00:00,True,649.96
+1667,Cloud Dependencies for Regression Testing,2023-03-21 14:52:17+00:00,2023-05-03 19:18:50+00:00,True,1036.44
+1660, bug fix from @tanyasmirnova for rrfs crashes during restart,2023-03-17 03:21:55+00:00,2023-03-31 23:34:17+00:00,False,356.21
+1658,"Smoke, dust, and MYNN updates",2023-03-16 00:21:23+00:00,2023-03-27 15:32:11+00:00,True,279.18
+1656,Bring in changes from production/AQM.v7,2023-03-15 19:28:35+00:00,2023-03-21 13:42:10+00:00,True,138.23
+1654,Combo for ccpp/physics #41 and #45 and ccpp/framework submodule pointer update for #462,2023-03-13 17:27:58+00:00,2023-03-15 20:12:18+00:00,True,50.74
+1646,Merge latest RUC LSM into community develop,2023-03-08 22:48:07+00:00,2023-03-31 23:16:53+00:00,True,552.48
+1645,"Combined PR: hpc-stack locations, Disable Fused Multiply Add, and Enable usage of shared pio",2023-03-07 22:23:40+00:00,2023-03-09 18:26:40+00:00,True,44.05
+1642,Lightning threat indexes,2023-03-06 22:49:26+00:00,2023-03-24 12:35:40+00:00,True,421.77
+1640,Enable usage of shared pio,2023-03-03 05:43:06+00:00,2023-03-09 18:26:44+00:00,False,156.73
+1639,add three parameters to input.nml for NSSL MP,2023-03-02 20:33:17+00:00,2023-03-16 00:03:38+00:00,False,315.51
+1637,UFS-dev PR40,2023-03-02 05:27:27+00:00,2023-03-02 05:27:50+00:00,False,0.01
+1636,MYNN-EDMF update,2023-03-01 17:56:47+00:00,2023-03-27 15:33:30+00:00,False,621.61
+1633,Write restart files using the write grid component. Combined with WW3 update #1673,2023-02-28 14:04:53+00:00,2023-03-28 15:46:28+00:00,True,673.69
+1631,[production/AQM.v7] Capability for AQM to run using a debug build of UFSWM,2023-02-27 18:08:45+00:00,2023-03-14 17:12:49+00:00,True,359.07
+1625,update WW3 with its develop branch,2023-02-24 13:16:44+00:00,2023-03-13 13:13:44+00:00,True,407.95
+1618,Disable Fused Multiply-Add instructions on WCOSS2 when `-DFASTER=ON`,2023-02-17 22:54:27+00:00,2023-03-09 18:26:43+00:00,False,475.54
+1617,"[develop:] update hpc-stack location for Gaea, miniconda3, Lmod initialization, Lua modulefiles",2023-02-17 19:31:20+00:00,2023-03-09 18:26:42+00:00,False,478.92
+1612,Develop drag suite intent mods -- Changed UGWP diagnostic variable declaration intents from 'out' to 'inout',2023-02-14 01:03:54+00:00,2023-02-22 21:14:07+00:00,False,212.17
+1610,Allow HAFS app to be compiled with 64bit FMS,2023-02-13 20:49:38+00:00,2023-03-07 22:20:41+00:00,False,529.52
+1609,autort test on orion,2023-02-11 18:08:52+00:00,2023-02-15 13:26:16+00:00,False,91.29
+1608,update documentation FAQ about setting resources and turning off output,2023-02-10 21:38:11+00:00,2023-02-21 15:37:14+00:00,False,257.98
+1606,(1) update MOM6 to 20230206 main branch (2) remove cpld_esmfthread_P8 (3) hafs bug fix,2023-02-09 19:37:27+00:00,2023-02-14 22:03:43+00:00,True,122.44
+1605,AQM bugfix with errors seen in PM2.5 and O3 outputs. Disables reigonal_atmaq_debug test,2023-02-09 14:52:14+00:00,2023-03-01 13:18:46+00:00,False,478.44
+1604,NCAR-main PR#956,2023-02-08 21:43:41+00:00,2023-03-03 00:08:18+00:00,True,530.41
+1602,update MOM6 to its main branch 20230206 updating and remove cpld_esmfthreads_p8,2023-02-07 04:04:54+00:00,2023-02-09 19:11:15+00:00,False,63.11
+1599,Change MOM6 and FV3atm restart filename format,2023-02-03 20:17:09+00:00,2023-02-27 17:26:46+00:00,True,573.16
+1597,Update CDEPS component; update documentation FAQ about setting resources and turning off output; update FAQ documentation (was 1608); update drag suite intent mods (was 1612) ,2023-02-03 12:44:59+00:00,2023-02-22 21:14:05+00:00,True,464.49
+1596,Hpc stack update (Issue 1465),2023-02-02 15:22:54+00:00,2023-02-09 17:06:10+00:00,True,169.72
+1595,Update modulefiles/hpc-stack,2023-01-31 17:58:31+00:00,2023-02-02 15:20:45+00:00,False,45.37
+1594,Update ufs_orion.intel.lua,2023-01-31 17:46:04+00:00,2023-01-31 17:50:08+00:00,False,0.07
+1592,Hafs moving nest grid debug test,2023-01-31 04:01:07+00:00,2023-02-14 22:05:33+00:00,False,354.07
+1591,update WW3 submodule,2023-01-30 22:45:02+00:00,2023-02-01 17:55:38+00:00,False,43.18
+1583,[production/AQM.v7] Revert AQM Debug mode changes that are causing strange issues in retro runs,2023-01-26 16:24:53+00:00,2023-02-07 22:30:17+00:00,True,294.09
+1582,Bug fix for cloud effective radius for convective clouds (HR1),2023-01-25 22:34:45+00:00,2023-01-30 14:44:11+00:00,True,112.16
+1580,Platform-594 AutoRT Jenkins,2023-01-24 22:22:32+00:00,2023-01-26 15:52:15+00:00,True,41.5
+1579,Feat/platform 594 autort jenkins,2023-01-24 22:12:04+00:00,2023-01-24 22:17:25+00:00,False,0.09
+1578,Faster compile and HAFS app to be compiled with 64bit,2023-01-23 13:58:23+00:00,2023-03-07 20:30:08+00:00,True,1038.53
+1571,RRTMGP refactoring,2023-01-18 18:40:41+00:00,2023-02-07 18:21:36+00:00,True,479.68
+1570,update CMEPS,2023-01-18 13:50:09+00:00,2023-02-01 18:34:40+00:00,True,340.74
+1566,Create ESMF field attributes using the same kind as field data values,2023-01-12 15:49:09+00:00,2023-01-25 15:27:07+00:00,True,311.63
+1563,Compile CICE with safe CPU instructions,2023-01-10 02:51:04+00:00,2023-01-20 13:59:05+00:00,True,251.13
+1562,update CICE with latest consortium/main,2023-01-09 21:34:44+00:00,2023-01-23 15:21:22+00:00,True,329.78
+1561,bug fix for hybrid-EDMF PBL scheme,2023-01-09 07:23:31+00:00,2023-01-10 14:22:15+00:00,False,30.98
+1560,Bring in calculations for point source emissions in AQM,2023-01-06 15:19:12+00:00,2023-01-09 21:09:21+00:00,True,77.84
+1558,Update rt_single function in rt.sh to parse correct .conf file,2023-01-06 14:53:13+00:00,2023-01-12 13:26:45+00:00,False,142.56
+1554,"Faster, safer, compilation options targeted for HAFS operational upgrade",2022-12-31 17:50:45+00:00,2023-01-12 13:26:12+00:00,True,283.59
+1552,clean up gitaction yml,2022-12-30 14:39:01+00:00,2023-01-03 13:56:26+00:00,True,95.29
+1547,Fix wave init,2022-12-21 17:13:44+00:00,2023-03-14 16:01:35+00:00,True,1990.8
+1544,"HAFSv1 needed HYCOM, UPP, g2tmpl, ugwp, and moving nesting related updates",2022-12-20 02:13:03+00:00,2023-01-17 22:16:25+00:00,True,692.06
+1541,Remove the MS2SWA application,2022-12-19 13:30:47+00:00,2022-12-23 21:06:55+00:00,False,103.6
+1539,"autort-test, regression testing new content.",2022-12-16 22:12:54+00:00,2022-12-16 22:13:24+00:00,False,0.01
+1538,Use HTML comments in github templates,2022-12-16 21:06:02+00:00,2022-12-28 18:20:29+00:00,False,285.24
+1536,Ci rt,2022-12-14 00:36:42+00:00,2022-12-14 00:37:03+00:00,False,0.01
+1535,Add optional 'time_unlimited' logical flag to model_configure,2022-12-13 18:35:43+00:00,2022-12-28 18:02:24+00:00,True,359.44
+1531,"chore/platform-512-update-autort, adding Jenkins variant of autort sc…",2022-12-12 20:42:58+00:00,2023-01-24 22:24:55+00:00,False,1033.7
+1530,update FMS to 2022.04 on wcoss2.intel,2022-12-09 15:59:12+00:00,2022-12-09 15:59:26+00:00,False,0.0
+1529,"Six new winter weather diagnostics, new precip ice density for RUC, NOAH and NOAH MP LSM, and rename nsradar_reset",2022-12-08 19:35:41+00:00,2023-02-17 22:30:51+00:00,True,1706.92
+1528,Jenkins ci debug,2022-12-08 15:28:26+00:00,2022-12-16 19:40:31+00:00,False,196.2
+1527,use ungridded dimensions for stokes drift exchange,2022-12-08 15:15:55+00:00,2023-01-04 20:00:30+00:00,True,652.74
+1525,clean up additional deprecated control dependencies,2022-12-07 22:55:16+00:00,2022-12-08 14:04:36+00:00,True,15.16
+1523,Convert all regression tests to use ESMF managed threading,2022-12-07 13:44:39+00:00,2022-12-23 21:05:45+00:00,True,391.35
+1522,MYNNsfc uniform real kind,2022-12-06 21:30:41+00:00,2023-01-06 18:54:06+00:00,True,741.39
+1520,Updates of package versions from NCO after Dogwood/Cactus image update,2022-12-05 17:25:52+00:00,2023-01-30 20:48:33+00:00,False,1347.38
+1518,Merge HAFSv1 related developments back to the develop branch,2022-12-04 02:43:47+00:00,2022-12-15 05:24:49+00:00,True,266.68
+1514,update fms to fms/2022.04 and add a coupled mixed-mode test,2022-12-02 12:41:41+00:00,2022-12-12 18:56:43+00:00,True,246.25
+1513,adding hr_ave_chem_v1,2022-12-01 21:56:21+00:00,2022-12-07 14:13:19+00:00,True,136.28
+1511,Bug fix for the NoahMP tiled t2m and q2m,2022-12-01 15:42:22+00:00,2022-12-02 15:37:20+00:00,True,23.92
+1509,Add CLM Lake Model and update Flake,2022-12-01 15:28:13+00:00,2023-04-26 16:55:48+00:00,True,3505.46
+1507,enable GOCART tests on wcoss2,2022-11-30 14:58:29+00:00,2022-12-01 20:08:33+00:00,False,29.17
+1505,"Aqm bugfixes + New AQM Debug RT (#1505), INLINE_POST default (#1503), WCOSS2 MAPL Enable Tests (#1507)",2022-11-29 20:09:45+00:00,2022-12-01 20:08:32+00:00,True,47.98
+1504,DO NOT MERGE YET - Updates for JEDI+UFS,2022-11-23 03:25:12+00:00,2024-02-06 00:02:20+00:00,False,10556.62
+1503,Set INLINE_POST build option to ON by default,2022-11-22 20:28:48+00:00,2022-12-01 20:08:33+00:00,False,215.66
+1502,Outerloopwave,2022-11-22 15:31:20+00:00,2022-11-29 21:19:16+00:00,False,173.8
+1497,Refactor surface restart logic in FV3GFS_io.F90 to not use hard-coded indices.,2022-11-18 15:22:41+00:00,2022-12-20 17:20:30+00:00,True,769.96
+1496,Couple convective clouds to radiation,2022-11-17 13:49:32+00:00,2022-11-22 17:34:14+00:00,True,123.75
+1495,New CI tests in fv3atm/ccpp-physics,2022-11-17 00:55:41+00:00,2022-11-17 14:44:34+00:00,False,13.81
+1494,[AQM] Implement output capabilities for production and bring pm25 as a 3D diagnostic tracer in UFSWM,2022-11-16 21:19:30+00:00,2022-11-18 16:22:53+00:00,True,43.06
+1493,Bug fix for the NoahMP scheme ,2022-11-16 20:50:06+00:00,2022-11-29 16:30:11+00:00,True,307.67
+1492,"update mom6 to its main branch 20221112 commit, add ci test in fv3atm",2022-11-14 20:55:58+00:00,2022-11-21 18:31:57+00:00,True,165.6
+1490,Update CICE,2022-11-14 17:09:07+00:00,2022-11-25 14:45:11+00:00,True,261.6
+1489,[AQM] Implement output capabilities to enable operational products,2022-11-10 20:54:08+00:00,2022-11-16 21:25:47+00:00,False,144.53
+1488,Develop ugwp improvements,2022-11-10 19:11:58+00:00,2022-12-22 17:42:46+00:00,True,1006.51
+1487,Remove loading anaconda module on hera,2022-11-10 13:35:36+00:00,2022-11-10 13:42:51+00:00,True,0.12
+1486,"update cmeps with fix for mediator history files; use esmf-managed threading for cpld_bmark control and restart (was #1483); Software module updates in hpc-stack for Hera (intel, gnu) (was #1468)",2022-11-10 13:18:44+00:00,2022-11-16 17:41:05+00:00,True,148.37
+1483,use esmf-managed threading for cpld_bmark control and restart,2022-11-08 15:36:04+00:00,2022-11-15 14:27:46+00:00,False,166.86
+1482,Feature/jenkins hpc,2022-11-07 14:38:25+00:00,2022-11-07 14:52:40+00:00,False,0.24
+1481,Improve radiative fluxes and cloud cover in FV3 for HR1,2022-11-02 18:16:52+00:00,2022-11-08 16:41:19+00:00,True,142.41
+1480,"Update Regression Test to include gfsv17 prototypes that are after prototype 8, and turn on prognostic closure.",2022-10-28 18:46:20+00:00,2022-12-05 15:24:48+00:00,True,908.64
+1476,[AQM] Replace ESMF I/O format flags with AQMIO flags,2022-10-27 15:24:00+00:00,2022-11-03 14:49:45+00:00,False,167.43
+1475,Adjust GFS diagnostic Aerosol Optical Depth (AOD) output to the exact 550nm,2022-10-26 22:29:40+00:00,2022-11-14 15:22:42+00:00,True,448.88
+1474,Update WW3 ,2022-10-26 18:49:44+00:00,2022-11-02 16:47:53+00:00,False,165.97
+1471,Rt hires,2022-10-25 15:22:32+00:00,2022-11-10 19:35:42+00:00,True,388.22
+1469,SRW CCPP Scientific Docs Update for 2.1,2022-10-21 14:57:32+00:00,2022-10-21 16:52:26+00:00,False,1.92
+1468,"Software module updates in hpc-stack for Hera (intel, gnu) ",2022-10-20 22:56:12+00:00,2022-11-16 18:07:45+00:00,False,643.19
+1467,Use optional chunksizes argument in register_restart_field calls (combining PRs #1853 & 1834),2022-10-20 20:57:04+00:00,2023-08-31 20:22:35+00:00,True,7559.43
+1464,Introduce concept of Hierarchical system development (HSD) in Jenkins-ci pipeline,2022-10-19 15:57:33+00:00,2022-11-17 17:59:22+00:00,False,698.03
+1460,[FV3] Add a new RT for the SDF FV3_WoFS_v0,2022-10-18 15:33:50+00:00,2022-11-01 15:31:04+00:00,True,335.95
+1459,production/GFSv16: Remove nowarn compile option and update crtm/2.4.0 on wcoss2 ,2022-10-18 02:10:10+00:00,2022-10-18 12:55:22+00:00,True,10.75
+1457,Bring in pt-source change for AQM,2022-10-17 13:03:22+00:00,2023-01-09 21:45:20+00:00,False,2024.7
+1456,"[AQM] [FV3] [WW3] Enable CMAQ scavenging and wet removal in resolved clouds, ESMF 8.4 support for AQM, Update WW3.",2022-10-14 18:42:13+00:00,2022-11-03 14:49:43+00:00,True,476.12
+1454,"Sync WW3 develop with dev/ufs-weather-model, Oct 12th 2022",2022-10-12 21:41:47+00:00,2022-10-26 13:11:24+00:00,True,327.49
+1453,Simplify Jenkins pipeline,2022-10-12 15:09:56+00:00,2022-10-19 00:46:04+00:00,False,153.6
+1451,NCAR/main PR #66 (Bugfix and optimization of prognostic closure for the P8 physics suite),2022-10-06 01:34:03+00:00,2022-10-11 22:08:09+00:00,True,140.57
+1447,Update .gitmodules for stochastic physics,2022-10-03 22:46:56+00:00,2022-10-18 12:13:08+00:00,False,349.44
+1445,Update CMake build system for AQM,2022-10-03 17:36:09+00:00,2022-10-07 12:23:41+00:00,True,90.79
+1444,Update CMEPS,2022-10-03 12:37:38+00:00,2022-10-26 19:09:09+00:00,False,558.53
+1443,Bring external land component support to UFS,2022-10-03 04:30:14+00:00,2022-10-28 20:53:27+00:00,True,616.39
+1438,Coupling merra2 aerosol climatology and GOCART forecasted aerosols with the Thompson microphysics scheme,2022-09-23 18:53:45+00:00,2022-09-30 18:43:09+00:00,True,167.82
+1437,RRFS debug & 2threads variants fixed plus many boundary condition bugs,2022-09-22 18:50:37+00:00,2022-10-17 16:05:52+00:00,True,597.25
+1434,Use saved routehandles in fv3 cap init phase,2022-09-22 14:48:25+00:00,2022-10-03 15:06:51+00:00,True,264.31
+1431,correct tasks calculation in rt.sh so rocoto workflow will run,2022-09-22 13:29:25+00:00,2022-10-21 13:20:45+00:00,False,695.86
+1429,Officially changed the ccpp-physics pointer to ufs-community/ccpp-physics ufs/dev branch for fv3atm,2022-09-21 16:40:48+00:00,2022-09-21 23:18:50+00:00,True,6.63
+1426,Production/GFS.v16: update wcoss2 module to use versions,2022-09-19 03:03:41+00:00,2022-09-20 01:55:29+00:00,True,22.86
+1425,update library and remove yaFyaml,2022-09-19 02:58:45+00:00,2022-09-29 14:25:22+00:00,True,251.44
+1421,Bugfix and optimization of prognostic closure in cumulus convection,2022-09-14 22:34:46+00:00,2022-10-11 19:55:48+00:00,False,645.35
+1418,Add RRFS-A to weekly tests,2022-09-14 15:34:50+00:00,2022-10-04 12:33:39+00:00,True,476.98
+1414,Moving nest inline post fix,2022-09-13 13:35:20+00:00,2022-09-20 16:42:06+00:00,True,171.11
+1411,Check-in Jenkins Docker ORT CI,2022-09-12 16:06:15+00:00,2022-10-04 19:35:45+00:00,True,531.49
+1410,small cloud tuning from Greg Thompson,2022-09-09 13:45:11+00:00,2022-10-19 00:44:47+00:00,True,946.99
+1407,add cmeps capable atm-wav test,2022-09-08 13:06:30+00:00,2023-04-11 12:35:30+00:00,True,5159.48
+1405,Adding Fengsha dust emission scheme and upgrading PIO to 2.5.7 and switch three HPC's to epic's HPC Stack,2022-09-07 19:06:00+00:00,2022-09-16 12:55:46+00:00,True,209.83
+1402,RRTMG cloud condensate overlap,2022-09-07 14:27:33+00:00,2022-11-17 14:58:20+00:00,False,1704.51
+1401,(1) update MOM6 to its main branch 20220902 commit (2) update GNU to include s2swa tests,2022-09-07 01:18:10+00:00,2022-09-13 19:27:25+00:00,True,162.15
+1399,AQM updates (Was #1383) + Update to use .lua modulefiles (#1376),2022-09-06 19:31:53+00:00,2022-09-09 18:16:26+00:00,True,70.74
+1398,Update documentation,2022-09-02 22:55:21+00:00,2022-09-16 15:34:57+00:00,True,328.66
+1394,Address ccpp-physics issues,2022-08-30 17:00:35+00:00,2022-10-05 17:23:19+00:00,False,864.38
+1390,add a cdeps test using C-grid for sea ice dynamics,2022-08-28 18:47:10+00:00,2022-08-30 17:36:03+00:00,False,46.81
+1388,update GNU to include s2swa tests,2022-08-26 23:00:38+00:00,2022-09-13 21:31:51+00:00,False,430.52
+1384,Misc NRL bugfixes,2022-08-24 20:08:55+00:00,2022-09-12 16:13:03+00:00,True,452.07
+1383,AQM updates,2022-08-24 00:29:41+00:00,2022-09-09 18:16:27+00:00,False,401.78
+1381,Update CICE6 to allow WW3-CICE6 coupling; add a cdeps test using C-grid for sea ice dynamics (was #1390),2022-08-23 23:23:27+00:00,2022-08-30 17:06:06+00:00,True,161.71
+1379,update MOM6 to its main branch 20220820,2022-08-22 02:42:44+00:00,2022-08-24 17:58:21+00:00,True,63.26
+1376,"Convert modulefiles to .lua format on WCOSS2, acorn, hera, jet, orion, cheyenne",2022-08-19 18:14:57+00:00,2022-09-09 18:16:28+00:00,False,504.03
+1373,Fixed a bug related to sensible/latent heat fluxes for AQM coupling,2022-08-17 14:43:04+00:00,2022-08-29 18:53:25+00:00,False,292.17
+1372,Update CDEPS component in the ufs-weather-model,2022-08-17 11:14:13+00:00,2022-08-22 21:00:39+00:00,True,129.77
+1369,Production/GFS.v16: Update upp to 8.2.0 for GFS V16.3 Implementation,2022-08-15 22:47:40+00:00,2022-10-19 20:05:56+00:00,False,1557.3
+1366,update mesh cap,2022-08-12 20:19:50+00:00,2022-09-19 16:32:48+00:00,True,908.22
+1364,sync ww3,2022-08-02 16:01:26+00:00,2022-08-11 21:54:39+00:00,False,221.89
+1362,Update inline post for multiple domains,2022-08-02 12:08:51+00:00,2022-09-01 20:57:22+00:00,True,728.81
+1361,add in-flight icing products to inline post,2022-08-02 00:07:37+00:00,2023-03-24 14:43:59+00:00,False,5630.61
+1360,Update inline post for RRFS and HAFS,2022-07-30 23:52:21+00:00,2022-08-18 17:57:49+00:00,True,450.09
+1358,(1) update MOM6 to its main 20220729 commit (GFDL-candidate-20220721) (2) cap update: supporting traditional and ESMF-managed threading,2022-07-30 03:55:08+00:00,2022-08-12 21:52:49+00:00,True,329.96
+1356,Merge the latest updates in branch HFIP2022_joe into HFIP2022,2022-07-29 16:38:47+00:00,2022-08-01 22:57:20+00:00,False,78.31
+1355,CCPP/physics v6 documentation updates + empty CCPP phase subroutine cleanup,2022-07-29 13:41:45+00:00,2022-08-16 15:37:52+00:00,True,433.94
+1354,Change sphinx theme & pygments_style,2022-07-28 14:50:44+00:00,2022-08-11 21:53:36+00:00,True,343.05
+1353,Updates for P8 ,2022-07-27 17:58:15+00:00,2022-08-03 12:39:49+00:00,True,162.69
+1349,Fix bug in state_diagnose to accept 4d variables. Update CCPP Framework to support IAP model. Update weekly tests,2022-07-26 19:54:03+00:00,2022-08-04 16:42:18+00:00,True,212.8
+1347,Update Dockerfile and containers for run-ci,2022-07-24 00:59:48+00:00,2022-07-28 11:19:21+00:00,False,106.33
+1343,Jenkins ci,2022-07-21 02:46:56+00:00,2022-07-28 11:17:18+00:00,False,176.51
+1341,Sync ww3,2022-07-20 02:20:28+00:00,2022-08-02 16:01:34+00:00,False,325.69
+1338,Update weekly tests,2022-07-15 19:58:39+00:00,2022-08-04 16:42:20+00:00,False,476.73
+1336,Add coupled C48-5deg ocean+ice warm-start and restart test,2022-07-14 14:44:27+00:00,2022-07-26 15:17:57+00:00,False,288.56
+1333,add temperature limiter for SPPT in MOM6,2022-07-13 16:41:04+00:00,2022-07-21 19:33:44+00:00,False,194.88
+1330,Update CCPP Framework to support IAP model,2022-07-13 02:49:29+00:00,2022-08-04 16:42:20+00:00,False,541.88
+1328,Replace w3nco with w3emc/2.9.2,2022-07-12 15:42:41+00:00,2022-08-11 20:00:55+00:00,True,724.3
+1319,Updated RT variables for S4. #1318,2022-07-08 17:12:45+00:00,2022-07-28 12:43:10+00:00,False,475.51
+1317,Update fv3atm to FMS2 io.,2022-07-06 16:48:45+00:00,2022-07-29 15:02:41+00:00,True,550.23
+1313,Production/GFS.v16: remove -a in hera module file,2022-07-05 22:58:15+00:00,2022-07-06 12:44:39+00:00,True,13.77
+1312,Bug fix for #1309: false reports of test failures,2022-07-05 22:04:22+00:00,2022-07-07 15:07:36+00:00,False,41.05
+1311,"Updating the namelist parameters lheatstrg and dt_inner, and ice climatology dataset in RTs",2022-07-05 19:49:52+00:00,2022-07-13 13:40:41+00:00,True,185.85
+1307,Enable regression tests on Acorn,2022-07-01 18:57:02+00:00,2022-07-27 15:27:36+00:00,True,620.51
+1305,Add esmf managed threading test and fix inline post issues in P8,2022-06-30 23:35:43+00:00,2022-08-09 15:47:30+00:00,True,952.2
+1303,Updating the lheatstrg namelist variable for RT tests using NoahMP and set dt_inner=dt_atmos if sedi_semi=T for Thompson MP (issue 1274),2022-06-30 13:06:58+00:00,2022-07-05 19:51:57+00:00,False,126.75
+1302,(1) update MOM6 to its main branch 20220629 updating (NCAR 20220603 candidate) (2) add temperature limiter in SPPT,2022-06-29 18:28:50+00:00,2022-07-21 19:28:26+00:00,True,528.99
+1299,Add potential wave-ice coupling through CMEPS,2022-06-29 15:43:12+00:00,2022-07-27 15:37:40+00:00,False,671.91
+1298,Add AQM Regression Test and documentation for AQM & Update upp submodule to fix in-line post issues for RRFS and HAFS,2022-06-29 14:37:45+00:00,2022-07-15 14:26:13+00:00,True,383.81
+1294,"Remove WCOSS (Dell and Cray) support from regression tests; Ignore checksum option and performance with (1,1) io layout in FV3",2022-06-27 15:35:43+00:00,2022-06-29 13:38:40+00:00,True,46.05
+1293,removed dell/cray requirement due to decommission,2022-06-27 14:08:51+00:00,2022-06-27 14:46:57+00:00,True,0.64
+1292,Switch cpld_bmark_p8 test to rectilinear 1/2deg grid; add Mesh creation info to wiki; Update P8 sfc ICs for FV3; Update WW3_inputdata directory; Bug fix for #1309: false reports of test failures,2022-06-24 20:12:31+00:00,2022-07-07 15:06:31+00:00,True,306.9
+1291,Fix atmaero resources and turn test on for cheyenne.intel (replaces PR #1273),2022-06-24 13:59:14+00:00,2022-06-27 12:21:13+00:00,True,70.37
+1287,* Update CDEPS; Add coupled C48-5deg ocean+ice warm-start and restart test (was #1336),2022-06-24 10:44:54+00:00,2022-07-26 14:57:50+00:00,True,772.22
+1286,Update upp submodule to fix in-line post issues for RRFS and HAFS,2022-06-23 14:45:08+00:00,2022-07-15 14:26:13+00:00,False,527.68
+1282,Remove flake control test,2022-06-20 19:14:58+00:00,2022-07-08 12:47:21+00:00,False,425.54
+1280,release/public-v3: Create/merge Release public v3 branch for SRW release,2022-06-16 12:57:00+00:00,2022-06-16 19:47:33+00:00,True,6.84
+1279,Allow wave grid to be different than ocean/ice grid,2022-06-15 21:42:58+00:00,2022-06-22 13:48:03+00:00,False,160.08
+1275,"ignore checksum option and performance with (1,1) io layout",2022-06-15 15:08:37+00:00,2022-06-29 20:44:56+00:00,False,341.61
+1273,Fix atmaero resources and turn test on for cheyenne.intel,2022-06-15 13:22:17+00:00,2022-06-24 13:59:39+00:00,False,216.62
+1272,Add AQM Regression Test and documentation for AQM,2022-06-14 20:27:58+00:00,2022-06-29 14:34:52+00:00,False,354.12
+1269,Add C-grid capability for CICE6,2022-06-13 17:28:19+00:00,2022-07-20 19:34:01+00:00,True,890.1
+1267,production/GFSv16: frozen precip density fix,2022-06-10 19:24:08+00:00,2022-06-13 18:40:04+00:00,True,71.27
+1266,Emergency fix: exponentiation instead of multiplication caused bad 2m temperatures,2022-06-10 17:12:26+00:00,2022-06-14 14:28:47+00:00,True,93.27
+1265,Add valid time to the 6 tile cubed sphere grid history files,2022-06-09 18:23:34+00:00,2022-06-24 18:58:38+00:00,True,360.58
+1263,fixes for regional decomposition test,2022-06-09 15:40:23+00:00,2022-06-17 15:24:39+00:00,False,191.74
+1257,"Fixes for reproducibility, failed builds, and CI. More hrrr tests, shorter rap&hrrr forecast lengths.",2022-06-07 04:40:38+00:00,2022-06-17 15:18:49+00:00,True,250.64
+1256,"update mom6 to its main branch 20220602 commit, Allow wave grid to be different than ocean/ice grid #1279, Update rt.conf to compile all suites with Intel in debug mode #1230",2022-06-07 02:49:30+00:00,2022-06-22 13:40:03+00:00,True,370.84
+1254,moninshoc.meta missing mfpbl.f dependency,2022-06-06 22:53:50+00:00,2022-06-17 15:24:13+00:00,False,256.51
+1253,Ci fix,2022-06-06 21:00:33+00:00,2022-06-17 15:23:35+00:00,False,258.38
+1247,production/GFSv16: Bug fix for ceiling height in GFS V16 in-line post,2022-06-06 14:14:18+00:00,2022-06-07 17:31:35+00:00,True,27.29
+1243,"Fix RAP (Grell Freitas) decomp b4b issues, enable tests in `rt.conf`/`rt_gnu.conf`",2022-06-06 02:21:13+00:00,2022-06-13 02:45:57+00:00,False,168.41
+1242,fix fv3 hash,2022-06-03 17:13:50+00:00,2022-06-03 17:18:24+00:00,True,0.08
+1239," Require specific package version in top-level CMakeLists.txt, rename EARTH_GRID_COMP to UFSDriver",2022-06-01 13:19:57+00:00,2022-06-06 14:13:08+00:00,True,120.89
+1235,Update s4 support,2022-05-26 17:10:45+00:00,2022-06-06 15:15:13+00:00,False,262.07
+1231,Minor bugfixes for CCPP v6,2022-05-23 20:03:04+00:00,2022-05-25 18:38:00+00:00,True,46.58
+1230,Update `rt.conf` to compile all suites with Intel in debug mode,2022-05-23 17:21:48+00:00,2022-06-23 00:42:01+00:00,False,727.34
+1228,sync ww3/dev/ufs-weather-model,2022-05-20 13:10:47+00:00,2022-05-29 18:51:30+00:00,True,221.68
+1227,Turn on HAFS RTs on WCOSS2; AQM radians to degrees; NRL Neptune model 32-bit physics support,2022-05-20 13:05:54+00:00,2022-05-26 21:22:51+00:00,True,152.28
+1224,add  mynn surface scheme as opt_sfc=4 in NoahMP,2022-05-19 20:30:29+00:00,2022-06-30 20:27:22+00:00,True,1007.95
+1221,Update Intel/impi version to Intel 2021/2022,2022-05-16 13:37:48+00:00,2022-05-22 01:57:37+00:00,True,132.33
+1220,Release/public-v3: Add RT tests for WoFS_v0 suite for SRW-v3,2022-05-13 21:26:58+00:00,2022-05-27 03:29:32+00:00,True,318.04
+1218,"fix nstf setting for coupled model, update atm aerosol test to use P8 configuration",2022-05-13 19:29:29+00:00,2022-06-02 12:43:48+00:00,True,473.24
+1215,32-bit physics with FV3_RAP,2022-05-12 17:02:22+00:00,2022-07-19 17:34:04+00:00,True,1632.53
+1214,Transition ufs-weather-model to WCOSS2,2022-05-11 18:46:03+00:00,2022-05-20 01:16:41+00:00,True,198.51
+1212,AQM radians to degrees,2022-05-11 15:26:23+00:00,2022-06-02 02:51:21+00:00,False,515.42
+1211,Add 2d domain decomposition to the inline post,2022-05-10 21:04:50+00:00,2022-06-13 14:14:16+00:00,True,809.16
+1206,NRL Neptune model 32-bit physics support,2022-05-06 22:53:33+00:00,2022-05-29 20:08:12+00:00,False,549.24
+1205,Single time-step output,2022-05-06 18:41:56+00:00,2022-06-06 15:15:56+00:00,False,740.57
+1202,NSSL ccpp-physics bugfixes and new ccpp-framework debugging feature,2022-05-05 18:44:03+00:00,2022-05-11 13:04:49+00:00,True,138.35
+1201,Update CICE,2022-05-03 13:24:50+00:00,2022-05-09 22:26:06+00:00,False,153.02
+1200,Compute petlist bounds for each subcomponent from number of tasks. Update CICE,2022-05-02 21:28:26+00:00,2022-05-10 19:55:58+00:00,True,190.46
+1196,"Updated settings for NoahMP, Thompson and RRTMGP in RTs",2022-04-27 02:32:21+00:00,2022-05-09 22:40:45+00:00,True,308.14
+1195,merge gsl institutional fork,2022-04-26 23:11:10+00:00,2022-05-17 16:28:02+00:00,True,497.28
+1192,Added coupling between GOCART aerosols and RRTMG&Thompson in CCPP physics ,2022-04-26 13:41:08+00:00,2022-07-05 16:31:13+00:00,True,1682.83
+1189,Update CMEPS; Add gocart userguide (was #1182),2022-04-25 12:27:42+00:00,2022-05-02 13:12:46+00:00,True,168.75
+1187,Add prognostic cumulus closure description in saSAS,2022-04-20 03:25:28+00:00,2022-06-03 16:44:44+00:00,True,1069.32
+1182,Feature/gocart userguide,2022-04-17 23:47:45+00:00,2022-04-29 13:17:21+00:00,False,277.49
+1181,Unify inline post interfaces,2022-04-15 19:52:42+00:00,2022-05-05 03:05:47+00:00,True,463.22
+1176,A bug fix for wet scavenging of aerosols and a minor modification for moisture property calculation,2022-04-15 12:53:13+00:00,2022-04-21 23:04:59+00:00,True,154.2
+1175,point to one_scheme_to_one_file PR branch,2022-04-14 20:21:50+00:00,2022-04-22 16:35:46+00:00,True,188.23
+1172,Update rt.sh,2022-04-13 14:25:42+00:00,2022-04-13 14:26:59+00:00,False,0.02
+1171,Combine PROD and REPRO build options into 'Release' build type,2022-04-12 17:05:06+00:00,2022-05-03 12:30:10+00:00,True,499.42
+1170,Updates to aerosol RTs - new dust and fcsav ,2022-04-12 14:45:31+00:00,2022-05-19 16:38:38+00:00,True,889.89
+1164,Added hailcast code in FV3/atmos_cubed_sphere,2022-04-08 15:40:20+00:00,2022-05-05 02:15:53+00:00,False,634.59
+1159,Feature/rt wofs v0,2022-04-05 23:23:31+00:00,2022-04-06 18:19:45+00:00,False,18.94
+1158,Add FV3 suite WoFS_v0,2022-04-05 22:11:52+00:00,2022-10-27 14:15:43+00:00,False,4912.06
+1157,Bring exchange grid support to UFS,2022-04-05 22:10:16+00:00,2022-06-09 16:17:37+00:00,True,1554.12
+1156,"Update CDEPS component, add hailcast code in FV3/atmos_cubed_sphere and reduce wall clock time used for the cpld_control_c192_p8 test on Jet",2022-04-05 18:57:10+00:00,2022-04-29 16:53:35+00:00,True,573.94
+1152,Fix uninitialized min_rand variable in Thompson MP when using SPP,2022-04-02 18:13:19+00:00,2022-04-20 16:09:09+00:00,True,429.93
+1151,Remove the regional_spp_sppt_shum_skeb regression test because it uses uninitialized memory,2022-04-01 18:02:38+00:00,2022-04-07 21:50:43+00:00,False,147.8
+1149,Feature/update mom6 20220329 mixed fms,2022-03-30 02:50:06+00:00,2022-04-04 19:35:35+00:00,False,136.76
+1147,Fix type mismatch compiler error when gfortran 10 is used without '-fallow-argument-mismatch' flag,2022-03-29 14:09:13+00:00,2024-03-20 00:55:14+00:00,True,17314.77
+1146,Update ESMF to version 8.3.0bs09,2022-03-28 16:52:25+00:00,2022-03-31 14:43:02+00:00,True,69.84
+1143,Feature/lndp noahmp2 : add land perturbation scheme for Noah-MP fractional veg,2022-03-25 18:00:58+00:00,2022-04-28 15:02:52+00:00,True,813.03
+1142,Bug/debugww3fix,2022-03-25 17:31:50+00:00,2022-04-12 18:52:53+00:00,False,433.35
+1141,Feature/epicufsrt,2022-03-25 13:47:39+00:00,2022-03-31 16:57:36+00:00,False,147.17
+1137,Bring AQM model into UFS & Update MOM6 mixed FMS,2022-03-23 15:26:22+00:00,2022-04-04 19:35:35+00:00,True,292.15
+1136,"Add a cdeps test and update mom6, fv3, and weekly tests",2022-03-22 18:46:34+00:00,2022-03-24 15:29:31+00:00,True,44.72
+1135,Update fms to 2021.04,2022-03-22 13:45:06+00:00,2022-03-26 01:59:19+00:00,True,84.24
+1132,add three weekly tests and build cdeps with gnu compiler,2022-03-21 11:45:00+00:00,2022-03-24 17:58:03+00:00,False,78.22
+1131,Add mesh based cap for use by S2SW and HAFSW,2022-03-20 19:37:59+00:00,2022-05-31 16:16:34+00:00,True,1724.64
+1130,"fv3atm: Split GFS_typedefs.F90, rename CCPP_interstitial, import ccpp_t from ccpp_types; contains bug fix for WW3 debug",2022-03-20 18:00:29+00:00,2022-04-12 17:59:13+00:00,True,551.98
+1129,update MOM6 to its main branch 20220317 commit,2022-03-20 03:15:18+00:00,2022-03-24 17:56:40+00:00,False,110.69
+1127,Update upp submodule with the latest UPP release upp_v10.0.12,2022-03-19 23:05:37+00:00,2022-03-24 17:57:22+00:00,False,114.86
+1120,release/p8c: updated the TKE-EDMF PBL and saSAS cumulus scheme plus bug fix for the Thompson scheme (issue #881),2022-03-17 15:28:58+00:00,2022-04-04 15:06:54+00:00,True,431.63
+1119,Ci fix,2022-03-16 20:08:25+00:00,2022-03-18 20:41:17+00:00,False,48.55
+1118,Rectify total number of Thompson MP species and add UFS-Aerosols to S2S and S2SW,2022-03-16 19:42:19+00:00,2022-03-22 15:55:43+00:00,True,140.22
+1110,P8c: Added capability for cdmbgwd(1) to scale GSL blocking drag,2022-03-11 21:49:00+00:00,2022-03-30 18:00:50+00:00,True,452.2
+1104,HAFS moving-nesting related developments,2022-03-11 02:26:12+00:00,2022-04-11 13:38:08+00:00,True,755.2
+1095,land surface upgrades for p8,2022-03-09 17:59:59+00:00,2022-03-29 17:51:29+00:00,True,479.86
+1090,Radiation changes for prototype 8,2022-03-08 22:38:43+00:00,2022-04-08 15:59:09+00:00,True,737.34
+1089,CMAKE for WW3 ,2022-03-08 22:21:34+00:00,2022-03-16 13:58:10+00:00,True,183.61
+1087,Fix Lambert Conformal Conic mapping in the write component on the southern hemisphere,2022-03-08 16:48:02+00:00,2022-03-18 20:32:23+00:00,True,243.74
+1084,Add hi-res regional test on small domain,2022-03-07 01:02:50+00:00,2022-03-18 13:07:41+00:00,True,276.08
+1077,Feature/post 2d decomp,2022-03-03 21:22:41+00:00,2022-05-12 16:04:55+00:00,False,1674.7
+1073,Add 'valid time' variable using ISO string format,2022-03-02 15:36:08+00:00,2022-03-17 13:19:16+00:00,True,357.72
+1071,p8b (with aerosols) ,2022-02-28 22:37:15+00:00,2022-03-10 15:19:47+00:00,True,232.71
+1070,add a cdeps test using GFSv16 input data,2022-02-28 13:57:34+00:00,2022-03-14 20:21:44+00:00,True,342.4
+1067,Use Jet's ecflow server on tfe1 while running regression tests from fe##,2022-02-25 19:19:01+00:00,2022-03-31 14:43:01+00:00,False,811.4
+1065,Generate correct atmospheric restart files with multiple fv3atm run phases,2022-02-25 02:17:25+00:00,2022-03-04 16:32:24+00:00,False,182.25
+1061,"Split CCPP finalize into physics_finalize and (framework) finalize, fix CCPP's metadata2html.py",2022-02-24 04:01:53+00:00,2022-03-11 02:39:21+00:00,True,358.62
+1060,update mom6 main branch 20220217 commit,2022-02-20 04:34:04+00:00,2022-02-24 13:59:03+00:00,False,105.42
+1058,add support for restart tests while running single RT,2022-02-19 06:58:54+00:00,2022-02-24 13:59:15+00:00,False,127.01
+1050,lateral boundary fix for regional runs,2022-02-14 14:47:08+00:00,2022-02-25 19:34:57+00:00,True,268.8
+1049,Enable Thompson microphysics with UFS-Aerosols and update GOCART,2022-02-14 04:51:34+00:00,2022-02-22 16:06:45+00:00,True,203.25
+1045,Update CICE; add support for restart test when running single RT (was PR 1058); update MOM6 (was PR 1060),2022-02-11 17:09:13+00:00,2022-02-24 16:45:47+00:00,True,311.61
+1044,Multiple output (nested) grids from fv3atm,2022-02-10 19:05:06+00:00,2022-02-15 16:30:58+00:00,True,117.43
+1043,GPU-enabled version of Grell-Freitas convection in ccpp-physics,2022-02-10 03:37:55+00:00,2022-02-16 14:22:28+00:00,True,154.74
+1041,Update esmf 821b04,2022-02-09 13:53:08+00:00,2022-02-10 17:31:40+00:00,True,27.64
+1040,production/GFS.v16: update module files on hera/orion,2022-02-08 20:10:24+00:00,2022-03-29 20:18:35+00:00,True,1176.14
+1037,Add lsm_cold_start variable for RUC LSM SCM support and gwdps bugfix (combined),2022-02-03 16:59:33+00:00,2022-02-08 18:51:58+00:00,True,121.87
+1035,gwdps.f bug fix,2022-02-02 20:19:31+00:00,2022-02-08 18:59:56+00:00,False,142.67
+1034,Update CMEPS for wave coupling,2022-02-01 15:43:29+00:00,2022-02-03 14:21:43+00:00,True,46.64
+1032,Feature: NSSL Microphysics support,2022-01-28 23:55:40+00:00,2022-03-04 18:42:28+00:00,True,834.78
+1028,"2D decomposition on write grid, bug fix in FV3GFS_IO.F90, and quad precision in stochastic physics",2022-01-27 21:00:20+00:00,2022-02-02 16:13:02+00:00,True,139.21
+1026,sync-ww3,2022-01-27 14:52:51+00:00,2022-01-28 13:08:52+00:00,True,22.27
+1025,Revisions to repair iovr=5 cloud overlap option,2022-01-26 21:47:03+00:00,2022-01-31 16:06:56+00:00,True,114.33
+1022,sync WW3,2022-01-25 16:52:38+00:00,2022-01-27 14:53:19+00:00,False,46.01
+1018,ESMF managed threading,2022-01-24 17:07:16+00:00,2022-01-27 14:16:09+00:00,True,69.15
+1016,"Set ACCNR in rt.sh, not detect_machine.sh. Add some comments explaini…",2022-01-20 23:17:38+00:00,2022-01-24 16:40:17+00:00,False,89.38
+1013,Change standard name and unit of CCPP error flag variable in CCPP framework and physics,2022-01-16 13:42:01+00:00,2022-01-26 13:32:38+00:00,True,239.84
+1011,"Unified write_netcdf, add single file 'cubed_sphere_grid' output",2022-01-14 15:00:43+00:00,2022-01-25 15:48:24+00:00,True,264.79
+1010,Add wcoss2 module (and module template) from NCO,2022-01-11 18:36:04+00:00,2022-01-11 19:13:15+00:00,True,0.62
+1009,Add fhzero ort to coupled tests,2022-01-10 23:43:24+00:00,2022-01-24 14:05:18+00:00,True,326.37
+1008,"Rremove nems_datm related code, update CDEPS, and remove run directories that are no longer needed by other tests",2022-01-09 19:47:19+00:00,2022-01-21 14:37:06+00:00,True,282.83
+1005,Thompson MP cloud tuning,2022-01-07 23:09:14+00:00,2022-01-18 16:30:14+00:00,True,257.35
+1004,Update weekly tests and remove run directories that are no longer needed by other tests,2022-01-07 14:20:36+00:00,2022-01-21 17:15:51+00:00,False,338.92
+1000,CCPP: Update consistency checks and effective radii calculation for Thompson MP,2022-01-06 12:44:05+00:00,2022-01-20 15:03:39+00:00,True,338.33
+996, fixes on initializing snow over fractional ice and GFS_surface_composite and z0ice value change,2022-01-05 00:47:11+00:00,2022-01-10 17:24:45+00:00,True,136.63
+995,Add a new HAFS regression test with Thompson MP and GFDL surface layer schemes and Corrected S4 template regression testing job card,2022-01-04 23:12:35+00:00,2022-01-19 19:29:34+00:00,True,356.28
+992,Corrected S4 template regression testing job card,2022-01-04 18:57:25+00:00,2022-01-19 20:25:39+00:00,False,361.47
+990,4DIAU bug fix when iau_filter_increments=T,2022-01-04 16:40:13+00:00,2022-02-04 22:19:40+00:00,True,749.66
+988,GFS v16.0.16 on cactus dogwood,2022-01-04 15:53:21+00:00,2022-01-04 16:42:43+00:00,True,0.82
+986,Radar-derived microphysics temperature tendencies similar to operational HRRR,2021-12-30 12:40:08+00:00,2022-01-11 15:50:03+00:00,True,291.17
+984,MYNN sfclay (RAP suite) restart reproducibility,2021-12-29 16:58:40+00:00,2022-01-07 03:44:30+00:00,True,202.76
+983,"Duplicate of ""Revert iovr=4 (exponential cloud overlap method) in RRTMG #963""",2021-12-27 23:51:44+00:00,2022-01-03 13:57:51+00:00,False,158.1
+982,Add support for Stochastically Perturbed Parameterizations (SPP) in FV3,2021-12-26 19:26:43+00:00,2022-02-24 01:28:16+00:00,True,1422.03
+981,Regression test bug fixes for running on Jet or with Rocoto,2021-12-25 01:19:24+00:00,2022-01-05 17:00:47+00:00,True,279.69
+977,Add fhzero ort test,2021-12-24 01:28:29+00:00,2021-12-28 18:29:58+00:00,True,113.02
+976,"Add a new CDEPS test to use GSFv16 data mode in CDEPS ,update rt_weekly.conf and update MOM6 to main branch (20211220)",2021-12-23 16:51:45+00:00,2021-12-29 19:47:13+00:00,True,146.92
+974,update MOM6 to its main branch 20211220 commit,2021-12-22 04:14:22+00:00,2021-12-30 02:48:56+00:00,False,190.58
+972,Wrapper for ccpp-physics #812,2021-12-22 03:24:05+00:00,2022-01-07 03:49:15+00:00,False,384.42
+971,Wrapper for ccpp-physics #808 and 816 (roughness length over ice and NoahMP tsurf bugfix),2021-12-20 19:07:39+00:00,2021-12-23 15:16:18+00:00,True,68.14
+970,"ccpp-physics #806, #807, #813, and ort modifications",2021-12-20 15:55:31+00:00,2021-12-21 14:46:25+00:00,True,22.85
+969,Add p7.2 tests and updates,2021-12-20 15:27:43+00:00,2022-02-28 22:37:55+00:00,False,1687.17
+968,Update global inline post for outputting foundation temperature,2021-12-20 15:07:07+00:00,2022-01-03 15:12:19+00:00,True,336.09
+967,Use 'model set run clock' routine in FV3 NUOPC cap.,2021-12-20 15:06:10+00:00,2021-12-27 14:10:50+00:00,True,167.08
+965,"Fix Auto-RT on Gaea, Jet and Orion",2021-12-17 17:00:11+00:00,2021-12-20 15:50:36+00:00,False,70.84
+964,Enforce tracer column mass conservation in TVD schemes,2021-12-16 06:16:08+00:00,2022-01-07 03:49:50+00:00,False,525.56
+963,Revert iovr=4 (exponential cloud overlap method) in RRTMG,2021-12-16 02:44:41+00:00,2021-12-28 14:12:54+00:00,True,299.47
+962,"CCPP cloud cover change for Thompson MP associated with Xu Randall, several bug fixes for regression testing scripts",2021-12-15 23:43:58+00:00,2021-12-20 15:36:19+00:00,True,111.87
+959,Point to feature/CODEOWNERS branch of ccpp/physics,2021-12-14 23:38:57+00:00,2021-12-16 20:02:29+00:00,False,44.39
+957,Modify scripts for weekly_tests,2021-12-14 18:50:03+00:00,2021-12-17 16:27:36+00:00,False,69.63
+954,fv3atm cap cleanup,2021-12-13 15:10:16+00:00,2021-12-17 14:48:52+00:00,True,95.64
+951,MERRA2 diagnosed number concentrations of ice friendly  (NIFA) and liquid friendly aerosols (NWFA),2021-12-09 13:49:21+00:00,2022-04-22 01:01:26+00:00,False,3203.2
+947,"Bug fixes for WAM physics and regression tests, remove duplicate modules from ccpp-physics CMakeLists.txt",2021-12-06 22:17:03+00:00,2021-12-30 14:05:44+00:00,True,567.81
+946,Add GP ORTs,2021-12-06 17:09:55+00:00,2021-12-09 17:16:40+00:00,True,72.11
+944,Turn on CICE albedo use by ATM for coupled model; update Prototype test suite to initial P8 configuration; ,2021-12-03 15:07:45+00:00,2022-01-13 14:17:28+00:00,True,983.16
+943,"CCPP CMake cleanup, update submodule pointer for stochastic_physics to include emergency bugfix for restart runs",2021-12-03 14:27:06+00:00,2021-12-14 14:04:24+00:00,True,263.62
+941,Update Prototype test suite to initial P8 configuration; turn on RRTMGP,2021-12-02 14:17:45+00:00,2021-12-03 16:03:18+00:00,False,25.76
+939,update cdeps component in ufs-weather-model,2021-12-01 19:27:45+00:00,2021-12-16 15:33:40+00:00,False,356.1
+937,"Merge NOAA-GSL gsl/develop into develop, update all GSL regression tests to use new GFS v16 C96L127 ICs, update macOS build config",2021-12-01 14:40:26+00:00,2021-12-13 14:19:12+00:00,True,287.65
+935,"Update CICE, use -init=snan,arrays for Intel debug",2021-11-30 00:00:31+00:00,2021-12-15 13:41:50+00:00,True,373.69
+932,Update CMEPS,2021-11-29 14:02:43+00:00,2021-12-16 13:02:51+00:00,False,407.0
+931,Add ufs driver. Remove NEMS submodule. Update CMEPS. Update CDEPS. Feature/ort addition. ,2021-11-23 19:37:22+00:00,2021-12-16 15:10:05+00:00,True,547.55
+929,New Thompson cloud fraction (updated subroutine cal_cldfra3),2021-11-23 17:17:27+00:00,2021-12-10 14:48:46+00:00,True,405.52
+928,Feature/ort addition,2021-11-23 02:36:31+00:00,2021-12-16 15:15:43+00:00,False,564.65
+927,Noah MP updates for Prototype 8 (GFSv17),2021-11-19 20:08:50+00:00,2021-12-02 17:10:18+00:00,True,309.02
+926,Changes to RRTMGP. New ORTs,2021-11-19 00:23:29+00:00,2021-12-02 14:35:37+00:00,False,326.2
+924,New ORTs for RRTMGP,2021-11-18 22:04:38+00:00,2021-11-19 00:13:37+00:00,False,2.15
+923,Semi Lagrangian sedimentation of graupel and update of corresponding namelist variables,2021-11-18 21:47:57+00:00,2021-11-23 15:30:27+00:00,True,113.71
+921,"Clean up the input data directory, move diag_table to ufs-weather-model and set up C768 atm-only test",2021-11-17 20:14:26+00:00,2021-12-06 15:20:07+00:00,True,451.09
+918,Regional restart regression test fixed,2021-11-17 02:04:12+00:00,2021-12-01 17:49:51+00:00,True,351.76
+917,Ugwp fhzero bugfix,2021-11-17 00:40:12+00:00,2021-12-02 19:12:43+00:00,False,378.54
+911,Update WW3 for fix for MPI reproducibility ,2021-11-12 13:35:59+00:00,2021-11-17 16:01:21+00:00,True,122.42
+910,Update CICE cap for optional features; use UPP as submodule (was #904),2021-11-12 13:10:40+00:00,2021-11-22 14:15:09+00:00,True,241.07
+909,Close MOM6 1deg at j=1; Update input-data for P8c,2021-11-10 20:02:58+00:00,2022-04-18 13:05:13+00:00,True,3809.04
+907,"CCPP framework (metadata parser) update, and update several units in CCPP metadata in fv3atm and ccpp-physics, use Python 3.6+",2021-11-10 14:51:13+00:00,2021-11-24 01:55:02+00:00,True,323.06
+904,Use upp as a submodule,2021-11-09 18:24:02+00:00,2021-11-22 14:21:50+00:00,False,307.96
+903,Decrease the memory usage by MERRA2 for 6 times,2021-11-09 15:27:03+00:00,2021-11-18 21:02:29+00:00,True,221.59
+897,Fix macOS build errors; fv3atm: register diagnostics from stochastic physics only if allocated; ccpp-physics: cleanup CCPP cmake flags part 1,2021-11-04 13:51:16+00:00,2021-11-12 15:02:42+00:00,True,193.19
+896,Fixed regression testing and throttled builds on S4.  #894,2021-11-03 18:36:45+00:00,2021-11-10 14:37:43+00:00,False,164.02
+892,"Wrapper PR for ""Remove optional arguments from CCPP metadata, remove effective radii computation from Thompson MP""  and ""Fix/improve logic for convective transportable tracers, add GFS_checktracer debugging routine, correct spelling ""janic"" --> ""janjic"", fix inconsistent types related with noahmp and log functions"", ""Modify opnReqTest related scripts for fv3_gsd test""",2021-11-02 15:47:38+00:00,2021-11-04 03:15:04+00:00,True,35.46
+890,Modify opnReqTest related scripts for fv3_gsd test,2021-10-26 19:27:58+00:00,2021-11-04 12:18:54+00:00,False,208.85
+889,Update gsl/develop from develop 2021/10/25,2021-10-25 22:03:58+00:00,2021-10-26 13:06:50+00:00,False,15.05
+888,Update to CA scale parameters for better scaling across resolutions; Fix regression testing and throttled builds on S4 (was #896),2021-10-25 18:26:19+00:00,2021-11-10 17:53:45+00:00,True,383.46
+887,Remove optional arguments from CCPP framework/metadata,2021-10-25 14:04:59+00:00,2021-11-04 12:37:13+00:00,False,238.54
+886,Reduce fhmax for cpld_c192_p7 test; update to ESMF 8.2.0 and MAPL 2.11.0,2021-10-24 22:50:41+00:00,2021-11-05 13:24:09+00:00,True,278.56
+880,WW3 to use CPP instead of switches,2021-10-21 16:00:57+00:00,2021-11-03 13:43:20+00:00,False,309.71
+877,update MOM6 to its main branch 20211019 commit,2021-10-20 16:26:17+00:00,2021-11-01 00:20:59+00:00,False,271.91
+875,"Fix/improve logic for convective transportable tracers in CCPP, add GFS_checktracer debugging routine, correct spelling ""janic"" --> ""janjic""",2021-10-18 20:40:44+00:00,2021-11-04 12:36:50+00:00,False,399.94
+874,production/GFS.v16: Add traceback compile option,2021-10-18 14:49:30+00:00,2021-10-18 16:12:48+00:00,True,1.39
+870,"minor updates for FV3 ""the dycore"" and run templates, parm/field_table/* updated for RTS",2021-10-15 15:46:06+00:00,2021-10-19 17:17:06+00:00,True,97.52
+868,"Attribute cleanup, allow coupled executable to run as standalone; update WW3 to use CPP instead of switches (was #880)",2021-10-15 09:55:54+00:00,2021-11-03 13:41:50+00:00,True,459.77
+866,Reduce memory required by MERRA2 option; fix diag_tables for P7 tests; adds C384 P7 tests to Cheyenne.intel,2021-10-10 12:11:52+00:00,2021-10-28 17:24:02+00:00,False,437.2
+864,"Add HAFS HYCOM, WW3 and CDEPS_DOCN coupling related documentation",2021-10-08 22:09:18+00:00,2021-11-05 16:31:03+00:00,True,666.36
+863,adding semi-lagrangian sedimentation of rain in Thompson MP as an option ,2021-10-08 17:15:33+00:00,2021-10-28 21:12:13+00:00,True,483.94
+860,switch WW3 from develop to dev/ufs-weather-model,2021-10-07 02:14:12+00:00,2021-10-25 12:16:42+00:00,False,442.04
+858,Introduce positive-definite TVD methods for PBL and cumulus convective schemes,2021-10-06 21:55:46+00:00,2021-11-09 17:53:28+00:00,True,811.96
+852,Expanse porting,2021-10-05 16:39:28+00:00,2021-10-05 16:39:50+00:00,False,0.01
+850,"Enable debugging features in CCPP physics caps, bug fixes and cleanup for CCPP variables and metadata, port model to XSEDE Expanse, switch WW3 from develop to dev/ufs-weather-model",2021-10-04 21:38:21+00:00,2021-10-25 13:03:59+00:00,True,495.43
+848,Fix atmospheric model's field import,2021-10-04 15:08:43+00:00,2021-10-05 20:38:04+00:00,True,29.49
+846,Enable running regional nesting configurations and add four regional and global nesting RTs as well as two HAFS WW3 coupling RTs,2021-10-04 01:47:27+00:00,2021-11-02 13:36:05+00:00,True,707.81
+845,Update CDEPS component and remove DATM component,2021-10-01 14:27:25+00:00,2021-10-18 13:45:58+00:00,True,407.31
+843,Fix regression tests on S4,2021-09-30 11:12:18+00:00,2021-10-18 11:45:54+00:00,False,432.56
+841,Upgrade upp lib to 10.0.10,2021-09-29 16:19:38+00:00,2021-10-26 13:04:57+00:00,False,644.76
+835,"CCPP updates: UGWPv1 decomp bug fixes, remove Julie from CODEOWNERS; bug fix in tests/run_compile.sh",2021-09-28 17:10:07+00:00,2021-09-29 14:09:22+00:00,True,20.99
+832,Stochastic physics clean and updates to CA,2021-09-24 18:56:07+00:00,2021-09-30 15:25:51+00:00,True,140.5
+831,"Remove Noah-WRFv4, bug fix in Thompson MP inner loop, update HWRF regression tests, set ECF_TRIES to 2, update Cheyenne job submission scripts; contains ""Reduce memory required by MERRA2 option; fix diag_tables for P7 tests; adds C384 P7 tests to Cheyenne.intel"" (#866), contains ""Update CMEPS"" (#775)",2021-09-24 18:50:31+00:00,2021-10-29 17:58:49+00:00,True,839.14
+829,opnReqTest cpld_control_p7,2021-09-24 13:09:07+00:00,2021-10-04 16:31:47+00:00,False,243.38
+828,fix the decomposition issue associated with cimin in radiation surface physics,2021-09-24 13:02:33+00:00,2021-09-27 17:08:46+00:00,True,76.1
+825,IGNORE - FOR SRW TUTORIAL ONLY: Update roughness length for grassland category used by Noah MP,2021-09-23 17:01:17+00:00,2021-09-23 17:36:40+00:00,False,0.59
+821,Remove interstitial variables for land and ice emissivity and update the land and ice emissivity in the routine setemis in CCPP,2021-09-21 23:52:25+00:00,2021-10-22 13:37:09+00:00,True,733.75
+820,RRTMGP updates and bugfixes,2021-09-21 19:15:45+00:00,2021-10-07 17:10:27+00:00,True,381.91
+819,fixes for coupled model P7 restart tests and Update build system and regression testing on Acorn (PR#809),2021-09-21 17:07:41+00:00,2021-09-24 18:00:09+00:00,True,72.87
+816,Fix CICE decomposition settings; update MOM6 to GFDL 20210914 main branch commit (was PR#803),2021-09-18 15:55:56+00:00,2021-09-21 13:45:02+00:00,True,69.82
+812,cmake in the FV3 dycore,2021-09-16 19:12:17+00:00,2021-09-23 15:43:31+00:00,True,164.52
+809,Update build system and regression testing on Acorn,2021-09-16 14:44:55+00:00,2021-09-24 20:43:22+00:00,False,197.97
+804,"Convert real(kind_phys) vegetation, slope and soil type arrays into integer arrays without affecting input/output files, update submodule pointer for CMakeModules (updates to FindNetCDF.cmake and FindESMF.cmake), switch to EMC hpc-stack on gaea, update utest/opnReqTest",2021-09-15 16:03:45+00:00,2021-10-04 16:11:37+00:00,True,456.13
+803,update MOM6 to GFDL 20210914 main branch commit,2021-09-15 01:42:02+00:00,2021-09-22 02:51:51+00:00,False,169.16
+800,Port the UFS to S4,2021-09-14 14:53:13+00:00,2021-09-23 15:53:25+00:00,False,217.0
+798,fixed issue with decomp-change RT failures with ugwpv1 and made other…,2021-09-13 15:41:31+00:00,2021-09-29 12:06:10+00:00,False,380.41
+794,Add Automated Testing section on read the docs documentation,2021-09-10 20:36:33+00:00,2021-09-13 17:08:38+00:00,True,68.53
+791,"Cleanup CCPP cmake build, reduce number of compile jobs, use atparse for variable substitution in MOM and CICE input files",2021-09-10 01:45:43+00:00,2021-09-15 01:56:28+00:00,True,120.18
+790,Fb sync ww3,2021-09-09 17:18:08+00:00,2021-09-22 13:31:57+00:00,True,308.23
+787,"Revert ""update templates for diag_table to be consistent with model_configure """,2021-09-03 16:46:07+00:00,2021-09-03 16:50:35+00:00,False,0.07
+786,update fv3 revision to the latest develop branch,2021-09-03 16:45:07+00:00,2021-09-03 16:54:13+00:00,True,0.15
+784,Use atparse for variable subsitution in MOM and CICE input files,2021-09-01 22:03:20+00:00,2021-09-14 21:46:51+00:00,False,311.73
+782,"CCPP metadata bugfixes, FMS 2021.03 updates in FV3, bug fix for IAU, bug fix for loading yaml module",2021-09-01 15:52:34+00:00,2021-09-10 02:20:57+00:00,True,202.47
+781,update templates for diag_table to be consistent with model_configure ,2021-08-31 18:24:48+00:00,2021-09-03 14:58:26+00:00,True,68.56
+778,Update fms lib to use the version installed with avx,2021-08-27 15:57:52+00:00,2021-08-30 17:07:03+00:00,True,73.15
+776,Update ESMF to 8.2.0bs14; Add a cplocn2atm namelist option to control one-way or two-way atmosphere-ocean coupling (was PR 767),2021-08-27 15:18:02+00:00,2021-09-07 15:56:36+00:00,True,264.64
+775,Update CMEPS,2021-08-27 14:37:29+00:00,2021-10-28 17:24:14+00:00,False,1490.78
+773,Update with upp/10.0.9 and turn on inline post rt tests in debug mode.,2021-08-26 14:57:19+00:00,2021-09-13 16:44:03+00:00,True,433.78
+772,"brings in FV3 ""the dycore"" updated to be consistent with the latest public release ",2021-08-26 00:38:03+00:00,2021-08-27 15:20:34+00:00,True,38.71
+767,Add a cplocn2atm namelist option to control one-way or two-way atmosphere-ocean coupling,2021-08-23 21:15:01+00:00,2021-09-02 10:07:43+00:00,False,228.88
+765,"Update coupled tests to use P7 configuration, add standalone P7 test suite",2021-08-23 18:48:48+00:00,2021-10-01 16:02:08+00:00,True,933.22
+762,brings in changes needed for FMS 2021.03,2021-08-20 16:32:09+00:00,2021-08-25 13:36:42+00:00,True,117.08
+759,update templates for diag_table to be consistent with model_configure,2021-08-20 13:35:43+00:00,2021-08-31 18:23:10+00:00,False,268.79
+757,"Update CICE for advanced snow physics, history file timestamping and history file precision",2021-08-20 12:24:18+00:00,2021-09-20 13:24:16+00:00,True,745.0
+756,Add optional CICE memory profiling; Fix memory leak in Stochastic physics (was PR #755),2021-08-20 11:20:25+00:00,2021-08-23 12:25:44+00:00,True,73.09
+755,Address memory leak in cellular automaton scheme,2021-08-20 03:11:39+00:00,2021-08-20 19:07:40+00:00,False,15.93
+753,Bring AutoRT updates into develop,2021-08-19 17:59:27+00:00,2021-08-19 19:48:15+00:00,True,1.81
+751,"Fix stochastic physics restart runs, remove rayleigh damping from all suite definition files (fv3atm)",2021-08-18 21:08:04+00:00,2021-08-19 18:05:31+00:00,True,20.96
+748,FMS 2021.03 ,2021-08-13 13:52:34+00:00,2021-08-25 13:23:54+00:00,False,287.52
+747,Remove redundant surface variables and update to send correct pointers to JEDI in fv3atm,2021-08-13 13:21:38+00:00,2021-08-17 17:38:44+00:00,True,100.28
+745,CCPP framework update and metadata bug fixes,2021-08-12 21:53:01+00:00,2021-08-18 20:42:38+00:00,True,142.83
+741,Update MOM6 to GFDL 20210806 commit,2021-08-09 03:52:58+00:00,2021-08-12 22:57:36+00:00,False,91.08
+733,Use consistent true/false flags in RTs; Update MOM6 to GFDL 20210806,2021-08-04 19:59:33+00:00,2021-08-16 13:01:51+00:00,True,281.04
+732,Enable GOCART in fully coupled configurations,2021-08-04 05:16:02+00:00,2021-08-13 15:18:23+00:00,True,226.04
+728,Update stampede related files,2021-07-29 23:24:03+00:00,2021-08-02 17:37:15+00:00,False,90.22
+726,Cleanup grandfathered-in constants in CCPP - round 1,2021-07-29 22:54:43+00:00,2021-08-12 12:26:15+00:00,True,325.53
+725,Hotfix for aerosol deep convective transport (SAMF) and scavenging (RAS),2021-07-29 16:44:29+00:00,2021-08-11 20:47:19+00:00,False,316.05
+724,Add C48L127 atmosphere only test and turn on the control_csawmg test on jet/cheyenne,2021-07-29 12:09:23+00:00,2021-08-06 14:15:20+00:00,True,194.1
+723,Ufs weather model cice alb,2021-07-29 11:38:06+00:00,2021-08-10 13:16:58+00:00,True,289.65
+721,documentation updates,2021-07-28 20:58:13+00:00,2021-08-02 16:31:31+00:00,True,115.56
+719,Update CCPP standard names for consistency,2021-07-28 19:56:58+00:00,2021-07-29 13:12:36+00:00,True,17.26
+715,Merge HAFS coupling related developments back to ufs-weather-model,2021-07-27 17:20:51+00:00,2021-08-05 13:56:04+00:00,True,212.59
+714,Add a WAM regression test with the MULTI_GASES and MOLECULAR_DIFFUSION options on,2021-07-27 14:59:10+00:00,2021-10-27 14:08:33+00:00,True,2207.16
+711,update MOM6 to GFDL 20210723 main branch,2021-07-26 03:37:50+00:00,2021-07-27 15:46:01+00:00,False,36.14
+708,Update CMEPS to allow CICE6 albedos -> ATM,2021-07-23 20:25:44+00:00,2021-07-28 12:28:32+00:00,True,112.05
+707,Fix for new hera ecflow requirements,2021-07-23 19:20:06+00:00,2021-07-27 15:47:01+00:00,False,92.45
+702,"Wrapper PR for: Thompson inner loop, Thompson subcycling bugfix, remove snet from noah lsm, fix time dimension in restart files, rt.sh bugfix for PBS, and more!",2021-07-22 14:32:55+00:00,2021-07-23 13:32:17+00:00,True,22.99
+701,Add albedo coupling through CMEPS ,2021-07-21 19:48:42+00:00,2021-07-21 22:24:36+00:00,False,2.6
+694,fv3atm: fix time dimension in restart files,2021-07-16 23:34:07+00:00,2021-07-26 02:18:49+00:00,False,218.75
+691, flexible output hour for history files and and update MOM6 to GFDL 20210723,2021-07-15 15:28:33+00:00,2021-07-27 14:31:02+00:00,True,287.04
+689,Release/P7b: add fix for omp reproducibility issue for P7b,2021-07-13 19:25:03+00:00,2021-07-13 22:36:59+00:00,True,3.2
+685,Remove nemsio dependency,2021-07-09 18:09:24+00:00,2021-07-26 12:12:25+00:00,True,402.05
+676,Feature/configure aws,2021-06-29 22:16:58+00:00,2021-06-29 22:17:24+00:00,False,0.01
+672,"Update GNU and Intel compiler versions on Cheyenne, don't run control_debug_2threads when creating baselines",2021-06-28 21:39:37+00:00,2021-07-16 22:28:58+00:00,False,432.82
+670,"Bugfix in Thompson MP, pass correct timestep to core routine",2021-06-26 19:24:25+00:00,2021-07-27 14:54:21+00:00,False,739.5
+668,MOM6 IAU and atmos stochy restart test,2021-06-25 12:42:00+00:00,2021-07-22 16:12:47+00:00,True,651.51
+665,Update CMEPS,2021-06-24 15:54:10+00:00,2021-07-09 12:43:36+00:00,False,356.82
+664,"Update CICE NUOPC cap, fix time-manager",2021-06-24 15:38:41+00:00,2021-07-14 15:48:48+00:00,False,480.17
+660,Feature/gsl develop diagnostics 20210609,2021-06-23 20:04:32+00:00,2021-07-21 15:39:23+00:00,True,667.58
+658,"Add extended diagnostic output from Thompson MP + regression test, includes ""Add optional scaling to RRTMGP flux adjustment"" (#605), bug fix in several suite definition files",2021-06-22 20:49:35+00:00,2021-07-12 15:32:15+00:00,False,474.71
+654,Use nuopc labels in fv3cap. Refactor ModelAdvance in fv3cap,2021-06-21 15:07:59+00:00,2021-07-16 17:30:38+00:00,True,602.38
+650,enable daily history writing for CICE6 in P7b,2021-06-17 21:16:41+00:00,2021-06-21 14:25:50+00:00,True,89.15
+646,"Update UPP control files for GFS, RRFS and HAFS",2021-06-15 17:46:45+00:00,2021-06-17 19:23:26+00:00,True,49.61
+642,"Eliminate computational instability in the datm_cdeps_mx025_cfsr test on gaea, orion and wcoss_dell_p3",2021-06-15 10:36:48+00:00,2021-07-07 20:50:43+00:00,True,538.23
+641,Add hourly maximum precipitation rate,2021-06-15 02:17:22+00:00,2021-06-16 19:45:30+00:00,True,41.47
+639,Clean up input-data directories; Fix MERRA2 input; Add tests on Jet; Update CICE cap & fix time manager (was PR#664),2021-06-14 21:09:05+00:00,2021-07-20 15:45:06+00:00,True,858.6
+636,release/P7b: set up P7b test case,2021-06-11 17:56:15+00:00,2021-06-14 17:51:20+00:00,True,71.92
+635,zlvs fix for release 7b,2021-06-10 22:15:40+00:00,2021-06-11 12:00:37+00:00,True,13.75
+634,release/P7b: output SST and epbl at hourly interval in P7b,2021-06-10 04:26:42+00:00,2021-06-10 17:37:40+00:00,False,13.18
+632,"Thompson subcycling for develop, add missing hera.gnu debug modulefile",2021-06-09 20:33:54+00:00,2021-06-10 14:25:39+00:00,True,17.86
+630,Feature/addnsst test,2021-06-09 12:34:10+00:00,2021-06-10 13:03:03+00:00,True,24.48
+629,release/P7b: add gcycle fix for tile fixed file fields,2021-06-08 19:46:02+00:00,2021-06-09 13:48:32+00:00,True,18.04
+628,Release/P7b: Bring in #623 with Mushy Thermodyn setting in RT,2021-06-08 19:09:08+00:00,2021-06-08 22:58:06+00:00,True,3.82
+627,Release/P7b: Bring in #623 with Mushy Thermodyn setting in RT,2021-06-08 14:13:45+00:00,2021-06-08 19:01:03+00:00,False,4.79
+626,P7b: Update BM ICs for soil variables release,2021-06-08 13:45:09+00:00,2021-06-09 13:39:42+00:00,False,23.91
+625,P7a: Update BM ICs for soil variables release,2021-06-08 13:44:48+00:00,2021-06-08 18:32:45+00:00,True,4.8
+623,"Remove non-frac grid coupled tests (Replacement PR, was #584)",2021-06-07 15:06:53+00:00,2021-06-08 09:58:56+00:00,True,18.87
+620,add control_c384gdas_wav and control_atmwav tests,2021-06-04 13:45:23+00:00,2021-07-30 13:13:16+00:00,True,1343.46
+619,"Update FV3 (Thompson MP and RRTMGP), CMEPS, documentation and CI",2021-06-04 01:32:38+00:00,2021-07-12 15:01:12+00:00,True,925.48
+615,update rt.conf and compile.sh to provide cmake options and avoid a translation layer,2021-06-02 13:35:28+00:00,2021-07-07 21:00:32+00:00,False,847.42
+614,add WRITE_DOPOST to cpld_bmarkfrac_wave_v16_noahmp_35d and cpld_bmark…,2021-06-02 03:11:33+00:00,2021-06-02 11:37:46+00:00,True,8.44
+612,increase PE # for 35day run,2021-06-01 22:18:04+00:00,2021-06-02 01:33:11+00:00,True,3.25
+611,Link full CDEPS library at compile time instead of data components.,2021-06-01 20:57:15+00:00,2021-07-07 21:00:04+00:00,False,864.05
+610,Update  CICE; add CMEPS fix for GNU and turn on cpld test for GNU; update 35d scripts from P7a mini-release,2021-06-01 20:20:58+00:00,2021-06-04 20:58:18+00:00,True,72.62
+608,release/P7a: point to FV3 release/P7a branch with gcycle fix,2021-05-28 21:32:26+00:00,2021-05-28 21:41:18+00:00,True,0.15
+607,p7a 35dfix,2021-05-28 17:30:41+00:00,2021-05-28 17:33:52+00:00,True,0.05
+606,Ufs weather model for pr,2021-05-27 18:44:52+00:00,2021-07-14 12:19:35+00:00,True,1145.58
+605,Add optional scaling to RRTMGP flux adjustment,2021-05-27 15:53:58+00:00,2021-07-12 15:31:14+00:00,False,1103.62
+603,Update utest and ci,2021-05-27 00:50:53+00:00,2021-06-03 16:40:28+00:00,True,183.83
+600,Move IO related configuration from fv3_cap to write grid component,2021-05-25 20:34:12+00:00,2021-06-08 20:50:07+00:00,True,336.27
+599,Update CDEPS submodule and CDEPS tests,2021-05-25 19:11:21+00:00,2021-05-26 20:36:49+00:00,True,25.42
+595,Thompson subcycling for develop,2021-05-24 22:56:32+00:00,2021-06-10 15:21:21+00:00,False,400.41
+594,Feature/pratemax,2021-05-24 22:37:49+00:00,2021-06-15 13:42:23+00:00,False,519.08
+593,Build and RT/UT documentation for user's guide,2021-05-24 13:26:30+00:00,2021-07-12 15:33:50+00:00,False,1178.12
+592,"Physics update in cumulus convection, PBL & surface layer for UFS_P7; update compiler versions on Cheyenne",2021-05-24 12:37:52+00:00,2021-07-16 10:24:40+00:00,True,1269.78
+591,Introduce UFS-Aerosols component,2021-05-24 07:43:58+00:00,2021-07-01 15:32:01+00:00,True,919.8
+589,Update to cellular automaton stochastic convective organization scheme,2021-05-20 19:59:56+00:00,2021-06-14 16:05:50+00:00,True,596.1
+586,Add import/export fields for fv3-jedi coupling,2021-05-19 14:46:35+00:00,2021-05-21 19:12:11+00:00,True,52.43
+585,"Add p7a test using tiled FV3 Fix files, P7a ICs and NoahMP; add open-water normalization in CMEPS (#549)",2021-05-19 14:33:54+00:00,2021-05-25 12:18:30+00:00,True,141.74
+584,Remove non-frac grid coupled tests,2021-05-17 16:26:17+00:00,2021-06-07 15:07:15+00:00,False,502.68
+577,Ensure consistency between model namelist and CCPP suite definition file,2021-05-13 22:05:15+00:00,2021-05-19 20:50:03+00:00,True,142.75
+574,Add a new cdeps test,2021-05-13 12:07:37+00:00,2021-05-18 18:32:57+00:00,False,126.42
+573,Update WW3 with fb_coupling_fields; add cice fix for zlvs,2021-05-13 01:24:19+00:00,2021-06-11 13:00:16+00:00,True,707.6
+572,"Rename CCPP branches from master to main, several small changes in ccpp-physics",2021-05-12 22:24:36+00:00,2021-05-18 18:23:04+00:00,True,139.97
+570,Change CI triggering method,2021-05-12 20:04:27+00:00,2021-05-18 18:38:08+00:00,False,142.56
+567,Add 'netcdf' and 'grib2' to IC input source options in regional IC/LBC routines (re-opened),2021-05-10 19:17:52+00:00,2021-05-12 14:18:56+00:00,True,43.02
+561,Update global GFS regression tests,2021-05-07 01:39:45+00:00,2021-06-02 15:15:54+00:00,True,637.6
+560,Update utest and add regional tests to ci,2021-05-06 16:57:08+00:00,2021-05-27 11:51:10+00:00,False,498.9
+557,Update MOM6 to be in parallel with GFDL's 20210503 commit,2021-05-04 03:13:40+00:00,2021-05-11 18:47:39+00:00,False,183.57
