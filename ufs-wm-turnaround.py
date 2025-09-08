@@ -81,23 +81,31 @@ def summarize(df):
     print(f"🚀 Fastest turnaround: {merged['turnaround_hours'].min():.2f} hours")
     print(f"🐢 Slowest turnaround: {merged['turnaround_hours'].max():.2f} hours")
 
-def plot_turnaround(df, output_path="ufs_pr_turnaround_plot.png"):
+def plot_turnaround(df, output_path="ufs_pr_turnaround_barplot.png"):
     """
-    Plots PR number vs. turnaround time in days.
+    Generates a bar plot of PR turnaround time in days.
 
     Args:
         df (pd.DataFrame): PR turnaround data
         output_path (str): Path to save the plot
     """
     df["turnaround_days"] = df["turnaround_hours"] / 24
-    merged = df[df["merged"]]
+    merged = df[df["merged"]].sort_values("number")
 
-    plt.figure(figsize=(10, 6))
-    plt.scatter(merged["number"], merged["turnaround_days"], color="blue", alpha=0.7)
-    plt.title("PR Turnaround Time (Days) – ufs-weather-model")
-    plt.xlabel("PR Number")
-    plt.ylabel("Turnaround Time (Days)")
-    plt.grid(True)
+    plt.figure(figsize=(12, 6))
+    bars = plt.bar(merged["number"], merged["turnaround_days"], color="#4C72B0", edgecolor="black")
+
+    # Highlight longest turnaround
+    max_idx = merged["turnaround_days"].idxmax()
+    max_pr = merged.loc[max_idx]
+    plt.bar(max_pr["number"], max_pr["turnaround_days"], color="#DD8452", edgecolor="black")
+
+    plt.title("PR Turnaround Time (Days) – ufs-weather-model", fontsize=14)
+    plt.xlabel("PR Number", fontsize=12)
+    plt.ylabel("Turnaround Time (Days)", fontsize=12)
+    plt.xticks(rotation=45, fontsize=10)
+    plt.yticks(fontsize=10)
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
     plt.tight_layout()
     plt.savefig(output_path)
     plt.close()
@@ -111,4 +119,4 @@ if __name__ == "__main__":
     df.to_csv("ufs_pr_turnaround.csv", index=False)
     print("📁 Saved results to ufs_pr_turnaround.csv")
     plot_turnaround(df)
-    print("📈 Saved plot to ufs_pr_turnaround_plot.png")
+    print("📈 Saved plot to ufs_pr_turnaround_barplot.png")
