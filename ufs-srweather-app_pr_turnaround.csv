@@ -299,3 +299,203 @@ number,title,user,created_at,closed_at,merged,labels,turnaround_hours
 698,Set up quick test PR for Jenkins,MichaelLueken,2023-03-27 16:04:58+00:00,2023-03-27 17:04:56+00:00,False,['run_we2e_coverage_tests'],1.0
 695,[develop] Split EnsembleStat tasks into GenEnsProd and EnsembleStat,gsketefian,2023-03-24 14:49:50+00:00,2023-05-20 00:08:01+00:00,False,[],1353.3
 694,[develop] Fix forecast failures for GFS_v16 at 3km,christinaholtNOAA,2023-03-23 15:43:20+00:00,2023-03-28 13:47:48+00:00,True,"['bug', 'run_we2e_coverage_tests']",118.07
+690,[develop] Change the build log output file extension from log to txt,BruceKropp-Raytheon,2023-03-22 20:29:21+00:00,2023-04-03 16:56:40+00:00,True,"['enhancement', 'run_we2e_coverage_tests']",284.46
+686,[develop] First iteration of overhauling WE2E tests,mkavulich,2023-03-21 03:47:38+00:00,2023-03-29 17:22:46+00:00,True,['run_we2e_coverage_tests'],205.59
+685,[develop] Updated cheyenne configs to use new CMAQ shared conda env for tier-1 platforms.,padhrigmccarthy,2023-03-20 18:04:48+00:00,2023-03-22 11:45:21+00:00,True,['run_we2e_coverage_tests'],41.68
+683,[develop] Use templates for METplus config files,gsketefian,2023-03-20 17:13:20+00:00,2023-05-12 14:02:31+00:00,True,['run_we2e_coverage_tests'],1268.82
+682,[develop] Add restart capability to forecast task,chan-hoo,2023-03-17 21:10:21+00:00,2023-04-04 20:29:04+00:00,True,['run_we2e_coverage_tests'],431.31
+680,[develop]: Add initial documentation for AQM,gspetro-NOAA,2023-03-16 20:18:02+00:00,2023-03-17 20:26:37+00:00,True,[],24.14
+679,[develop] Bug fix ensemble_verification in run_envir=nco mode.,danielabdi-noaa,2023-03-15 21:56:37+00:00,2023-03-16 17:34:17+00:00,True,"['bug', 'Priority: medium']",19.63
+676,[develop] Adds a YAML interface for creating a Rocoto XML.,christinaholtNOAA,2023-03-15 02:54:51+00:00,2023-03-31 20:30:38+00:00,True,"['Priority: HIGH', 'run_we2e_coverage_tests']",401.6
+674,[develop] Change file paths to EPIC data locations and add fix_gsi var,EdwardSnyder-NOAA,2023-03-14 21:11:31+00:00,2023-03-24 16:19:47+00:00,True,"['enhancement', 'Work in Progress', 'run_we2e_coverage_tests']",235.14
+670,[develop] Potential bugfix for `run_envir=nco` issue,danielabdi-noaa,2023-03-14 11:20:45+00:00,2023-03-14 13:19:50+00:00,True,"['bug', 'Priority: HIGH']",1.98
+669,[develop] Fix rrfs_utils bug in devbuild script,EdwardSnyder-NOAA,2023-03-13 21:26:37+00:00,2023-03-14 15:52:15+00:00,True,[],18.43
+668,[develop] Split calling of METplus's Pb2nc tool into separate task (from PointStat and EnsembleStat tasks),gsketefian,2023-03-13 17:52:44+00:00,2023-03-20 13:30:40+00:00,True,['run_we2e_coverage_tests'],163.63
+667,Add a load shell environment stage into Jenkinsfile.,MichaelLueken,2023-03-10 15:29:07+00:00,2023-03-10 15:31:42+00:00,False,['run_we2e_coverage_tests'],0.04
+666,[develop] Modify get_lbcs and make_lbcs.,danielabdi-noaa,2023-03-10 12:25:36+00:00,2023-05-15 13:37:31+00:00,True,['run_we2e_coverage_tests'],1585.2
+664,[develop] Change settings for AQM to meet NCO requirement and improve near-real-time runs,chan-hoo,2023-03-09 16:49:34+00:00,2023-03-17 18:25:07+00:00,True,['run_we2e_coverage_tests'],193.59
+663,[develop] Update hash of ufs weather model and input.nml/diag_table files ,chan-hoo,2023-03-09 16:07:21+00:00,2023-03-21 17:28:15+00:00,True,['run_we2e_coverage_tests'],289.35
+660,[develop] Update post-processing task for RRFS_dev1.,danielabdi-noaa,2023-03-08 23:09:14+00:00,2023-03-21 20:14:52+00:00,False,[],309.09
+659,[develop] Split calling of METplus's PcpCombine tool into separate task (from GridStat and EnsembleStat tasks) ,gsketefian,2023-03-08 18:57:45+00:00,2023-03-15 18:26:40+00:00,True,['run_we2e_coverage_tests'],167.48
+658,[develop] Update forecast task for RRFS_dev1 run.,danielabdi-noaa,2023-03-08 17:52:00+00:00,2023-03-21 20:14:39+00:00,False,[],314.38
+657,Testing new Jenkinsfile to address failures on Orion running the Jenkins test,MichaelLueken,2023-03-08 16:52:24+00:00,2023-03-10 14:20:58+00:00,False,['run_we2e_coverage_tests'],45.48
+656,[develop] Configs for compiling and running online-cmaq on cheyenne.,padhrigmccarthy,2023-03-08 16:33:37+00:00,2023-03-10 20:21:39+00:00,True,['run_we2e_coverage_tests'],51.8
+650,[develop] Fixed issue #649 and tested on cheyenne.,padhrigmccarthy,2023-03-07 17:59:40+00:00,2023-03-10 14:39:06+00:00,True,['run_we2e_coverage_tests'],68.66
+648,[develop] Add pygraf plotting task.,danielabdi-noaa,2023-03-07 14:24:08+00:00,2023-03-21 00:36:43+00:00,False,[],322.21
+647,[develop] Add new RRFS variables such as NWGES and workflow control variables,danielabdi-noaa,2023-03-07 13:53:26+00:00,2023-04-10 22:08:59+00:00,False,[],824.26
+646,[develop] Add save restart task.,danielabdi-noaa,2023-03-07 01:15:56+00:00,2023-03-21 20:14:22+00:00,False,[],354.97
+645,[develop] Add upgrade option to check_for_preexist_dir.,danielabdi-noaa,2023-03-07 01:02:13+00:00,2023-04-04 16:55:31+00:00,True,['run_we2e_coverage_tests'],687.89
+644,[develop] Add process lightning task,EdwardSnyder-NOAA,2023-03-06 23:28:38+00:00,2023-04-14 14:20:26+00:00,True,"['enhancement', 'run_we2e_coverage_tests']",926.86
+643,[develop] Add analysis task.,danielabdi-noaa,2023-03-06 23:09:39+00:00,2023-05-02 14:38:46+00:00,True,['run_we2e_coverage_tests'],1359.49
+642,[develop] Add prepstart task.,danielabdi-noaa,2023-03-06 22:46:20+00:00,2023-03-21 20:13:49+00:00,False,[],357.46
+641,[develop] Add ref2tten task.,danielabdi-noaa,2023-03-06 22:30:58+00:00,2023-03-21 20:13:33+00:00,False,[],357.71
+640,[develop] Add postanal task.,danielabdi-noaa,2023-03-06 22:04:57+00:00,2023-03-21 20:13:21+00:00,False,[],358.14
+639,[develop] Add nonvar cld analysis task.,danielabdi-noaa,2023-03-06 21:41:16+00:00,2023-03-21 20:13:09+00:00,False,[],358.53
+638,[develop] Add radar reflectivity task.,danielabdi-noaa,2023-03-06 21:20:51+00:00,2023-04-14 19:30:43+00:00,True,['run_we2e_coverage_tests'],934.16
+637,[develop] Replace shell-based WE2E scripts with python versions,mkavulich,2023-03-06 19:51:30+00:00,2023-03-20 13:23:26+00:00,True,['run_we2e_coverage_tests'],329.53
+636,[develop] Add process bufr task.,danielabdi-noaa,2023-03-06 17:28:00+00:00,2023-04-12 20:07:51+00:00,True,['run_we2e_coverage_tests'],890.66
+632,[develop] Enable run_post to work with varying forecast length hours,chan-hoo,2023-03-02 18:59:48+00:00,2023-03-06 20:31:09+00:00,True,['run_we2e_coverage_tests'],97.52
+631,[develop] Add RRFS product generation job to the SRW app,BenjaminBlake-NOAA,2023-02-28 18:53:28+00:00,2023-03-20 18:50:29+00:00,True,"['enhancement', 'help wanted', 'run_we2e_coverage_tests']",479.95
+628,[develop] Add RAVE data processing to fire_emission task for AQM ,chan-hoo,2023-02-23 22:00:23+00:00,2023-02-25 11:57:14+00:00,True,['run_we2e_coverage_tests'],37.95
+627,[develop]: Update for Gaea software stack location and Lmod initialization script ,natalie-perlin,2023-02-23 16:52:57+00:00,2023-03-10 14:24:45+00:00,True,['run_we2e_coverage_tests'],357.53
+626,[develop] Fixing the issue related to NDAS file name change on NOAA HPSS,panll,2023-02-22 17:51:01+00:00,2023-02-24 15:36:03+00:00,True,['run_we2e_coverage_tests'],45.75
+624,[develop] Update default timesteps (DT_ATMOS) to less wasteful values,mkavulich,2023-02-21 22:56:42+00:00,2023-02-23 17:54:07+00:00,True,['run_we2e_coverage_tests'],42.96
+622,[develop] correct SINGULARITY_TEMPDIR -> SINGULARITY_TMPDIR,dtrudg,2023-02-20 11:12:32+00:00,2023-02-21 15:26:07+00:00,True,[],28.23
+618,[develop] Reorganize verification tasks (rename tasks and files; split tasks into two),gsketefian,2023-02-17 17:56:14+00:00,2023-03-01 17:18:20+00:00,True,['run_we2e_coverage_tests'],287.37
+614,[develop] Adding mixed-layer convective available potential energy (MLCAPE) to the verification,panll,2023-02-13 21:03:05+00:00,2023-02-15 23:00:08+00:00,True,"['enhancement', 'run_we2e_coverage_tests']",49.95
+613,"[develop] Integrate 'online-cmaq' into 'develop' branch: Part 3, workflow set-up and run scripts",chan-hoo,2023-02-11 14:46:44+00:00,2023-02-15 21:18:10+00:00,True,['run_we2e_coverage_tests'],102.52
+612,[develop] Fix unbound variable issue.,danielabdi-noaa,2023-02-11 13:48:03+00:00,2023-02-14 15:00:18+00:00,True,['run_we2e_coverage_tests'],73.2
+609,"[develop] Fixes for Issue #608, #610, and #616",gsketefian,2023-02-11 01:13:18+00:00,2023-02-17 17:04:22+00:00,True,"['bug', 'run_we2e_coverage_tests']",159.85
+607,[develop] Add correct logic for 3-digit forecast hours in UPP,mkavulich,2023-02-10 17:24:01+00:00,2023-02-10 20:06:52+00:00,True,['run_we2e_coverage_tests'],2.71
+605,[develop] Allow WE2E run script to set location of staged forecast files for verification,gsketefian,2023-02-09 23:34:10+00:00,2023-02-16 17:47:41+00:00,True,['run_we2e_coverage_tests'],162.23
+603,[develop] Allow WE2E run script to set location of staged forecast files for verification,gsketefian,2023-02-09 20:44:46+00:00,2023-02-09 23:34:49+00:00,False,[],2.83
+600,"[develop] Fix for error at the end of monitor_jobs.py, other minor improvements",mkavulich,2023-02-09 00:31:32+00:00,2023-02-14 14:55:55+00:00,True,['run_we2e_coverage_tests'],134.41
+598,[develop] Rename variables that store task names,gsketefian,2023-02-08 21:00:51+00:00,2023-02-09 20:56:34+00:00,True,['run_we2e_coverage_tests'],23.93
+584,[develop]: Add Tutorial chapter to SRW App Documentation,gspetro-NOAA,2023-02-07 22:33:39+00:00,2023-02-09 21:32:41+00:00,True,[],46.98
+583,[develop] Fix failing unit test due to renamed variable,mkavulich,2023-02-07 18:44:17+00:00,2023-02-07 18:56:50+00:00,True,[],0.21
+574,[develop] Add new ccpp physics suite 'FV3_GFS_v17_p8',chan-hoo,2023-02-02 16:42:14+00:00,2023-02-08 18:32:17+00:00,True,['run_we2e_coverage_tests'],145.83
+566,[develop] Enable deterministic verification to be run from staged forecast files,gsketefian,2023-01-30 20:35:35+00:00,2023-02-07 16:43:08+00:00,True,"['enhancement', 'run_we2e_coverage_tests']",188.13
+562,[develop] Fix issue 555 (restore default behavior of EXPT_BASEDIR option),mkavulich,2023-01-26 05:15:32+00:00,2023-01-31 16:30:09+00:00,True,['run_we2e_coverage_tests'],131.24
+560,[develop] Add option to plot a list of domains.,danielabdi-noaa,2023-01-25 17:41:12+00:00,2023-01-26 21:11:37+00:00,True,['run_we2e_coverage_tests'],27.51
+559,[develop] Fix issue 541: correct error message when config.yaml has invalid entries,mkavulich,2023-01-25 06:23:57+00:00,2023-01-31 14:28:24+00:00,True,['run_we2e_coverage_tests'],152.07
+558,[develop] First implementation of run_WE2E_tests.py,mkavulich,2023-01-24 22:43:06+00:00,2023-02-07 16:33:08+00:00,True,['run_we2e_coverage_tests'],329.83
+557,"[release/public-v2.1.0]: Update the docs, add an errata file",natalie-perlin,2023-01-24 13:23:17+00:00,2023-01-24 15:13:16+00:00,True,"['documentation', 'release']",1.83
+556,[develop]: Add Tutorial Chapter for the SRW App,gspetro-NOAA,2023-01-23 22:18:05+00:00,2023-01-31 18:39:47+00:00,True,[],188.36
+552,[develop] Adding SPFH to Metplus config file,panll,2023-01-20 20:08:35+00:00,2023-01-20 23:26:10+00:00,True,['run_we2e_coverage_tests'],3.29
+549,"[develop] Integrate 'online-cmaq' into 'develop' branch: Part 2, build script and module files",chan-hoo,2023-01-19 21:44:37+00:00,2023-02-10 20:01:27+00:00,True,['run_we2e_coverage_tests'],526.28
+547,[develop] Correct issue in Python_unittests.,MichaelLueken,2023-01-18 18:18:34+00:00,2023-01-18 20:58:15+00:00,False,[],2.66
+540,[develop] Incorporate RRFS_dev1 workflow to SRW and import most tasks,danielabdi-noaa,2023-01-16 14:44:43+00:00,2023-09-11 13:07:11+00:00,False,['Work in Progress'],5710.37
+536,"[develop] Integrate 'online-cmaq' branch into 'develop' branch: Part 1, jjob and ex- scripts",chan-hoo,2023-01-12 23:06:35+00:00,2023-01-17 17:50:43+00:00,True,[],114.74
+535,[develop] Add RAP/GFS bufr and GSI-fix file retrieval options,ulmononian,2023-01-12 19:17:06+00:00,2023-02-10 21:34:39+00:00,True,"['enhancement', 'run_we2e_coverage_tests']",698.29
+533,[develop]: Fix formatting for RTD User's Guide,gspetro-NOAA,2023-01-09 15:27:19+00:00,2023-01-09 18:42:29+00:00,True,[],3.25
+530,[online-cmaq] Fix incorrect date in NEXUS emission,bbakernoaa,2023-01-05 19:30:54+00:00,2023-01-06 00:45:24+00:00,True,[],5.24
+529,[develop] Fix plotting bug.,danielabdi-noaa,2023-01-05 18:18:28+00:00,2023-01-20 16:38:16+00:00,True,['run_we2e_coverage_tests'],358.33
+528,[develop]: Add plotting and template variable documentation,gspetro-NOAA,2023-01-04 21:12:24+00:00,2023-01-05 17:46:56+00:00,True,[],20.58
+526,[develop] Add GDAS and GEFS datasets to the workflow,EdwardSnyder-NOAA,2022-12-23 16:06:44+00:00,2023-02-10 22:08:25+00:00,True,"['enhancement', 'run_we2e_coverage_tests']",1182.03
+524,[online-cmaq] Add point sources changes needed for workflow,bbakernoaa,2022-12-21 16:04:26+00:00,2023-01-18 20:39:19+00:00,True,[],676.58
+523,[online-cmaq] Adding changes to use GFS driven biogenics,bbakernoaa,2022-12-21 15:14:59+00:00,2022-12-21 20:11:34+00:00,True,[],4.94
+522,[develop] Gaea pregenerated domain files path.,christinaholtNOAA,2022-12-20 14:28:56+00:00,2023-01-06 14:17:09+00:00,True,['run_we2e_coverage_tests'],407.8
+520,[Online-cmaq] Feature/dust aqmrc,bbakernoaa,2022-12-16 19:27:15+00:00,2022-12-22 15:02:47+00:00,True,[],139.59
+519,[develop]: Add debugging guide to README.md,MichaelLueken,2022-12-14 18:31:08+00:00,2023-01-05 17:59:31+00:00,True,[],527.47
+515,[release/public-v2]: Correct PDF-generated release version for v2.0.0 docs,gspetro-NOAA,2022-12-12 23:16:23+00:00,2022-12-13 14:31:29+00:00,True,[],15.25
+514,[release/public-v2.1.0]: Correct PDF-generated release version for v2.1.0 docs,gspetro-NOAA,2022-12-12 23:14:02+00:00,2022-12-13 14:30:39+00:00,True,[],15.28
+513,[develop]: Correct PDF-generated release version for develop docs,gspetro-NOAA,2022-12-12 23:03:47+00:00,2022-12-14 14:09:43+00:00,True,[],39.1
+510,[develop] Add gfs_v16.3 to file list of HPSS for FV3GFS ,chan-hoo,2022-12-12 19:25:06+00:00,2022-12-14 20:18:24+00:00,True,['run_we2e_coverage_tests'],48.89
+508,[develop] Enable workflow runs on single node linux/mac machine using rocoto.,danielabdi-noaa,2022-12-07 02:37:07+00:00,2023-01-10 14:14:15+00:00,True,['run_we2e_coverage_tests'],827.62
+506,[develop] Remove Slurm Memory Option for noaacloud,EdwardSnyder-NOAA,2022-12-05 22:50:08+00:00,2022-12-06 17:12:55+00:00,True,[],18.38
+505,[develop] Refactor setup.py to remove use of global variables.,christinaholtNOAA,2022-12-02 18:38:28+00:00,2022-12-16 22:07:51+00:00,True,['run_we2e_coverage_tests'],339.49
+504,[develop] noaacloud MET updates,EdwardSnyder-NOAA,2022-12-02 18:26:30+00:00,2022-12-06 14:04:06+00:00,True,['run_we2e_coverage_tests'],91.63
+503,[develop] Ensure arbitrary restart_interval numbers in model_configure,chan-hoo,2022-12-01 17:53:34+00:00,2022-12-05 14:11:20+00:00,True,['run_we2e_coverage_tests'],92.3
+501,[develop] modulefile updates for generic linux,natalie-perlin,2022-12-01 17:41:24+00:00,2022-12-01 18:06:56+00:00,True,[],0.43
+500,[develop]: Add sample verification case w/instructions,gspetro-NOAA,2022-11-30 18:37:41+00:00,2022-12-02 21:06:02+00:00,True,[],50.47
+498,[develop] Pull in relevant doc updates from release v2.1.0,gspetro-NOAA,2022-11-22 22:07:27+00:00,2022-11-29 14:38:15+00:00,True,[],160.51
+494,[online-cmaq] Feature/nexus post fix,bbakernoaa,2022-11-21 19:01:25+00:00,2022-11-30 12:21:35+00:00,True,[],209.34
+493,[develop] Updated README.md and Introduction.rst for the SRW v2.1.0 release,MichaelLueken,2022-11-21 14:56:46+00:00,2022-11-21 17:13:41+00:00,True,[],2.28
+492,[develop] Update ufs-weather-model hash and add WoFS_v0 to suites and tests,MichaelLueken,2022-11-18 20:32:00+00:00,2022-11-30 14:09:37+00:00,True,['run_we2e_coverage_tests'],281.63
+488,"[release/v2.1.0] Bugfix diff plotting script, silence warnings.",danielabdi-noaa,2022-11-17 20:43:37+00:00,2022-11-17 21:26:32+00:00,True,['release'],0.72
+483,[release/public-v2.1.0] Documentation Updates,gspetro-NOAA,2022-11-16 20:06:00+00:00,2022-11-17 18:39:59+00:00,True,['release'],22.57
+482,[develop] Add plotting scripts to the workflow.,danielabdi-noaa,2022-11-16 18:46:38+00:00,2022-12-02 15:12:25+00:00,True,['run_we2e_coverage_tests'],380.43
+479,[develop] Add fundamental test suite for Hera using GNU compiler,danielabdi-noaa,2022-11-15 16:34:41+00:00,2022-11-16 21:27:34+00:00,False,[],28.88
+478,[release/public-v2.1.0] Modulefile updates for generic linux ,natalie-perlin,2022-11-15 14:52:59+00:00,2022-11-15 16:15:32+00:00,True,['release'],1.38
+477,[develop] Add Hera GNU modulefile and fundamental test suite and update Hera Intel modulefile.,MichaelLueken,2022-11-14 21:33:28+00:00,2022-11-17 14:27:23+00:00,True,['run_we2e_coverage_tests'],64.9
+475,[develop] bugfix: set PDYext and cycext in get_extrn_ics/lbcs for time-offset,chan-hoo,2022-11-14 19:20:07+00:00,2022-11-17 14:22:55+00:00,True,['run_we2e_coverage_tests'],67.05
+472,[release/public-v2.1.0] Plotting script fix: correct a variable name to a lower-case,natalie-perlin,2022-11-13 12:07:34+00:00,2022-11-14 14:04:40+00:00,True,"['bug', 'release']",25.95
+471,[release/public-v2.1.0] Updates for building and running on MacOS (x86_64 and M1),natalie-perlin,2022-11-13 11:48:17+00:00,2022-11-14 13:57:31+00:00,True,"['enhancement', 'release']",26.15
+470,[release/public-v2.1.0] Plotting script correction of a variable name to a lower-case,natalie-perlin,2022-11-11 21:15:35+00:00,2022-11-11 21:27:49+00:00,False,[],0.2
+469,[release/public-v2.1.0] Updates to SRW configuration for MacOS ,natalie-perlin,2022-11-11 20:48:37+00:00,2022-11-11 21:25:17+00:00,False,[],0.61
+468,[develop] Patch to correct a variable name to a lower-case,natalie-perlin,2022-11-11 16:14:28+00:00,2022-11-14 14:16:50+00:00,True,['bug'],70.04
+467,[develop] Updates for building and running on MacOS (x86_64 and M1),natalie-perlin,2022-11-11 15:10:25+00:00,2022-11-11 16:15:36+00:00,True,['enhancement'],1.09
+466,[develop] Python-based crontab replacement,mark-a-potts,2022-11-11 02:37:03+00:00,2022-11-28 14:30:59+00:00,True,['run_we2e_coverage_tests'],419.9
+465,[develop] Source task specific portions of var_defns.sh file in ex- and j-job s…,danielabdi-noaa,2022-11-10 23:43:01+00:00,2022-11-16 14:28:07+00:00,True,['run_we2e_coverage_tests'],134.75
+464,[develop] Source task specific portions of var_defns.sh file in ex- and j-job s…,danielabdi-noaa,2022-11-10 23:41:55+00:00,2022-11-10 23:42:05+00:00,False,[],0.0
+461,[develop] Added return code to srw_build.sh script.,MichaelLueken,2022-11-09 19:22:08+00:00,2022-11-10 17:30:07+00:00,True,['run_we2e_coverage_tests'],22.13
+459,Minor bug fixes,danielabdi-noaa,2022-11-09 05:31:04+00:00,2022-11-09 19:08:18+00:00,True,['run_we2e_coverage_tests'],13.62
+457,Fix time offset issue on ICS with GFS nemsio and netcdf files and add new archive file name on HPSS,chan-hoo,2022-11-05 14:56:23+00:00,2022-11-09 15:44:24+00:00,True,['run_we2e_coverage_tests'],96.8
+455,Disable comprehensive tests option in Jenkinsfile,jessemcfarland,2022-11-04 20:26:23+00:00,2022-11-04 20:37:34+00:00,True,[],0.19
+454,Disable comprehensive tests option in Jenkinsfile,jessemcfarland,2022-11-04 19:30:12+00:00,2022-11-04 19:44:49+00:00,True,[],0.24
+453,[Release-v2.1.0] Various updates for release,mark-a-potts,2022-11-04 18:38:40+00:00,2022-11-09 16:53:05+00:00,True,['Work in Progress'],118.24
+450,Feature/noaacloud met update,EdwardSnyder-NOAA,2022-11-03 21:26:02+00:00,2022-11-07 18:35:14+00:00,True,[],93.15
+449,[online-cmaq] Fix/canopy fengsha config,zmoon,2022-11-03 16:03:49+00:00,2022-11-17 15:21:30+00:00,True,[],335.29
+448,[Release-v2.1.0] Updated comprehensive tests to include WoFS tests for E2E testing,mark-a-potts,2022-11-02 16:06:26+00:00,2022-11-03 12:32:02+00:00,True,"['run_we2e_coverage_tests', 'run_we2e_comprehensive_tests']",20.43
+447,[Release 2.1.0] Updated files to add WoFS to suites and tests,mark-a-potts,2022-11-01 22:20:46+00:00,2022-11-02 13:04:28+00:00,True,[],14.73
+444,"[RELEASE] Fixes for gaea, noaacloud, and miniconda updates",mark-a-potts,2022-10-29 16:19:36+00:00,2022-11-01 12:24:08+00:00,True,"['release', 'run_we2e_coverage_tests']",68.08
+443,Updates to the NCO mode,danielabdi-noaa,2022-10-29 10:32:22+00:00,2022-11-05 00:05:35+00:00,True,['run_we2e_coverage_tests'],157.55
+441,Set agent in matrix block instead of child stages,jessemcfarland,2022-10-28 20:56:37+00:00,2022-10-31 20:36:05+00:00,True,['run_we2e_coverage_tests'],71.66
+440,Structure and components of COMIN directory in NCO mode are modified,chan-hoo,2022-10-28 13:02:34+00:00,2022-10-28 19:10:54+00:00,True,['run_we2e_coverage_tests'],6.14
+438,Bug fix on hera/jet run_vx.local modulefile.,danielabdi-noaa,2022-10-28 01:42:31+00:00,2022-10-29 03:05:10+00:00,True,"['bug', 'Priority: HIGH', 'run_we2e_coverage_tests']",25.38
+436,Avoid the effect of external environment on tasks,danielabdi-noaa,2022-10-27 15:13:55+00:00,2022-10-28 23:40:01+00:00,True,['run_we2e_coverage_tests'],32.44
+434,[develop] Remove my_load_any from modulefiles/srw_common.lua and use load_any,MichaelLueken,2022-10-27 12:35:21+00:00,2022-10-28 18:54:54+00:00,True,['run_we2e_coverage_tests'],30.33
+433,Update noaacloud module files,ulmononian,2022-10-26 22:35:51+00:00,2022-11-01 18:39:15+00:00,False,[],140.06
+432,[online-cmaq] Task name change and add a sample script for post-stat,chan-hoo,2022-10-26 20:52:28+00:00,2022-10-26 20:54:18+00:00,False,[],0.03
+431,"Update miniconda3/4.12.0 module and regional_workflow environment on Cheyenne, Hera, Jet, Orion",natalie-perlin,2022-10-25 21:47:26+00:00,2022-11-01 13:05:36+00:00,False,"['enhancement', 'release']",159.3
+430,"Post merge cleanup: remove old script, consolidate test directories",mkavulich,2022-10-25 21:06:50+00:00,2022-10-26 16:42:30+00:00,True,['run_we2e_coverage_tests'],19.59
+428,fix for conda on gaea,mark-a-potts,2022-10-25 16:26:03+00:00,2022-11-02 15:52:32+00:00,False,"['bug', 'run_we2e_coverage_tests']",191.44
+425,[develop] Update Build/Run and ConfigWorkflow Chapters,gspetro-NOAA,2022-10-24 17:40:56+00:00,2022-10-31 15:36:21+00:00,True,['documentation'],165.92
+424,Restore correct `conda activate` message for Cheyenne,mkavulich,2022-10-21 21:52:33+00:00,2022-10-24 20:12:33+00:00,True,['run_we2e_coverage_tests'],70.33
+421,Move fixed-file mapping variables out of `config_defaults.yaml`.,danielabdi-noaa,2022-10-17 21:28:28+00:00,2022-10-26 23:05:32+00:00,True,['run_we2e_coverage_tests'],217.62
+420,[develop] URGENT PATCH: Update run_WE2E_tests.sh,mkavulich,2022-10-14 21:50:22+00:00,2022-10-14 22:55:16+00:00,True,"['bug', 'Priority: HIGH']",1.08
+419,"[develop] Updated modulefiles for Cheyenne, Hera, Jet, Gaea, Orion ",natalie-perlin,2022-10-14 18:46:10+00:00,2023-02-10 21:13:47+00:00,False,['enhancement'],2858.46
+418,[develop] Make CIs test NCO mode properly.,danielabdi-noaa,2022-10-14 17:09:06+00:00,2022-10-30 00:20:30+00:00,True,"['enhancement', 'Priority: medium', 'run_we2e_coverage_tests']",367.19
+417,[develop] Update Hera modulefiles to allow the SRW to build and run once again.,MichaelLueken,2022-10-13 20:18:39+00:00,2022-10-14 14:04:01+00:00,True,['run_we2e_coverage_tests'],17.76
+415,created devclean.sh,natalie-perlin,2022-10-13 15:50:54+00:00,2022-10-28 18:28:23+00:00,True,"['enhancement', 'release', 'run_we2e_coverage_tests']",362.62
+414,[develop] Improve error messaging and logging for generate_FV3LAM_wflow.py,mkavulich,2022-10-13 05:16:55+00:00,2022-10-21 22:17:41+00:00,True,[],209.01
+413,[develop] Replace TCL modulefiles with Lua counterparts,danielabdi-noaa,2022-10-13 05:16:52+00:00,2022-10-21 19:03:51+00:00,True,['run_we2e_coverage_tests'],205.78
+412,[develop] Update GitHub Actions workflows to run on specific branches,christinaholtNOAA,2022-10-13 03:10:26+00:00,2022-10-14 18:46:06+00:00,True,[],39.59
+411,[develop] Deprecate the CYCL_HRS configuration setting.,christinaholtNOAA,2022-10-13 00:53:38+00:00,2022-10-14 16:23:42+00:00,True,['run_we2e_coverage_tests'],39.5
+407,Bug fix for gaea modulefiles.,danielabdi-noaa,2022-10-07 16:51:28+00:00,2022-10-11 15:23:06+00:00,True,['run_we2e_coverage_tests'],94.53
+406,Fix setting of SRW_WE2E_COMPREHENSIVE_TESTS var,jessemcfarland,2022-10-07 16:46:22+00:00,2022-10-07 20:18:43+00:00,True,['run_we2e_coverage_tests'],3.54
+405,Port SRW App to WCOSS2,chan-hoo,2022-10-07 11:59:18+00:00,2022-10-08 11:32:43+00:00,True,"['enhancement', 'run_we2e_coverage_tests']",23.56
+404,Remove ENV_INIT_SCRIPT and avoid dependency on system python,danielabdi-noaa,2022-10-07 04:16:35+00:00,2022-10-13 17:00:12+00:00,True,['run_we2e_coverage_tests'],156.73
+403,Fix quoting/escaping in Jenkinsfile,jessemcfarland,2022-10-06 17:44:03+00:00,2022-10-07 00:00:40+00:00,True,['run_we2e_coverage_tests'],6.28
+396,Fixes issue #395 regarding use of `@` character in experiment path,danielabdi-noaa,2022-10-04 18:12:08+00:00,2022-10-05 13:03:49+00:00,True,['bug'],18.86
+391,Temporary fix for Hera netcdf issue.,danielabdi-noaa,2022-10-03 21:37:53+00:00,2022-10-04 11:39:19+00:00,True,"['bug', 'Priority: HIGH']",14.02
+388,Convert machine scripts to yaml format.,danielabdi-noaa,2022-09-30 21:42:00+00:00,2022-10-04 04:50:00+00:00,True,[],79.13
+380,[develop]: Minor updates to documentation,gspetro-NOAA,2022-09-26 21:20:45+00:00,2022-09-28 19:33:54+00:00,True,[],46.22
+378,[develop] Common infrastructure for CIs and manual runs,danielabdi-noaa,2022-09-25 15:37:39+00:00,2022-10-06 17:30:10+00:00,True,"['Priority: HIGH', 'run_we2e_coverage_tests']",265.88
+376,Test/jenkins,danielabdi-noaa,2022-09-24 03:13:29+00:00,2022-09-25 14:30:29+00:00,False,['run_we2e_coverage_tests'],35.28
+375,Feature/add metplus capabilities noaacloud,EdwardSnyder-NOAA,2022-09-23 16:56:18+00:00,2022-11-02 15:26:57+00:00,False,[],958.51
+374,Add gitignore to the app,chan-hoo,2022-09-23 13:07:31+00:00,2022-09-23 14:00:51+00:00,True,['enhancement'],0.89
+373,lsAdd gitignore,chan-hoo,2022-09-23 12:36:52+00:00,2022-09-23 12:37:08+00:00,False,[],0.0
+372,[develop] Fix the inline-post issue when WRITE_DOPOST is 'true',chan-hoo,2022-09-22 22:18:16+00:00,2022-09-23 13:49:37+00:00,True,['bug'],15.52
+361,[develop]: Updated the .github/CODEOWNERS file,MichaelLueken,2022-09-21 14:05:30+00:00,2022-09-21 16:57:54+00:00,True,[],2.87
+354,"[develop] Update hashes of UFS_UTILS, ufs-weather-model, and UPP",chan-hoo,2022-09-20 15:16:40+00:00,2022-09-20 20:33:17+00:00,True,['run_ci'],5.28
+353,"Update lmod, miniconda, task modulefiles for Gaea",EdwardSnyder-NOAA,2022-09-16 22:34:28+00:00,2022-09-28 14:51:51+00:00,True,[],280.29
+352,Release/public v2 gaea update,natalie-perlin,2022-09-16 01:25:01+00:00,2022-09-28 14:21:13+00:00,True,[],300.94
+348,Changes towards making SRW app NCO compliant,danielabdi-noaa,2022-09-12 20:02:54+00:00,2022-09-25 14:34:35+00:00,True,"['Tested on Hera', 'Tested on Jet', 'Tested on Orion']",306.53
+345,Add back the dependency on GSI for rrfs_utl.,christinaholtNOAA,2022-09-08 22:17:57+00:00,2022-09-14 16:48:19+00:00,True,[],138.51
+343,Fixes to make build and run work in new merged directory structure,mkavulich,2022-09-08 16:39:13+00:00,2022-09-08 16:44:03+00:00,True,[],0.08
+342,Fixes to make build and run work in new merged directory structure,mkavulich,2022-09-08 15:29:33+00:00,2022-09-08 16:37:39+00:00,False,[],1.14
+339,[develop]: Update container docs w/multi-node Rocoto option,gspetro-NOAA,2022-08-17 22:02:18+00:00,2022-09-22 13:16:46+00:00,True,[],855.24
+337,Changes to move SRW app towards NCO complaince,danielabdi-noaa,2022-08-14 02:37:37+00:00,2022-08-30 20:51:05+00:00,True,[],402.22
+335,"[develop]: Update PR & issue templates, Contributor's Guide",gspetro-NOAA,2022-08-03 21:30:58+00:00,2022-08-10 18:12:27+00:00,True,['Work in Progress'],164.69
+333,Enable AWS Parallel Works platform and Add Comprehensive End-To-End Tests,jessemcfarland,2022-07-26 16:33:20+00:00,2022-09-29 18:40:29+00:00,True,['run_we2e_comprehensive_tests'],1562.12
+332,Remove redundant hdf5 module that causes problems with Cheyenne build,mkavulich,2022-07-22 02:42:40+00:00,2022-08-10 16:25:11+00:00,True,[],469.71
+331,TEST PR - do not merge ,laurenfrederick,2022-07-21 18:15:52+00:00,2022-07-21 18:16:02+00:00,False,[],0.0
+329,Remove wcoss_dell_p3 from app,chan-hoo,2022-07-14 16:58:19+00:00,2022-07-19 13:23:21+00:00,True,[],116.42
+327,Update hashes of external components and remove RRFS_v1alpha ccpp suite,chan-hoo,2022-07-07 16:57:50+00:00,2022-07-12 10:02:51+00:00,True,[],113.08
+326,Replace deprecated NCAR python environment with conda on Cheyenne,mkavulich,2022-07-07 04:49:14+00:00,2022-07-21 21:33:34+00:00,True,[],352.74
+323,SRW needs wgrib2 to build UPP.,christinaholtNOAA,2022-06-30 16:41:20+00:00,2022-06-30 21:54:52+00:00,True,[],5.23
+321,Replace hpc-stack submodule w/sparse-checkout,gspetro-NOAA,2022-06-28 19:18:21+00:00,2022-08-05 23:19:29+00:00,False,[],916.02
+320,Replace hpc-stack submodule w/sparse-checkout,gspetro-NOAA,2022-06-28 18:19:33+00:00,2022-06-28 18:48:24+00:00,False,[],0.48
+318,[develop] Pull in relevant doc updates and linux/mac modulefile templates from release branch,gspetro-NOAA,2022-06-24 22:26:12+00:00,2022-06-27 14:15:22+00:00,True,[],63.82
+317,Release/public v2: Fix broken link in docs,gspetro-NOAA,2022-06-24 13:29:08+00:00,2022-06-24 14:11:00+00:00,True,[],0.7
+315,[release/public v2]: Update release date,gspetro-NOAA,2022-06-23 16:39:42+00:00,2022-06-23 17:17:55+00:00,True,[],0.64
+314,[release/public-v2] updated ufs utils hash,mark-a-potts,2022-06-23 13:17:08+00:00,2022-06-23 16:35:21+00:00,True,[],3.3
+313,"[release/public-v2] added a module build_linux_gnu, updated build_macos_gnu",natalie-perlin,2022-06-22 05:28:29+00:00,2022-06-22 18:57:33+00:00,True,[],13.48
+312,[release/public v2]: Final documentation edits,gspetro-NOAA,2022-06-22 04:06:52+00:00,2022-06-22 20:27:34+00:00,True,"['documentation', 'release']",16.34
+311,[release/public-v2] Updating WM to ufs-community umbrella,mark-a-potts,2022-06-16 22:09:31+00:00,2022-06-17 12:23:44+00:00,True,['run_ci'],14.24
+310,[develop] Rename variables related to GFDLgrid-type grids,gsketefian,2022-06-16 16:44:24+00:00,2022-06-27 17:41:45+00:00,True,[],264.96
+309,[test-do-not-merge] Test PR for python workflow with Jenkins modifications from public/release-v2,danielabdi-noaa,2022-06-16 10:04:36+00:00,2022-06-30 16:48:58+00:00,False,['run_ci'],342.74
+308,[release/public-v2] Cleaning up modules and separating hpc-stack and spack-stack for srw_common,mark-a-potts,2022-06-15 19:49:03+00:00,2022-06-16 14:54:14+00:00,True,['run_ci'],19.09
+306,[develop] Update hash of ufs weather model,chan-hoo,2022-06-15 10:34:44+00:00,2022-06-23 12:40:10+00:00,True,"['Tested on Hera', 'Tested on Orion']",194.09
+305,[release/public-v2] fixes for cheyenne and addition of FV3_WoFS_v0 to build,mark-a-potts,2022-06-13 18:11:31+00:00,2022-06-15 18:05:37+00:00,True,[],47.9
+304,Release/public v2 - ufs-WM ,natalie-perlin,2022-06-11 01:29:10+00:00,2022-06-17 04:56:02+00:00,False,[],147.45
+303,update hash of regional workflow,chan-hoo,2022-06-10 15:10:04+00:00,2022-06-10 16:37:14+00:00,True,[],1.45
+302,Release/public-v2: Bugfix for lmodsetup files on noaacloud,gspetro-NOAA,2022-06-09 21:40:01+00:00,2022-06-13 18:54:41+00:00,True,[],93.24
+300,Orion test with intel2022 esmf-8.3.0,natalie-perlin,2022-06-08 19:15:25+00:00,2022-06-09 16:59:42+00:00,False,[],21.74
+299,Minor edits to graphics documentation,gsketefian,2022-06-08 00:38:29+00:00,2022-06-08 20:05:42+00:00,True,[],19.45
+298,[release/public-v2] Update documentation for python plotting scripts,gsketefian,2022-06-08 00:12:49+00:00,2022-06-08 20:05:06+00:00,True,[],19.87
+297,Enable AWS Parallel Works platform and Add Comprehensive End-To-End Tests,jessemcfarland,2022-06-07 13:08:30+00:00,2022-07-07 17:12:19+00:00,False,['run_we2e_coverage_tests'],724.06
+295,Feature/cicd noaacloud,jessemcfarland,2022-06-06 15:50:38+00:00,2022-06-06 15:50:58+00:00,False,[],0.01
+294,Update Spack Stack Location for NOAA Cloud,EdwardSnyder-NOAA,2022-06-03 18:46:36+00:00,2022-06-07 18:59:09+00:00,True,['run_ci'],96.21
+293,updated version of ufs to include WoFS suite and ccpp-v6,mark-a-potts,2022-06-02 19:27:57+00:00,2022-06-12 22:06:03+00:00,True,[],242.63
